@@ -1,0 +1,17 @@
+﻿l_german: 
+  trait_lifestyle_councillor:0 "Ratsherr"
+  trait_lifestyle_councillor_desc:0 "Diese Person diente im Rat eines Hofes und spielte eine entscheidende Rolle in dessen Angelegenheiten und Entscheidungen."
+  trait_lifestyle_councillor_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] spielte eine entscheidende Rolle am Hof, brachte sein Wissen und seine Hingabe zur Förderung der Stabilität und des Wohlstands des Reiches ein. Ob als vertrauenswürdiger Begleiter, Verwalter, Marschall, Kaplan, Kanzler oder Spionagemeister."
+
+  trait_track_confidant:0 "Vertrauter"
+  trait_track_confidant_desc:0 "Diese Person war der vertrauenswürdige Vertraute des Herrschers, spezialisiert auf unerschütterliche Unterstützung und klugen Rat. Seine Rolle ging weit über bloße Beratung hinaus; er war das Fundament von Vertrauen und Kameradschaft, geschickt im Umgang mit den komplexen Angelegenheiten des Hofes und im Schutz der Interessen des Monarchen. Seine Loyalität und Weisheit waren entscheidend für die Gestaltung der Entscheidungen des Herrschers und die Sicherung der Stabilität und des Wohlstands des Reiches."
+  trait_track_chaplain:0 "Kaplan"
+  trait_track_chaplain_desc:0 "Diese Person diente als Kaplan am königlichen Hof und bot dem Herrscher und seinen Höflingen spirituelle Führung und Rat."
+  trait_track_chancellor:0 "Kanzler"
+  trait_track_chancellor_desc:0 "Diese Person diente als Kanzler am königlichen Hof, spezialisiert auf diplomatische Angelegenheiten und Verhandlungen, geschickt im Navigieren durch heikle politische Landschaften, um die Interessen ihres Lehnsherrn zu fördern."
+  trait_track_steward:0 "Verwalter"
+  trait_track_steward_desc:0 "Diese Person diente als Verwalter am königlichen Hof, überwachte Finanzen, Ländereien und Ressourcen mit unerschütterlicher Sorgfalt und Effizienz und sicherte so den Wohlstand und die Stabilität des Königreichs."
+  trait_track_marshal:0 "Marschall"
+  trait_track_marshal_desc:0 "Diese Person hatte die angesehene Position des Marschalls am königlichen Hof inne und führte die militärischen Streitkräfte des Reiches mit beispielloser Strategie und Geschicklichkeit an, um es vor äußeren Bedrohungen zu schützen und seine Sicherheit zu gewährleisten."
+  trait_track_spymaster:0 "Spionagemeister"
+  trait_track_spymaster_desc:0 "Diese Person diente als Spionagemeister am königlichen Hof, agierte im Verborgenen mit List und Diskretion, sammelte Informationen, deckte Verschwörungen auf und schützte das Reich vor internen Bedrohungen und Intrigen."

@@ -1,0 +1,8 @@
+﻿bck_castellan_action = {
+    trigger = {
+        highest_held_title_tier = tier_barony
+    }
+    effect = {
+        bck_castellan_position_effect = yes
+    }
+}

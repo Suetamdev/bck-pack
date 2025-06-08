@@ -1,0 +1,18 @@
+﻿l_simp_chinese:
+ #Use Potions on Schemes
+ use_potions_in_scheme_decision:0 "在谋划中使用药剂"
+ use_potions_in_scheme_decision_desc:0 "我为何要等待？我可以使用我的药剂！"
+ use_potions_in_scheme_decision_tooltip:0 "购买一些材料并制作药剂，然后在你的谋划中使用它们"
+ use_potions_in_scheme_decision_confirm:0 "是时候运用我学到的知识了！"
+ use_potions_in_scheme_decision_missing_scheme:0 "你需要至少 #V 1 #! 个活跃的 [scheme|E]"
+ use_potions_in_scheme_decision_missing_scheme_effect:0 "你的活跃 [schemes|E] 将立即取得进展"
+ use_potions_in_scheme_decision_msg:0 "你的 [schemes|E] 取得了进展！"
+
+ #Create a miracle potion
+ create_a_miracle_potion_decision:0 "制作奇迹药剂"
+ create_a_miracle_potion_decision_desc:0 "是时候运用我的炼金术知识拯救自己的生命了"
+ create_a_miracle_potion_decision_tooltip:0 "通过我制作的药剂，我将恢复健康"
+ create_a_miracle_potion_decision_confirm:0 "是时候再次恢复健康了"
+ create_a_miracle_potion_decision_missing_scheme:0 "你需要至少患有一种疾病"
+ create_a_miracle_potion_decision_missing_scheme_effect:0 "你将治愈所有疾病"
+ create_a_miracle_potion_decision_msg:0 "你感到焕然一新"

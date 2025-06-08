@@ -1,0 +1,12 @@
+﻿l_polish:
+ #Champion Tree
+ champion_name:0 "Mistrz"
+ champion_perk_name:0 "Mistrz"
+
+ means_to_travel_perk_name:0 "Środki do Podróży"
+ master_of_hunt_perk_name:0 "Mistrz Polowań"
+ master_of_fight_perk_name:0 "Mistrz Walki"
+ master_of_strategy_perk_name:0 "Mistrz Strategii"
+ glory_honor_perk_name:0 "Chwała i Honor"
+ army_trainning_perk_name:0 "Szkolenie Armii"
+ personal_gain_perk_name:0 "Osobisty Zysk"

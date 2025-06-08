@@ -1,0 +1,4 @@
+﻿l_english:
+ adventurer_war_seize_controlled_lands_duchy: "You will gain all the controlled [counties|E] by you, that are inside the [duchy|E] that you are seizing."
+ adventurer_war_seize_controlled_lands_kingdom: "You will gain all the controlled [counties|E] by you, that are inside the [kingdom|E] that you are seizing."
+ adventurer_war_seize_controlled_lands_empire: "You will gain all the controlled [counties|E] by you, that are inside the [empire|E] that you are seizing."

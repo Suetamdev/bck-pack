@@ -1,0 +1,18 @@
+﻿l_english:
+ #Use Potions on Schemes
+ use_potions_in_scheme_decision:0 "Użyj mikstur w intrygach"
+ use_potions_in_scheme_decision_desc:0 "Po co czekać? Skoro mogę użyć swoich mikstur!"
+ use_potions_in_scheme_decision_tooltip:0 "Kup składniki, stwórz mikstury i użyj ich w swoich intrygach"
+ use_potions_in_scheme_decision_confirm:0 "Czas wykorzystać to, czego się nauczyłem!"
+ use_potions_in_scheme_decision_missing_scheme:0 "Musisz mieć przynajmniej #V 1 #! aktywną [scheme|E]"
+ use_potions_in_scheme_decision_missing_scheme_effect:0 "Twoje aktywne [schemes|E] zyskają postęp natychmiast"
+ use_potions_in_scheme_decision_msg:0 "Postęp Twoich [schemes|E]!"
+
+ #Create a miracle potion
+ create_a_miracle_potion_decision:0 "Stwórz miksturę cudów"
+ create_a_miracle_potion_decision_desc:0 "Czas wykorzystać moją wiedzę z alchemii, by uratować swoje życie"
+ create_a_miracle_potion_decision_tooltip:0 "Dzięki miksturze stworzonej przeze mnie, odzyskam zdrowie"
+ create_a_miracle_potion_decision_confirm:0 "Czas znów odzyskać zdrowie"
+ create_a_miracle_potion_decision_missing_scheme:0 "Musisz mieć przynajmniej jedną chorobę"
+ create_a_miracle_potion_decision_missing_scheme_effect:0 "Zostaniesz wyleczony ze wszystkich swoich chorób"
+ create_a_miracle_potion_decision_msg:0 "Czujesz się odmłodzony"

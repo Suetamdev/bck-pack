@@ -1,0 +1,5 @@
+﻿l_simp_chinese:
+ #Champion
+ trait_champion:0 "冠军"
+ trait_champion_desc:0 "冠军是一个拥有无数胜利的比赛大师。"
+ trait_champion_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] 是一个拥有无数胜利的比赛大师。"

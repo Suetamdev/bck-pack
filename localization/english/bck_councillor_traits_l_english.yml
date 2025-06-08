@@ -1,0 +1,17 @@
+﻿l_english: 
+  trait_lifestyle_councillor:0 "Councillor"
+  trait_lifestyle_councillor_desc:0 "This character served on the council of a court, playing a pivotal role in its affairs and decisions"
+  trait_lifestyle_councillor_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] played a vital role in the court, contributing their expertise and dedication to the prosperity and stability of the realm. Whether as a trusted companion, steward, marshal, chaplain, chancellor, or spymaster."
+  
+  trait_track_confidant:0 "Confidant"
+  trait_track_confidant_desc:0  "This character served as the trusted confidant of the ruler, specializing in offering unwavering support and sage advice. Their role extended beyond mere counsel; they were the bedrock of trust and companionship, adept at navigating the intricate web of courtly affairs and safeguarding the monarch's interests. Their loyalty and wisdom were instrumental in shaping the ruler's decisions and ensuring the stability and prosperity of the realm."
+  trait_track_chaplain:0 "Chaplain"
+  trait_track_chaplain_desc:0 "This character served as a chaplain in the royal court, offering spiritual guidance and counsel to the monarch and courtiers."
+  trait_track_chancellor:0 "Chancellor"
+  trait_track_chancellor_desc:0 "This character served as the chancellor in the royal court, specializing in diplomatic affairs and negotiations, skillfully navigating delicate political landscapes to further the interests of their liege."
+  trait_track_steward:0 "Steward"
+  trait_track_steward_desc:0 "This character served as the steward in the royal court, overseeing the realm's finances, estates, and resources with unwavering diligence and efficiency, ensuring the prosperity and stability of the kingdom."
+  trait_track_marshal:0 "Marshal"
+  trait_track_marshal_desc:0 "This character held the esteemed position of marshal in the royal court, commanding the kingdom's military forces with unmatched prowess and strategic insight, safeguarding the realm from external threats and ensuring its defense and security."
+  trait_track_spymaster:0 "Spymaster"
+  trait_track_spymaster_desc:0 "This character served as the spymaster in the royal court, operating in the shadows with cunning and discretion, gathering intelligence, uncovering plots, and safeguarding the realm from internal threats and intrigue."

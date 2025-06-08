@@ -1,0 +1,14 @@
+﻿l_spanish:
+ # Alchemist Tree
+ alchemist_name:0 "Alquimista"
+ alchemist_perk_name:0 "Alquimista"
+
+ studing_potions_perk_name:0 "Estudiar pociones"
+ studing_herbs_perk_name:0 "Estudiar hierbas"
+ basic_alchemy_perk_name:0 "Alquimia básica"
+ potion_master_perk_name:0 "Maestro de pociones"
+ potion_master_perk_description:0 "Habilita la decisión de usar pociones en los planes"
+ herb_gardens_perk_name:0 "Jardines de hierbas"
+ herbs_rerserve_perk_adventurer_name:0 "Reserva de Hierbas"
+ the_secret_of_life_perk_name:0 "El secreto de la vida"
+ making_fools_gold_perk_name:0 "Haciendo oro de los tontos"

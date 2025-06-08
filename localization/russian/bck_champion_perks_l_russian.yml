@@ -1,0 +1,12 @@
+﻿l_russian:
+ #Champion Tree
+ champion_name:0 "Чемпион"
+ champion_perk_name:0 "Чемпион"
+
+ means_to_travel_perk_name:0 "Средства для путешествий"
+ master_of_hunt_perk_name:0 "Мастер охоты"
+ master_of_fight_perk_name:0 "Мастер боя"
+ master_of_strategy_perk_name:0 "Мастер стратегии"
+ glory_honor_perk_name:0 "Слава и честь"
+ army_trainning_perk_name:0 "Военная подготовка"
+ personal_gain_perk_name:0 "Личная выгода"

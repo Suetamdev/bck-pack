@@ -1,0 +1,4 @@
+﻿can_be_acclaimed_knight = {
+    is_knight = yes
+    highest_held_title_tier <= tier_kingdom
+}

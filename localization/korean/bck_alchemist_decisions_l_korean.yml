@@ -1,0 +1,18 @@
+﻿l_korean:
+ #Use Potions on Schemes
+ use_potions_in_scheme_decision:0 "계략에 물약 사용"
+ use_potions_in_scheme_decision_desc:0 "왜 기다려야 하나요? 내가 가진 물약을 사용할 수 있는데!"
+ use_potions_in_scheme_decision_tooltip:0 "재료를 구입하고 물약을 만들어 계략에 사용하세요"
+ use_potions_in_scheme_decision_confirm:0 "배운 것을 실천할 시간이다!"
+ use_potions_in_scheme_decision_missing_scheme:0 "최소한 #V 1 #!개의 활성화된 [scheme|E]이 있어야 합니다"
+ use_potions_in_scheme_decision_missing_scheme_effect:0 "활성화된 [schemes|E]이 즉시 진척도를 얻습니다"
+ use_potions_in_scheme_decision_msg:0 "당신의 [schemes|E]이 진척되었습니다!"
+ 
+ #Create a miracle potion
+ create_a_miracle_potion_decision:0 "기적의 물약 만들기"
+ create_a_miracle_potion_decision_desc:0 "연금술 지식을 활용해 내 목숨을 구할 때가 왔다"
+ create_a_miracle_potion_decision_tooltip:0 "내가 만든 물약을 통해 건강을 회복할 것이다"
+ create_a_miracle_potion_decision_confirm:0 "다시 건강을 되찾을 시간이다"
+ create_a_miracle_potion_decision_missing_scheme:0 "최소한 한 가지 질병에 걸려 있어야 합니다"
+ create_a_miracle_potion_decision_missing_scheme_effect:0 "모든 질병이 치료됩니다"
+ create_a_miracle_potion_decision_msg:0 "당신은 젊어진 기분이 듭니다"

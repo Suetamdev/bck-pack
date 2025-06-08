@@ -1,0 +1,5 @@
+﻿l_spanish:
+ #Champion
+ trait_champion:0 "Campeón"
+ trait_champion_desc:0 "El campeón es un maestro de torneos, con innumerables victorias."
+ trait_champion_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] es un maestro de torneos, con innumerables victorias."

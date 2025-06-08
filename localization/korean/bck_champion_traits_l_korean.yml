@@ -1,0 +1,5 @@
+﻿l_korean:
+ #Champion
+ trait_champion:0 "챔피언"
+ trait_champion_desc:0 "챔피언은 수많은 승리를 거둔 토너먼트의 대가입니다."
+ trait_champion_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip]는 수많은 승리를 거둔 토너먼트의 대가입니다."

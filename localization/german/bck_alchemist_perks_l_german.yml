@@ -1,0 +1,14 @@
+﻿l_german:
+ # Alchemist Tree
+ alchemist_name:0 "Alchimist"
+ alchemist_perk_name:0 "Alchimist"
+
+ studing_potions_perk_name:0 "Zaubertränke studieren"
+ studing_herbs_perk_name:0 "Kräuter studieren"
+ basic_alchemy_perk_name:0 "Grundlegende Alchemie"
+ potion_master_perk_name:0 "Meister der Tränke"
+ potion_master_perk_description:0 "Ermöglicht die Entscheidung, Tränke in Plänen zu verwenden"
+ herb_gardens_perk_name:0 "Kräutergärten"
+ herbs_rerserve_perk_adventurer_name:0 "Kräuterreservat"
+ the_secret_of_life_perk_name:0 "Das Geheimnis des Lebens"
+ making_fools_gold_perk_name:0 "Narrengold machen"

@@ -1,0 +1,13 @@
+﻿l_french:
+ #Inquisitor Tree
+ inquisitor_name:0 "Inquisiteur"
+ inquisitor_perk_name:0 "Inquisiteur"
+
+ one_faith_perk_name:0 "Une Seule Foi"
+ one_culture_perk_name:0 "Une Seule Culture"
+ blessed_pilgrimages_perk_name:0 "Pèlerinages Bénis"
+ holy_domain_perk_name:0 "Domaine Sacré"
+ blessed_walls_perk_name:0 "Murailles Bénies"
+ blessed_tents_perk_adventurer_name:0 "Tentes Bénies"
+ donations_for_the_great_god_perk_name:0 "Dons pour le Grand Dieu"
+ blessed_management_perk_name:0 "Gestion Bénie"

@@ -1,0 +1,5 @@
+﻿l_russian:
+ #Inquisitor
+ trait_inquisitor:0 "Инквизитор"
+ trait_inquisitor_desc:0 "Инквизитор вершит правосудие, раскрывает истину и защищает невинных с усердием и решимостью."
+ trait_inquisitor_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] — защитник [ROOT.GetCharacter.GetFaith.GetNameNoTooltip]."

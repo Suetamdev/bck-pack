@@ -1,0 +1,5 @@
+﻿l_korean:
+ #Bard
+ trait_bard:0 "음유시인"
+ trait_bard_desc:0 "음유시인은 마음을 흔드는 목소리와 영원히 울려 퍼지는 이야기로 사람들을 매혹시키는 트루바두르입니다."
+ trait_bard_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip]는 떠도는 음유시인으로, 멜로디를 연주하고 이야기를 나누며, 모든 음표에서 자유를 포용합니다."

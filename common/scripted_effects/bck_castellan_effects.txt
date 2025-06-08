@@ -1,0 +1,75 @@
+﻿bck_castellan_position_effect = {
+    if = {
+        limit = {
+            NOT = {
+                has_trait = lifestyle_castellan
+            }
+            is_alive = yes
+        }
+        bck_castellan_lifestyle_set_up_effects = yes
+    }
+    else_if = {
+        limit = {
+            has_trait = lifestyle_castellan
+            is_alive = yes
+        }
+        if = {
+            limit = {
+                any_sub_realm_barony = {
+                    exists = holder
+                    title_province = { has_holding_type = city_holding }
+                }
+                has_trait_xp = {
+                    trait = lifestyle_castellan
+                    track = city
+                    value < 100
+                }
+            }
+            bck_castellan_city_xp_effects = yes
+        }
+        if = {
+            limit = {
+                any_sub_realm_barony = {
+                    exists = holder
+                    title_province = { has_holding_type = castle_holding }
+                }
+                has_trait_xp = {
+                    trait = lifestyle_castellan
+                    track = castle
+                    value < 100
+                }
+            }
+            bck_castellan_castle_xp_effects = yes
+        }
+    }
+}
+
+bck_castellan_lifestyle_set_up_effects = {
+    add_trait = lifestyle_castellan
+}
+
+bck_castellan_city_xp_effects = {
+    add_trait_xp = {
+        trait = lifestyle_castellan
+        track = city
+        value = {
+            integer_range = {
+                min = 4
+                max = 10
+            }
+        }
+    }
+}
+
+bck_castellan_castle_xp_effects = {
+    add_trait_xp = {
+        trait = lifestyle_castellan
+        track = castle
+        value = {
+            integer_range = {
+                min = 4
+                max = 10
+            }
+        }
+    }
+}

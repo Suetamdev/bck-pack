@@ -1,0 +1,8 @@
+﻿bck_councillor_action = {
+    trigger = {
+        is_councillor = yes
+    }
+    effect = {
+        bck_councillor_position_effect = yes
+    }
+}

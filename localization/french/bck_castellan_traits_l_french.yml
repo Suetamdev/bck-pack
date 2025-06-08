@@ -1,0 +1,9 @@
+﻿l_french: 
+  trait_lifestyle_castellan:0 "Châtelain"
+  trait_lifestyle_castellan_desc:0 "Ce personnage occupe la prestigieuse position de châtelain, chargé de la gestion et de la défense d'un château ou d'une ville. Ses responsabilités incluent la gestion des ressources, la sécurité et l'administration, garantissant la prospérité et la sécurité de son domaine."
+  trait_lifestyle_castellan_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] occupait une position cruciale en tant que châtelain, supervisant la gouvernance et la défense d'un château ou d'une ville avec une dévotion inébranlable. Son expertise et son engagement ont été essentiels pour assurer la sécurité et la prospérité du domaine, faisant de lui un atout indispensable pour le royaume."
+  
+  trait_track_city:0 "Ville"
+  trait_track_city_desc:0 "Ce personnage était le gardien inébranlable de la ville, son engagement sans faille pour sa prospérité se manifestant dans ses efforts incessants."
+  trait_track_castle:0 "Château"
+  trait_track_castle_desc:0 "Ce personnage était le gardien vigilant du château, sa dévotion sans faille à sa protection se reflétant dans chacune de ses décisions."

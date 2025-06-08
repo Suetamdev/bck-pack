@@ -1,0 +1,170 @@
+﻿bck_councillor_position_effect = {
+    if = {
+        limit = {
+            NOT = {
+                has_trait = lifestyle_councillor
+            }
+            is_alive = yes
+        }
+        bck_councillor_lifestyle_set_up_effects = yes
+    }
+    else_if = {
+        limit = {
+            has_trait = lifestyle_councillor
+            is_alive = yes
+        }
+        if = {
+            limit = {
+                OR = {
+                    has_council_position = councillor_spouse
+                    has_council_position = councillor_vizier
+                }
+                has_trait_xp = {
+                    trait = lifestyle_councillor
+                    track = confidant
+                    value < 100
+                }
+            }
+            bck_councillor_confindant_xp_effects = yes
+        }
+        else_if = {
+            limit = {
+                has_council_position = councillor_court_chaplain
+                has_trait_xp = {
+                    trait = lifestyle_councillor
+                    track = chaplain
+                    value < 100
+                }
+            }
+            bck_councillor_chaplain_xp_effects = yes
+        }
+        else_if = {
+            limit = {
+                has_council_position = councillor_chancellor
+                has_trait_xp = {
+                    trait = lifestyle_councillor
+                    track = chancellor
+                    value < 100
+                }
+            }
+            bck_councillor_chancellor_xp_effects = yes
+        }
+        else_if = {
+            limit = {
+                has_council_position = councillor_steward
+                has_trait_xp = {
+                    trait = lifestyle_councillor
+                    track = steward
+                    value < 100
+                }
+            }
+            bck_councillor_steward_xp_effects = yes
+        }
+        else_if = {
+            limit = {
+                has_council_position = councillor_marshal
+                has_trait_xp = {
+                    trait = lifestyle_councillor
+                    track = marshal
+                    value < 100
+                }
+            }
+            bck_councillor_marshal_xp_effects = yes
+        }
+        else_if = {
+            limit = {
+                has_council_position = councillor_spymaster
+                has_trait_xp = {
+                    trait = lifestyle_councillor
+                    track = spymaster
+                    value < 100
+                }
+            }
+            bck_councillor_spymaster_xp_effects = yes
+        }
+    }
+}
+
+bck_councillor_lifestyle_set_up_effects = {
+    add_trait = lifestyle_councillor
+}
+
+bck_councillor_confindant_xp_effects = {
+    add_trait_xp = {
+        trait = lifestyle_councillor
+        track = confidant
+        value = {
+            integer_range = {
+                min = 5
+                max = 10
+            }
+        }
+    }
+}
+
+bck_councillor_chaplain_xp_effects = {
+    add_trait_xp = {
+        trait = lifestyle_councillor
+        track = chaplain
+        value = {
+            integer_range = {
+                min = 5
+                max = 10
+            }
+        }
+    }
+}
+
+bck_councillor_chancellor_xp_effects = {
+    add_trait_xp = {
+        trait = lifestyle_councillor
+        track = chancellor
+        value = {
+            integer_range = {
+                min = 5
+                max = 10
+            }
+        }
+    }
+}
+
+bck_councillor_steward_xp_effects = {
+    add_trait_xp = {
+        trait = lifestyle_councillor
+        track = steward
+        value = {
+            integer_range = {
+                min = 5
+                max = 10
+            }
+        }
+    }
+}
+
+bck_councillor_marshal_xp_effects = {
+    add_trait_xp = {
+        trait = lifestyle_councillor
+        track = marshal
+        value = {
+            integer_range = {
+                min = 5
+                max = 10
+            }
+        }
+    }
+}
+
+bck_councillor_spymaster_xp_effects = {
+    add_trait_xp = {
+        trait = lifestyle_councillor
+        track = spymaster
+        value = {
+            integer_range = {
+                min = 5
+                max = 10
+            }
+        }
+    }
+}
+
+

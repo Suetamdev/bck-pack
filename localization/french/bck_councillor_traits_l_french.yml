@@ -1,0 +1,17 @@
+﻿l_french: 
+  trait_lifestyle_councillor:0 "Conseiller"
+  trait_lifestyle_councillor_desc:0 "Ce personnage a servi au conseil d'une cour, jouant un rôle clé dans ses affaires et décisions."
+  trait_lifestyle_councillor_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] a joué un rôle vital à la cour, apportant son expertise et son dévouement à la prospérité et à la stabilité du royaume. Que ce soit en tant que compagnon de confiance, intendant, maréchal, chapelain, chancelier ou maître espion."
+
+  trait_track_confidant:0 "Confident"
+  trait_track_confidant_desc:0 "Ce personnage était le confident de confiance du souverain, spécialisé dans le soutien indéfectible et les conseils avisés. Son rôle allait bien au-delà de la simple consultation ; il était le pilier de la confiance et de la compagnie, maîtrisant l’art des affaires de la cour et protégeant les intérêts du monarque. Sa loyauté et sa sagesse étaient essentielles pour influencer les décisions du souverain et assurer la stabilité et la prospérité du royaume."
+  trait_track_chaplain:0 "Chapelain"
+  trait_track_chaplain_desc:0 "Ce personnage a servi comme chapelain à la cour royale, offrant conseils spirituels et orientations au monarque et aux courtisans."
+  trait_track_chancellor:0 "Chancelier"
+  trait_track_chancellor_desc:0 "Ce personnage a servi comme chancelier à la cour royale, spécialisé dans les affaires diplomatiques et les négociations, naviguant habilement dans les intrigues politiques pour promouvoir les intérêts de son suzerain."
+  trait_track_steward:0 "Intendant"
+  trait_track_steward_desc:0 "Ce personnage a servi comme intendant à la cour royale, supervisant les finances, les domaines et les ressources du royaume avec une diligence et une efficacité inébranlables, garantissant la prospérité et la stabilité du royaume."
+  trait_track_marshal:0 "Maréchal"
+  trait_track_marshal_desc:0 "Ce personnage occupait la prestigieuse position de maréchal à la cour royale, dirigeant les forces militaires du royaume avec une maîtrise et une vision stratégique inégalées, protégeant le royaume des menaces extérieures et assurant sa défense et sa sécurité."
+  trait_track_spymaster:0 "Maître espion"
+  trait_track_spymaster_desc:0 "Ce personnage a servi comme maître espion à la cour royale, opérant dans l'ombre avec ruse et discrétion, recueillant des renseignements, déjouant des complots et protégeant le royaume contre les menaces internes et les intrigues."

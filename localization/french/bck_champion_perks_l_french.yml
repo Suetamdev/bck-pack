@@ -1,0 +1,12 @@
+﻿l_french:
+ #Champion Tree
+ champion_name:0 "Champion"
+ champion_perk_name:0 "Champion"
+
+ means_to_travel_perk_name:0 "Moyens de Voyager"
+ master_of_hunt_perk_name:0 "Maître de la Chasse"
+ master_of_fight_perk_name:0 "Maître du Combat"
+ master_of_strategy_perk_name:0 "Maître de la Stratégie"
+ glory_honor_perk_name:0 "Gloire et Honneur"
+ army_trainning_perk_name:0 "Entraînement de l'Armée"
+ personal_gain_perk_name:0 "Gain Personnel"

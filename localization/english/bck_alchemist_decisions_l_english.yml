@@ -1,0 +1,18 @@
+﻿l_english:
+ #Use Potions on Schemes
+ use_potions_in_scheme_decision:0 "Use Potions on Schemes"
+ use_potions_in_scheme_decision_desc:0 "Why would i a wait? When i can use my potions!"
+ use_potions_in_scheme_decision_tooltip:0 "Buy some ingredients and make some potions and use then on your schemes"
+ use_potions_in_scheme_decision_confirm:0 "It's time to use what i had learned!"
+ use_potions_in_scheme_decision_missing_scheme:0 "You need to have at least #V 1 #! active [scheme|E]"
+ use_potions_in_scheme_decision_missing_scheme_effect:0 "Your actives [schemes|E] will gain progress instantly"
+ use_potions_in_scheme_decision_msg:0 "Your [schemes|E] progress!"
+
+ #Create a miracle potion
+ create_a_miracle_potion_decision:0 "Create a miracle potion"
+ create_a_miracle_potion_decision_desc:0 "It's time to put my knowledge in alchemy to save my own life"
+ create_a_miracle_potion_decision_tooltip:0 "Through a potion created by me, i will recover my healthy"
+ create_a_miracle_potion_decision_confirm:0 "It's time to be healthy again"
+ create_a_miracle_potion_decision_missing_scheme:0 "You need to have at least one illness"
+ create_a_miracle_potion_decision_missing_scheme_effect:0 "You will be cured of all your illness"
+ create_a_miracle_potion_decision_msg:0 "You feel rejuvenated"

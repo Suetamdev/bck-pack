@@ -1,0 +1,5 @@
+﻿l_simp_chinese:
+ #Inquisitor
+ trait_inquisitor:0 "宗教裁判官"
+ trait_inquisitor_desc:0 "宗教裁判官伸张正义，揭示真相，并以勤勉和决心保护无辜者。"
+ trait_inquisitor_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] 是 [ROOT.GetCharacter.GetFaith.GetNameNoTooltip] 的守护者."

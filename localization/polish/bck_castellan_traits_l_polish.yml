@@ -1,0 +1,9 @@
+﻿l_polish: 
+  trait_lifestyle_castellan:0 "Kasztelan"
+  trait_lifestyle_castellan_desc:0 "Postać ta zajmuje prestiżowe stanowisko kasztelana, odpowiedzialnego za zarządzanie i obronę zamku lub miasta. Ich obowiązki obejmują zarządzanie zasobami, bezpieczeństwem i administracją, zapewniając dobrobyt i bezpieczeństwo domeny."
+  trait_lifestyle_castellan_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] pełnił kluczową rolę jako kasztelan, nadzorując zarządzanie i obronę zamku lub miasta z niezachwianym oddaniem. Jego wiedza i zaangażowanie były niezbędne, aby zapewnić bezpieczeństwo i dobrobyt domeny, czyniąc go nieocenionym atutem dla królestwa."
+  
+  trait_track_city:0 "Miasto"
+  trait_track_city_desc:0 "Ta postać była niezłomnym strażnikiem miasta, a jej niezachwiane zaangażowanie w jego dobrobyt było widoczne w nieustannych staraniach."
+  trait_track_castle:0 "Zamek"
+  trait_track_castle_desc:0 "Ta postać była czujnym strażnikiem zamku, a jej niezłomna troska o jego ochronę przejawiała się w każdej podejmowanej decyzji."

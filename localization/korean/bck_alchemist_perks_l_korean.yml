@@ -1,0 +1,14 @@
+﻿l_korean:
+ # Alchemist Tree
+ alchemist_name:0 "연금술사"
+ alchemist_perk_name:0 "연금술사"
+
+ studing_potions_perk_name:0 "물약 공부하기"
+ studing_herbs_perk_name:0 "허브 공부하기"
+ basic_alchemy_perk_name:0 "기초 연금술"
+ potion_master_perk_name:0 "물약의 대가"
+ potion_master_perk_description:0 "계략에 물약을 사용하는 결정을 가능하게 합니다"
+ herb_gardens_perk_name:0 "허브 정원"
+ herbs_rerserve_perk_adventurer_name:0 "허브 보호 구역"
+ the_secret_of_life_perk_name:0 "생명의 비밀"
+ making_fools_gold_perk_name:0 "바보의 금 만들기"

@@ -1,0 +1,5 @@
+﻿l_polish:
+ #Inquisitor
+ trait_inquisitor:0 "Inkwizytor"
+ trait_inquisitor_desc:0 "Inkwizytor niesie sprawiedliwość, odkrywa prawdę i chroni niewinnych z gorliwością i determinacją."
+ trait_inquisitor_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] jest obrońcą [ROOT.GetCharacter.GetFaith.GetNameNoTooltip]."

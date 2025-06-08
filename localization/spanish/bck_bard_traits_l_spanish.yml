@@ -1,0 +1,5 @@
+﻿l_spanish:
+ #Bard
+ trait_bard:0 "Bardo"
+ trait_bard_desc:0 "El bardo es un trovador fascinante, con una voz que conmueve corazones y cuentos que resuenan a través de la eternidad."
+ trait_bard_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] es un trovador errante, tocando melodías y compartiendo historias, abrazando la libertad con cada nota."

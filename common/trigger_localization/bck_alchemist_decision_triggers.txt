@@ -1,0 +1,7 @@
+﻿use_potions_in_scheme_decision_missing_scheme = {
+	global_not = use_potions_in_scheme_decision_missing_scheme
+}
+
+create_a_miracle_potion_decision_missing_scheme = {
+	global_not = create_a_miracle_potion_decision_missing_scheme
+}

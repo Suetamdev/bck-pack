@@ -1,0 +1,18 @@
+﻿l_french:
+ #Use Potions on Schemes
+ use_potions_in_scheme_decision:0 "Utiliser des Potions dans les Complots"
+ use_potions_in_scheme_decision_desc:0 "Pourquoi attendre ? Je peux utiliser mes potions !"
+ use_potions_in_scheme_decision_tooltip:0 "Achetez quelques ingrédients, préparez des potions et utilisez-les dans vos complots"
+ use_potions_in_scheme_decision_confirm:0 "Il est temps d'utiliser ce que j'ai appris !"
+ use_potions_in_scheme_decision_missing_scheme:0 "Vous devez avoir au moins #V 1 #! [scheme|E]" actif"
+ use_potions_in_scheme_decision_missing_scheme_effect:0 "Vos [schemes|E] actifs progresseront instantanément"
+ use_potions_in_scheme_decision_msg:0 "Le progrès de vos [schemes|E] !"
+
+ #Create a miracle potion
+ create_a_miracle_potion_decision:0 "Créer une potion miracle"
+ create_a_miracle_potion_decision_desc:0 "Il est temps de mettre mes connaissances en alchimie à profit pour sauver ma propre vie"
+ create_a_miracle_potion_decision_tooltip:0 "Grâce à une potion créée par moi, je vais retrouver la santé"
+ create_a_miracle_potion_decision_confirm:0 "Il est temps de retrouver la santé"
+ create_a_miracle_potion_decision_missing_scheme:0 "Vous devez souffrir d'au moins une maladie"
+ create_a_miracle_potion_decision_missing_scheme_effect:0 "Vous serez guéri de toutes vos maladies"
+ create_a_miracle_potion_decision_msg:0 "Vous vous sentez rajeuni"

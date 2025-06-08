@@ -1,0 +1,12 @@
+﻿l_simp_chinese:
+ #Champion Tree
+ champion_name:0 "冠军"
+ champion_perk_name:0 "冠军"
+
+ means_to_travel_perk_name:0 "旅行手段"
+ master_of_hunt_perk_name:0 "狩猎大师"
+ master_of_fight_perk_name:0 "战斗大师"
+ master_of_strategy_perk_name:0 "战略大师"
+ glory_honor_perk_name:0 "荣耀与尊严"
+ army_trainning_perk_name:0 "军队训练"
+ personal_gain_perk_name:0 "个人收益"

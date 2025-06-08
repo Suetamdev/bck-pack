@@ -1,0 +1,9 @@
+﻿l_simp_chinese: 
+  trait_lifestyle_castellan:0 "城堡总管"
+  trait_lifestyle_castellan_desc:0 "此角色担任城堡总管的尊贵职位，负责管理和保卫城堡或城市。他们的职责包括资源管理、安全保障和行政事务，确保领地的繁荣与安全。"
+  trait_lifestyle_castellan_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] 担任城堡总管的重要职位，以坚定的奉献精神监督城堡或城市的治理与防御。他的专业知识和承诺对于确保领地的安全与繁荣至关重要，使他成为王国不可或缺的力量。"
+  
+  trait_track_city:0 "城市"
+  trait_track_city_desc:0 "此角色是城市坚定的守护者，他们不懈努力，彰显了对城市繁荣的坚定承诺。"
+  trait_track_castle:0 "城堡"
+  trait_track_castle_desc:0 "此角色是城堡警觉的守护者，他们对城堡保护的坚定奉献在每个决定中体现出来。"

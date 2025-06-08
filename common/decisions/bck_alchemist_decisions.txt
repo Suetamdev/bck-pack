@@ -1,0 +1,155 @@
+﻿use_potions_in_scheme_decision = {
+    picture = {
+        reference = "gfx/interface/illustrations/decisions/decision_misc.dds"
+    }
+    ai_check_interval = 180
+    sort_order = 81
+    desc = use_potions_in_scheme_decision_desc
+    selection_tooltip = use_potions_in_scheme_decision_tooltip
+
+    cost = {
+        gold = 100
+    }
+
+    cooldown = { days = 180 }
+
+    is_shown = {
+        has_perk = potion_master_perk
+    }
+
+    is_valid_showing_failures_only = {
+        custom_description = {
+            text = "use_potions_in_scheme_decision_missing_scheme"
+            any_scheme = {
+                count > 0
+            }
+        }
+    }
+
+    effect = {
+        if = {
+            limit = {
+                any_scheme = {
+                    count > 0
+                }
+            }
+            send_interface_toast = {
+                title = use_potions_in_scheme_decision_msg
+                left_icon = root
+
+                every_scheme = {
+                    add_scheme_progress = 90
+                }
+            }
+        }
+        else = {
+            custom_tooltip = use_potions_in_scheme_decision_missing_scheme_effect
+        }
+    }
+
+    ai_potential = {
+        any_scheme = {
+            is_hostile = yes
+            count > 0
+        }
+    }
+
+    ai_will_do = {
+        base = 0
+        modifier = {
+            add = 30
+            any_scheme = {
+                is_hostile = yes
+                count > 0
+            }
+        }
+    }
+}
+
+create_a_miracle_potion_decision = {
+    ai_check_interval = 365
+    picture = {
+        reference = "gfx/interface/illustrations/decisions/decision_misc.dds"
+    }
+
+    sort_order = 80
+
+    desc = create_a_miracle_potion_decision_desc
+
+    selection_tooltip = create_a_miracle_potion_decision_tooltip
+
+    cost = {
+        gold = 1500
+    }
+
+    cooldown = { days = 3650 }
+
+    is_shown = {
+        has_trait = alchemist
+        OR = {
+            has_trait_with_flag = illness
+            has_trait = depressed_1
+            has_trait = depressed
+            has_trait = infirm
+        }
+    }
+
+    is_valid_showing_failures_only = {
+        custom_description = {
+            text = "create_a_miracle_potion_decision_missing_scheme"
+            has_trait_with_flag = illness
+            OR = {
+                has_trait_with_flag = illness
+                has_trait = depressed_1
+                has_trait = depressed
+                has_trait = infirm
+            }
+        }
+    }
+
+    effect = {
+        if = {
+            limit = {
+                has_trait_with_flag = illness
+            }
+            send_interface_toast = {
+                title = create_a_miracle_potion_decision_msg
+                left_icon = root
+                remove_trait = ill
+                remove_trait = pneumonic
+                remove_trait = great_pox
+                remove_trait = early_great_pox
+                remove_trait = lovers_pox
+                remove_trait = leper
+                remove_trait = gout_ridden
+                remove_trait = consumption
+                remove_trait = cancer
+                remove_trait = typhus
+                remove_trait = bubonic_plague
+                remove_trait = smallpox
+                remove_trait = measles
+                remove_trait = dysentery
+                remove_trait = ergotism
+                remove_trait = infirm
+                remove_trait = depressed_1
+            }
+        }
+        else = {
+            custom_tooltip = create_a_miracle_potion_decision_missing_scheme_effect
+        }
+
+    }
+
+    ai_potential = {
+        always = yes
+    }
+
+    ai_will_do = {
+        base = 0
+        modifier = {
+            add = 100
+            has_trait_with_flag = illness
+            gold >= 2000
+        }
+    }
+}

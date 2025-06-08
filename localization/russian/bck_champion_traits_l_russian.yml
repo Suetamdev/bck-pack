@@ -1,0 +1,5 @@
+﻿l_russian:
+ #Champion
+ trait_champion:0 "Чемпион"
+ trait_champion_desc:0 "Чемпион — мастер турниров, с бесчисленными победами."
+ trait_champion_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] — мастер турниров, с бесчисленными победами."

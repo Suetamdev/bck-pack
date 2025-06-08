@@ -1,0 +1,18 @@
+﻿l_russian:
+ #Use Potions on Schemes
+ use_potions_in_scheme_decision:0 "Использовать зелья в интригах"
+ use_potions_in_scheme_decision_desc:0 "Зачем мне ждать? Я могу использовать свои зелья!"
+ use_potions_in_scheme_decision_tooltip:0 "Купите ингредиенты, приготовьте зелья и используйте их в своих интригах"
+ use_potions_in_scheme_decision_confirm:0 "Время применить то, что я узнал!"
+ use_potions_in_scheme_decision_missing_scheme:0 "Вам нужно иметь как минимум #V 1 #! активную [scheme|E]"
+ use_potions_in_scheme_decision_missing_scheme_effect:0 "Ваши активные [schemes|E] мгновенно продвинутся вперёд"
+ use_potions_in_scheme_decision_msg:0 "Ваш прогресс в [schemes|E]!"
+
+ #Create a miracle potion
+ create_a_miracle_potion_decision:0 "Создать чудодейственное зелье"
+ create_a_miracle_potion_decision_desc:0 "Пора применить свои знания в алхимии, чтобы спасти свою жизнь"
+ create_a_miracle_potion_decision_tooltip:0 "С помощью созданного мной зелья я восстановлю своё здоровье"
+ create_a_miracle_potion_decision_confirm:0 "Время снова стать здоровым"
+ create_a_miracle_potion_decision_missing_scheme:0 "У вас должно быть хотя бы одно заболевание"
+ create_a_miracle_potion_decision_missing_scheme_effect:0 "Вы будете излечены от всех своих болезней"
+ create_a_miracle_potion_decision_msg:0 "Вы чувствуете себя обновлённым"

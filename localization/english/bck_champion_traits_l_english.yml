@@ -1,0 +1,5 @@
+﻿l_english:
+ #Champion
+ trait_champion:0 "Champion"
+ trait_champion_desc:0 "The champion is a master of tournaments, with countless victories."
+ trait_champion_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a master of tournaments, with incotables victories."

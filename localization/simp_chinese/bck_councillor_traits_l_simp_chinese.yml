@@ -1,0 +1,17 @@
+﻿l_simp_chinese: 
+  trait_lifestyle_councillor:0 "顾问"
+  trait_lifestyle_councillor_desc:0 "这个角色在宫廷的顾问委员会中担任重要角色，对宫廷事务和决策起到了关键作用。"
+  trait_lifestyle_councillor_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] 在宫廷中扮演了至关重要的角色，凭借其专业知识和奉献精神，帮助确保了王国的繁荣与稳定。无论是作为信任的伴侣、管家、元帅、牧师、宰相，还是间谍首领。"
+
+  trait_track_confidant:0 "密友"
+  trait_track_confidant_desc:0 "这个角色是统治者的可信赖密友，专注于提供坚定的支持和明智的建议。他/她的角色不仅仅是提供建议；他/她是信任和友谊的基石，擅长处理宫廷事务，并保护君主的利益。他/她的忠诚和智慧对塑造君主的决策以及确保王国的稳定和繁荣起到了至关重要的作用。"
+  trait_track_chaplain:0 "牧师"
+  trait_track_chaplain_desc:0 "这个角色是王室宫廷的牧师，向君主和宫廷成员提供精神上的指导和建议。"
+  trait_track_chancellor:0 "宰相"
+  trait_track_chancellor_desc:0 "这个角色是王室宫廷的宰相，专注于外交事务和谈判，巧妙地穿越复杂的政治格局，推动自己的领主利益。"
+  trait_track_steward:0 "管家"
+  trait_track_steward_desc:0 "这个角色是王室宫廷的管家，监督王国的财政、土地和资源，凭借坚定的努力和高效的管理，确保了王国的繁荣和稳定。"
+  trait_track_marshal:0 "元帅"
+  trait_track_marshal_desc:0 "这个角色在王室宫廷担任元帅，凭借无与伦比的军事才能和战略洞察力，指挥着王国的军队，保护王国免受外部威胁，确保了其防御和安全。"
+  trait_track_spymaster:0 "间谍首领"
+  trait_track_spymaster_desc:0 "这个角色是王室宫廷的间谍首领，在阴影中巧妙行事，收集情报，揭示阴谋，保护王国免受内外威胁与阴谋的侵害。"

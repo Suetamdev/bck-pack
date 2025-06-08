@@ -1,0 +1,13 @@
+﻿l_russian:
+ #Inquisitor Tree
+ inquisitor_name:0 "Инквизитор"
+ inquisitor_perk_name:0 "Инквизитор"
+
+ one_faith_perk_name:0 "Единая Вера"
+ one_culture_perk_name:0 "Единая Культура"
+ blessed_pilgrimages_perk_name:0 "Благословенные Паломничества"
+ holy_domain_perk_name:0 "Священная Область"
+ blessed_walls_perk_name:0 "Благословенные Стены"
+ blessed_tents_perk_adventurer_name:0 "Благословенные Шатры"
+ donations_for_the_great_god_perk_name:0 "Пожертвования Великому Богу"
+ blessed_management_perk_name:0 "Благословенное Управление"

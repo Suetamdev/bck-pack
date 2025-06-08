@@ -1,0 +1,9 @@
+﻿l_german: 
+  trait_lifestyle_castellan:0 "Kastellan"
+  trait_lifestyle_castellan_desc:0 "Diese Figur bekleidet die angesehene Position des Kastellans und ist mit der Verwaltung und Verteidigung einer Burg oder Stadt betraut. Ihre Aufgaben umfassen die Verwaltung von Ressourcen, die Sicherheit und die Administration, um den Wohlstand und die Sicherheit ihres Herrschaftsgebiets zu gewährleisten."
+  trait_lifestyle_castellan_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] hatte eine entscheidende Position als Kastellan inne und überwachte mit unerschütterlicher Hingabe die Verwaltung und Verteidigung einer Burg oder Stadt. Seine Fachkenntnisse und sein Engagement waren unerlässlich, um die Sicherheit und den Wohlstand des Herrschaftsgebiets zu gewährleisten, was ihn zu einer unverzichtbaren Stütze des Reiches machte."
+  
+  trait_track_city:0 "Stadt"
+  trait_track_city_desc:0 "Diese Figur war der unerschütterliche Wächter der Stadt, dessen unermüdliches Engagement für ihren Wohlstand in all seinen Anstrengungen sichtbar wurde."
+  trait_track_castle:0 "Burg"
+  trait_track_castle_desc:0 "Diese Figur war der wachsame Wächter der Burg, dessen unerschütterliche Hingabe zu ihrem Schutz sich in jeder getroffenen Entscheidung zeigte."

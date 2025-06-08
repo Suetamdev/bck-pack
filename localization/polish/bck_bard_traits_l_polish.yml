@@ -1,0 +1,5 @@
+﻿l_polish:
+ #Bard
+ trait_bard:0 "Bard"
+ trait_bard_desc:0 "Bard to fascynujący trubadur, którego głos porusza serca, a opowieści odbijają się echem przez wieczność."
+ trait_bard_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] to wędrowny minstre, grający melodie i opowiadający historie, obejmujący wolność w każdej nucie."

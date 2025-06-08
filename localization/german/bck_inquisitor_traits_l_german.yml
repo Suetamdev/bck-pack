@@ -1,0 +1,5 @@
+﻿l_german:
+ #Inquisitor
+ trait_inquisitor:0 "Inquisitor"
+ trait_inquisitor_desc:0 "Der Inquisitor bringt Gerechtigkeit, deckt die Wahrheit auf und schützt die Unschuldigen mit Fleiß und Entschlossenheit."
+ trait_inquisitor_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] ist der Beschützer von [ROOT.GetCharacter.GetFaith.GetNameNoTooltip]."

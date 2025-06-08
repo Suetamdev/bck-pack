@@ -1,0 +1,5 @@
+﻿l_simp_chinese:
+ #Bard
+ trait_bard:0 "吟游诗人"
+ trait_bard_desc:0 "吟游诗人是一个迷人的歌唱家，声音激动人心，讲述的故事回响着永恒。"
+ trait_bard_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] 是一个漂泊的吟游诗人，弹奏旋律、分享故事，每一个音符都在拥抱自由。"

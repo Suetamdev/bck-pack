@@ -1,0 +1,17 @@
+﻿l_spanish: 
+  trait_lifestyle_councillor:0 "Consejero"
+  trait_lifestyle_councillor_desc:0 "Este personaje sirvió en el consejo de una corte, jugando un papel clave en sus asuntos y decisiones."
+  trait_lifestyle_councillor_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] desempeñó un papel vital en la corte, aportando su experiencia y dedicación para asegurar la prosperidad y estabilidad del reino. Ya sea como un compañero de confianza, mayordomo, mariscal, capellán, canciller o maestro espía."
+
+  trait_track_confidant:0 "Confidente"
+  trait_track_confidant_desc:0 "Este personaje fue el confidente de confianza del soberano, especializado en brindar apoyo inquebrantable y consejos sabios. Su rol iba más allá del simple consejo; era el pilar de la confianza y la compañía, hábil en navegar las complejidades de la corte y proteger los intereses del monarca. Su lealtad y sabiduría fueron clave para la toma de decisiones del soberano y para asegurar la estabilidad y prosperidad del reino."
+  trait_track_chaplain:0 "Capellán"
+  trait_track_chaplain_desc:0 "Este personaje sirvió como capellán en la corte real, proporcionando orientación espiritual y consejos tanto al monarca como a los miembros de la corte."
+  trait_track_chancellor:0 "Canciller"
+  trait_track_chancellor_desc:0 "Este personaje fue el canciller en la corte real, especializado en asuntos diplomáticos y negociaciones, moviéndose hábilmente por el complejo terreno político para promover los intereses de su soberano."
+  trait_track_steward:0 "Mayordomo"
+  trait_track_steward_desc:0 "Este personaje desempeñó el papel de mayordomo en la corte real, supervisando las finanzas, tierras y recursos del reino con inquebrantable diligencia y eficacia, asegurando la prosperidad y estabilidad del reino."
+  trait_track_marshal:0 "Mariscal"
+  trait_track_marshal_desc:0 "Este personaje desempeñó el cargo de mariscal en la corte real, comandando las fuerzas armadas del reino con una destreza inigualable y una visión estratégica, protegiendo el reino de amenazas externas y asegurando su defensa y seguridad."
+  trait_track_spymaster:0 "Maestro espía"
+  trait_track_spymaster_desc:0 "Este personaje fue el maestro espía en la corte real, operando en las sombras con astucia y discreción, reuniendo inteligencia, descubriendo conspiraciones y protegiendo el reino de amenazas internas y conspiraciones."

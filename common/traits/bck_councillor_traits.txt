@@ -1,0 +1,135 @@
+﻿lifestyle_councillor = {
+    icon = councillor.dds
+    category = lifestyle
+    ruler_designer_cost = 20
+    monthly_prestige_gain_mult = 0.15
+    same_opinion = 15
+
+    desc = {
+        first_valid = {
+            triggered_desc = {
+                trigger = {
+                    NOT = { exists = this }
+                }
+                desc = trait_lifestyle_councillor_desc
+            }
+            desc = trait_lifestyle_councillor_character_desc
+        }
+    }
+
+    tracks = {
+        confidant = {
+            25 = {
+                monthly_lifestyle_xp_gain_mult = 0.1
+                monthly_dynasty_prestige_mult = 0.15
+            }
+            50 = {
+                learning = 1
+                diplomacy = 1
+                stewardship = 1
+                martial = 1
+                intrigue = 1
+            }
+            75 = {
+                learning = 1
+                diplomacy = 1
+                stewardship = 1
+                martial = 1
+                intrigue = 1
+            }
+            100 = {
+                learning = 2
+                diplomacy = 2
+                stewardship = 2
+                martial = 2
+                intrigue = 2
+            }
+        }
+        chaplain = {
+            25 = {
+                learning = 1
+            }
+            50 = {
+                learning = 1
+                monthly_learning_lifestyle_xp_gain_mult = 0.05
+            }
+            75 = {
+                learning = 2
+                monthly_learning_lifestyle_xp_gain_mult = 0.05
+            }
+            100 = {
+                learning = 4
+                monthly_learning_lifestyle_xp_gain_mult = 0.05
+            }
+        }
+        chancellor = {
+            25 = {
+                diplomacy = 1
+            }
+            50 = {
+                diplomacy = 1
+                monthly_diplomacy_lifestyle_xp_gain_mult = 0.05
+            }
+            75 = {
+                diplomacy = 2
+                monthly_diplomacy_lifestyle_xp_gain_mult = 0.05
+            }
+            100 = {
+                diplomacy = 4
+                monthly_diplomacy_lifestyle_xp_gain_mult = 0.05
+            }
+        }
+        steward = {
+            25 = {
+                stewardship = 1
+            }
+            50 = {
+                stewardship = 1
+                monthly_stewardship_lifestyle_xp_gain_mult = 0.05
+            }
+            75 = {
+                stewardship = 2
+                monthly_stewardship_lifestyle_xp_gain_mult = 0.05
+            }
+            100 = {
+                stewardship = 4
+                monthly_stewardship_lifestyle_xp_gain_mult = 0.05
+            }
+        }
+        marshal = {
+            25 = {
+                martial = 1
+            }
+            50 = {
+                martial = 1
+                monthly_martial_lifestyle_xp_gain_mult = 0.05
+            }
+            75 = {
+                martial = 2
+                monthly_martial_lifestyle_xp_gain_mult = 0.05
+            }
+            100 = {
+                martial = 4
+                monthly_martial_lifestyle_xp_gain_mult = 0.05
+            }
+        }
+        spymaster = {
+            25 = {
+                intrigue = 1
+            }
+            50 = {
+                intrigue = 1
+                monthly_intrigue_lifestyle_xp_gain_mult = 0.05
+            }
+            75 = {
+                intrigue = 2
+                monthly_intrigue_lifestyle_xp_gain_mult = 0.05
+            }
+            100 = {
+                intrigue = 4
+                monthly_intrigue_lifestyle_xp_gain_mult = 0.05
+            }
+        }
+    }
+    ai_energy = 15
+}

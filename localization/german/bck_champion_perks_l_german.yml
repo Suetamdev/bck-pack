@@ -1,0 +1,12 @@
+﻿l_german:
+ #Champion Tree
+ champion_name:0 "Champion"
+ champion_perk_name:0 "Champion"
+
+ means_to_travel_perk_name:0 "Mittel zum Reisen"
+ master_of_hunt_perk_name:0 "Meister der Jagd"
+ master_of_fight_perk_name:0 "Meister des Kampfes"
+ master_of_strategy_perk_name:0 "Meister der Strategie"
+ glory_honor_perk_name:0 "Ruhm und Ehre"
+ army_trainning_perk_name:0 "Armeeausbildung"
+ personal_gain_perk_name:0 "Persönlicher Gewinn"

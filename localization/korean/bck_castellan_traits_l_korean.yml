@@ -1,0 +1,9 @@
+﻿l_korean: 
+  trait_lifestyle_castellan:0 "성채 관리자"
+  trait_lifestyle_castellan_desc:0 "이 인물은 성채나 도시의 관리와 방어를 책임지는 존경받는 성채 관리자 직책을 맡고 있습니다. 이들의 임무는 자원 관리, 보안, 행정을 포함하며, 영지의 번영과 안전을 보장합니다."
+  trait_lifestyle_castellan_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip]는 성채 관리자라는 중요한 직책을 맡아 성채나 도시의 통치와 방어를 변함없는 헌신으로 감독했습니다. 그의 전문 지식과 헌신은 영지의 안전과 번영을 보장하는 데 필수적인 역할을 하였으며, 그는 왕국에 없어서는 안 될 존재였습니다."
+  
+  trait_track_city:0 "도시"
+  trait_track_city_desc:0 "이 인물은 도시의 확고한 수호자였으며, 그들의 끊임없는 노력에서 도시의 번영에 대한 흔들림 없는 헌신이 드러났습니다."
+  trait_track_castle:0 "성채"
+  trait_track_castle_desc:0 "이 인물은 성채의 경계심 넘치는 수호자였으며, 그의 변함없는 헌신은 매 결정에 반영되었습니다."

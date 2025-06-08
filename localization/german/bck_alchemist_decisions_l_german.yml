@@ -1,0 +1,18 @@
+﻿l_german:
+ #Use Potions on Schemes
+ use_potions_in_scheme_decision:0 "Tränke in Plänen verwenden"
+ use_potions_in_scheme_decision_desc:0 "Warum sollte ich warten? Ich kann doch meine Tränke nutzen!"
+ use_potions_in_scheme_decision_tooltip:0 "Kaufe einige Zutaten, braue Tränke und verwende sie in deinen Plänen"
+ use_potions_in_scheme_decision_confirm:0 "Es ist Zeit, das Gelernte anzuwenden!"
+ use_potions_in_scheme_decision_missing_scheme:0 "Du musst mindestens #V 1 #! aktiven [scheme|E]" haben"
+ use_potions_in_scheme_decision_missing_scheme_effect:0 "Deine aktiven [schemes|E] werden sofort Fortschritte machen"
+ use_potions_in_scheme_decision_msg:0 "Der Fortschritt deiner [schemes|E]!"
+
+ #Create a miracle potion
+ create_a_miracle_potion_decision:0 "Ein Wundertrank herstellen"
+ create_a_miracle_potion_decision_desc:0 "Es ist an der Zeit, mein Wissen in Alchemie zu nutzen, um mein eigenes Leben zu retten"
+ create_a_miracle_potion_decision_tooltip:0 "Durch einen von mir hergestellten Trank werde ich meine Gesundheit wiedererlangen"
+ create_a_miracle_potion_decision_confirm:0 "Es ist Zeit, wieder gesund zu werden"
+ create_a_miracle_potion_decision_missing_scheme:0 "Du musst mindestens eine Krankheit haben"
+ create_a_miracle_potion_decision_missing_scheme_effect:0 "Du wirst von all deinen Krankheiten geheilt"
+ create_a_miracle_potion_decision_msg:0 "Du fühlst dich verjüngt"

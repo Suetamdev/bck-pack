@@ -1,0 +1,18 @@
+﻿l_spanish:
+ #Use Potions on Schemes
+ use_potions_in_scheme_decision:0 "Usar pociones en los planes"
+ use_potions_in_scheme_decision_desc:0 "¿Por qué esperar? ¡Cuando puedo usar mis pociones!"
+ use_potions_in_scheme_decision_tooltip:0 "Compra algunos ingredientes, haz pociones y úsalas en tus planes"
+ use_potions_in_scheme_decision_confirm:0 "¡Es hora de usar lo que he aprendido!"
+ use_potions_in_scheme_decision_missing_scheme:0 "Necesitas tener al menos #V 1 #! plan activo [scheme|E]"
+ use_potions_in_scheme_decision_missing_scheme_effect:0 "Tus planes activos [schemes|E] ganarán progreso instantáneamente"
+ use_potions_in_scheme_decision_msg:0 "¡Tu [schemes|E] progresa!"
+ 
+ #Create a miracle potion
+ create_a_miracle_potion_decision:0 "Crear una poción milagrosa"
+ create_a_miracle_potion_decision_desc:0 "Es hora de usar mis conocimientos en alquimia para salvar mi propia vida"
+ create_a_miracle_potion_decision_tooltip:0 "A través de una poción creada por mí, recuperaré mi salud"
+ create_a_miracle_potion_decision_confirm:0 "Es hora de estar sano nuevamente"
+ create_a_miracle_potion_decision_missing_scheme:0 "Necesitas tener al menos una enfermedad"
+ create_a_miracle_potion_decision_missing_scheme_effect:0 "Serás curado de todas tus enfermedades"
+ create_a_miracle_potion_decision_msg:0 "Te sientes rejuvenecido"

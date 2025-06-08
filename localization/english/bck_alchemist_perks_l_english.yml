@@ -1,0 +1,14 @@
+﻿l_english:
+ # Alchemist Tree
+ alchemist_name:0 "Alchemist"
+ alchemist_perk_name:0 "Alchemist"
+
+ studing_potions_perk_name:0 "Studing Potions"
+ studing_herbs_perk_name:0 "Studing Herbs"
+ basic_alchemy_perk_name:0 "Basic Alchemy"
+ potion_master_perk_name:0 "Potion Master"
+ potion_master_perk_description:0 "Enables the decision to use potions on schemes"
+ herb_gardens_perk_name:0 "Herb Gardens"
+ herbs_rerserve_perk_adventurer_name:0 "Herbs Reserve"
+ the_secret_of_life_perk_name:0 "The Secret of Life"
+ making_fools_gold_perk_name:0 "Making fools' gold"

@@ -1,0 +1,5 @@
+﻿l_korean:
+ #Inquisitor
+ trait_inquisitor:0 "종교 재판관"
+ trait_inquisitor_desc:0 "종교 재판관은 정의를 구현하고 진실을 밝히며 성실과 결단력으로 무고한 자들을 보호합니다."
+ trait_inquisitor_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip]는 [ROOT.GetCharacter.GetFaith.GetNameNoTooltip]의 수호자입니다."

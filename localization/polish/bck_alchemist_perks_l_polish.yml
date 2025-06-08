@@ -1,0 +1,14 @@
+﻿l_polish:
+ # Alchemist Tree
+ alchemist_name:0 "Alchemik"
+ alchemist_perk_name:0 "Alchemik"
+
+ studing_potions_perk_name:0 "Studiowanie Mikstur"
+ studing_herbs_perk_name:0 "Studiowanie Ziół"
+ basic_alchemy_perk_name:0 "Podstawowa Alchemia"
+ potion_master_perk_name:0 "Mistrz Mikstur"
+ potion_master_perk_description:0 "Umożliwia decyzję o używaniu mikstur w intrygach"
+ herb_gardens_perk_name:0 "Ogrody Ziół"
+ herbs_rerserve_perk_adventurer_name:0 "Rezerwa Ziół"
+ the_secret_of_life_perk_name:0 "Sekret Życia"
+ making_fools_gold_perk_name:0 "Wytwarzanie Złota Głupców"

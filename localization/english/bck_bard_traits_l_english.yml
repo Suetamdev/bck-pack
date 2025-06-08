@@ -1,0 +1,5 @@
+﻿l_english:
+ #Bard
+ trait_bard:0 "Bard"
+ trait_bard_desc:0 "The bard is a mesmerizing troubadour with a voice that stirs hearts and tales that echo eternity."
+ trait_bard_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a wandering minstrel, strumming melodies and sharing tales, embracing freedom with every note."

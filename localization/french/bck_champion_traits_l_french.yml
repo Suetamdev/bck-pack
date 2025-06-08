@@ -1,0 +1,5 @@
+﻿l_french:
+ #Champion
+ trait_champion:0 "Champion"
+ trait_champion_desc:0 "Le champion est un maître des tournois, avec d'innombrables victoires."
+ trait_champion_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] est un maître des tournois, avec d'innombrables victoires."

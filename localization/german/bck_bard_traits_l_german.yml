@@ -1,0 +1,5 @@
+﻿l_german:
+ #Bard
+ trait_bard:0 "Barde"
+ trait_bard_desc:0 "Der Barde ist ein fesselnder Troubadour mit einer Stimme, die Herzen bewegt und Geschichten, die die Ewigkeit widerhallen."
+ trait_bard_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] ist ein umherziehender Minnesänger, der Melodien spielt und Geschichten erzählt, die mit jeder Note die Freiheit umarmen."

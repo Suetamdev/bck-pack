@@ -1,0 +1,5 @@
+﻿l_simp_chinese:
+ #Alchemist
+ trait_alchemist:0 "炼金术士"
+ trait_alchemist_desc:0 "炼金术士是一位使事物变得更好的大师"
+ trait_alchemist_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] 是一位炼金术大师，他发现如果没有某种牺牲，这一生就没有什么可提供的。"

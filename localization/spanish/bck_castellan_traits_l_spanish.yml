@@ -1,0 +1,9 @@
+﻿l_spanish: 
+  trait_lifestyle_castellan:0 "Castellano"
+  trait_lifestyle_castellan_desc:0 "Este personaje ocupa la estimada posición de castellano, encargado de la administración y defensa de un castillo o ciudad. Sus deberes incluyen la gestión de recursos, la seguridad y la administración, garantizando la prosperidad y seguridad de su dominio."
+  trait_lifestyle_castellan_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] desempeñó un papel crucial como castellano, supervisando el gobierno y la defensa de un castillo o ciudad con dedicación inquebrantable. Su experiencia y compromiso fueron fundamentales para asegurar la seguridad y prosperidad del dominio, convirtiéndolo en un recurso indispensable para el reino."
+  
+  trait_track_city:0 "Ciudad"
+  trait_track_city_desc:0 "Este personaje fue el guardián firme de la ciudad, cuyo compromiso inquebrantable con su prosperidad se reflejaba en sus esfuerzos incansables."
+  trait_track_castle:0 "Castillo"
+  trait_track_castle_desc:0 "Este personaje fue el vigilante guardián del castillo, cuya dedicación constante a su protección se manifestaba en cada decisión tomada."

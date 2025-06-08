@@ -1,0 +1,5 @@
+﻿l_russian:
+ #Alchemist
+ trait_alchemist:0 "Алхимик"
+ trait_alchemist_desc:0 "Алхимик — мастер, преобразующий вещи к лучшему."
+ trait_alchemist_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] является мастером-алхимиком и обнаружил, что ничто в этой жизни не может быть предложено без своего рода жертвы."

@@ -1,0 +1,5 @@
+﻿l_english:
+ #Alchemist
+ trait_alchemist:0 "Alchemist"
+ trait_alchemist_desc:0 "The Alchemist is a master who transform things for the better"
+ trait_alchemist_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a master alchemist, and had found that nothing in this life can be offered without a kind of sacrifice."

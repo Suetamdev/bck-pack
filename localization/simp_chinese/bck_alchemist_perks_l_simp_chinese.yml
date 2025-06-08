@@ -1,0 +1,14 @@
+﻿l_simp_chinese:
+ # Alchemist Tree
+ alchemist_name:0 "炼金术士"
+ alchemist_perk_name:0 "炼金术士"
+
+ studing_potions_perk_name:0 "学习魔药"
+ studing_herbs_perk_name:0 "研究草药"
+ basic_alchemy_perk_name:0 "基础炼金术"
+ potion_master_perk_name:0 "药剂大师"
+ potion_master_perk_description:0 "使得可以在谋划中使用药剂的决策可用"
+ herb_gardens_perk_name:0 "药草园"
+ herbs_rerserve_perk_adventurer_name:0 "草药储备"
+ the_secret_of_life_perk_name:0 "生命的秘密"
+ making_fools_gold_perk_name:0 "制造愚人金"

@@ -1,0 +1,13 @@
+﻿l_simp_chinese:
+ #Inquisitor Tree
+ inquisitor_name:0 "宗教裁判官"
+ inquisitor_perk_name:0 "宗教裁判官"
+
+ one_faith_perk_name:0 "唯一信仰"
+ one_culture_perk_name:0 "唯一文化"
+ blessed_pilgrimages_perk_name:0 "受祝福的朝圣"
+ holy_domain_perk_name:0 "神圣领地"
+ blessed_walls_perk_name:0 "受祝福的城墙"
+ blessed_tents_perk_adventurer_name:0 "受祝福的帐篷"
+ donations_for_the_great_god_perk_name:0 "献给伟大神的捐赠"
+ blessed_management_perk_name:0 "受祝福的管理"

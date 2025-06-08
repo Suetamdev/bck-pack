@@ -1,0 +1,5 @@
+﻿l_polish:
+ #Champion
+ trait_champion:0 "Mistrz"
+ trait_champion_desc:0 "Mistrz to ekspert turniejów, z niezliczonymi zwycięstwami."
+ trait_champion_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] jest mistrzem turniejów, z niezliczonymi zwycięstwami."

@@ -1,0 +1,45 @@
+﻿lifestyle_castellan = {
+    icon = castellan.dds
+    category = lifestyle
+    ruler_designer_cost = 20
+
+    desc = {
+        first_valid = {
+            triggered_desc = {
+                trigger = {
+                    NOT = { exists = this }
+                }
+                desc = trait_lifestyle_castellan_desc
+            }
+            desc = trait_lifestyle_castellan_character_desc
+        }
+    }
+
+    tracks = {
+        city = {
+            33 = {
+                stewardship = 1
+            }
+            66 = {
+                stewardship = 1
+            }
+            100 = {
+                stewardship = 2
+                tax_mult = 0.05
+            }
+        }
+        castle = {
+            33 = {
+                martial = 1
+            }
+            66 = {
+                martial = 1
+            }
+            100 = {
+                martial = 2
+                fort_level = 1
+            }
+        }
+    }
+    ai_energy = 15
+}

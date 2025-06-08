@@ -1,0 +1,9 @@
+﻿l_english: 
+  trait_lifestyle_castellan:0 "Castellan"
+  trait_lifestyle_castellan_desc:0 "This character holds the esteemed position of castellan, entrusted with the stewardship and defense of a castle or city. Their duties encompass the management of resources, security, and administration, ensuring the prosperity and safety of their domain."
+  trait_lifestyle_castellan_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] held a crucial position as castellan, overseeing the governance and defense of a castle or city with unwavering dedication. His expertise and commitment were instrumental in ensuring the safety and prosperity of the domain, making him an indispensable asset to the realm."
+  
+  trait_track_city:0 "City"
+  trait_track_city_desc:0 "This character stood as the steadfast guardian of the city, their unwavering commitment to its prosperity evident in their tireless efforts."
+  trait_track_castle:0 "Castle"
+  trait_track_castle_desc:0 "This character stood as the vigilant guardian of the castle, their steadfast dedication to its protection evident in every decision made."

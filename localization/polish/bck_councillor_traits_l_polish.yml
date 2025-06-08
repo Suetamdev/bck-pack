@@ -1,0 +1,17 @@
+﻿l_polish: 
+  trait_lifestyle_councillor:0 "Doradca"
+  trait_lifestyle_councillor_desc:0 "Postać ta służyła na dworze jako doradca, odgrywając kluczową rolę w sprawach i decyzjach dworu."
+  trait_lifestyle_councillor_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] odegrał/a ważną rolę na dworze, wnosiąc swoją wiedzę i oddanie w zapewnienie dobrobytu i stabilności królestwa. Czy to jako zaufany towarzysz, zarządca, marszałek, kapelan, kanclerz, czy mistrz szpiegów."
+
+  trait_track_confidant:0 "Zaufany"
+  trait_track_confidant_desc:0 "Postać ta była zaufanym doradcą władcy, specjalizując się w udzielaniu niezachwianego wsparcia i mądrych rad. Jego/jej rola wykraczała poza zwykłe doradztwo; był/a fundamentem zaufania i towarzystwa, biegłym/biegłą w prowadzeniu spraw dworu i ochronie interesów monarchy. Jego/jej lojalność i mądrość były kluczowe w kształtowaniu decyzji władcy i zapewnieniu stabilności oraz dobrobytu królestwa."
+  trait_track_chaplain:0 "Kapelan"
+  trait_track_chaplain_desc:0 "Postać ta pełniła funkcję kapelana na dworze królewskim, oferując duchowe prowadzenie i radę władcy i dworzanom."
+  trait_track_chancellor:0 "Kanclerz"
+  trait_track_chancellor_desc:0 "Postać ta pełniła funkcję kanclerza na dworze królewskim, specjalizując się w sprawach dyplomatycznych i negocjacjach, z umiejętnością poruszania się w trudnym terenie politycznym, aby promować interesy swojego władcy."
+  trait_track_steward:0 "Zarządca"
+  trait_track_steward_desc:0 "Postać ta pełniła funkcję zarządcy na dworze królewskim, nadzorując finanse, majątek i zasoby królestwa z niezachwianą starannością i efektywnością, zapewniając dobrobyt i stabilność królestwa."
+  trait_track_marshal:0 "Marszałek"
+  trait_track_marshal_desc:0 "Postać ta pełniła zaszczytną funkcję marszałka na dworze królewskim, dowodząc wojskami królestwa z niezrównaną biegłością i strategiczną przenikliwością, chroniąc królestwo przed zewnętrznymi zagrożeniami i zapewniając jego obronę i bezpieczeństwo."
+  trait_track_spymaster:0 "Mistrz szpiegów"
+  trait_track_spymaster_desc:0 "Postać ta pełniła funkcję mistrza szpiegów na dworze królewskim, działając w cieniu z przebiegłością i dyskrecją, zbierając informacje, odkrywając spiski i chroniąc królestwo przed wewnętrznymi zagrożeniami i intrygami."

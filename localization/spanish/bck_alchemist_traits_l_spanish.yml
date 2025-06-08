@@ -1,0 +1,5 @@
+﻿l_spanish:
+ #Alchemist
+ trait_alchemist:0 "Alquimista"
+ trait_alchemist_desc:0 "El Alquimista es un maestro que transforma las cosas para mejor."
+ trait_alchemist_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] Es un maestro alquimista y ha descubierto que nada en esta vida puede ofrecerse sin una especie de sacrificio."

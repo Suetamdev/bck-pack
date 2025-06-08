@@ -1,0 +1,5 @@
+﻿l_french:
+ #Bard
+ trait_bard:0 "Barde"
+ trait_bard_desc:0 "Le barde est un troubadour fascinant, avec une voix qui éveille les cœurs et des histoires qui résonnent à travers l'éternité."
+ trait_bard_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] est un ménestrel errant, jouant des mélodies et racontant des histoires, embrassant la liberté à chaque note."

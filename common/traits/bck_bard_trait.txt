@@ -1,0 +1,25 @@
+﻿## LIFESTYLES BCK ###################################
+
+bard = {
+    category = lifestyle
+    name = trait_bard
+
+    owned_legend_spread_mult = 0.15
+    diplomacy_per_prestige_level = 1
+    attraction_opinion = 25
+    owned_scheme_secrecy_add = 15
+
+    ruler_designer_cost = 50
+
+    desc = {
+        first_valid = {
+            triggered_desc = {
+                trigger = {
+                    NOT = { exists = this }
+                }
+                desc = trait_bard_desc
+            }
+            desc = trait_bard_character_desc
+        }
+    }
+}
