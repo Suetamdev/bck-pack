@@ -1,0 +1,24 @@
+l_simp_chinese:
+ # Writing Annotations
+ write_annotations_decision:0 "书籍批注"
+ write_annotations_decision_desc:0 "作为一名编年史学家!，你拥有通过仔细批注来完善和扩展书籍或日记意义的知识。"
+ write_annotations_decision_tooltip:0 "你将为随机装备的书籍或日记添加批注，以提升其价值和洞察力。"
+ write_annotations_missing_equipped_artifact:0 "你需要装备一本书籍或日记才能书写批注。"
+ write_annotations_decision_confirm:0 "我将铭刻我的智慧"
+
+ # Decision Interface
+ SCHOLIA_MASTER_CHOOSE_ANNOTATION_BUTTON: "选择批注焦点"
+ simple_annotation_decision: "简单批注"
+ simple_annotation_decision_tooltip: "这会让随机书籍或日记增加家族声望和附庸上限。"
+ diplomacy_annotation_decision: "外交批注"
+ diplomacy_annotation_decision_tooltip: "这会让随机书籍或日记增加外交能力和每月声望。"
+ martial_annotation_decision:0 "军事批注"
+ martial_annotation_decision_tooltip:0 "这会让随机书籍或日记增加军事能力和骑士效能。"
+ stewardship_annotation_decision:0 "管理批注"
+ stewardship_annotation_decision_tooltip:0 "这会让随机书籍或日记增加管理能力和发展增长。"
+ intrigue_annotation_decision:0 "阴谋批注"
+ intrigue_annotation_decision_tooltip:0 "这会让随机书籍或日记增加阴谋能力和自有敌对计划成功几率。"
+ learning_and_medicine_annotation_decision:0 "学识与医学批注"
+ learning_and_medicine_annotation_decision_tooltip:0 "这会让随机书籍或日记增加学识和健康。"
+ wandering_annotation_decision:0 "流浪批注"
+ wandering_annotation_decision_tooltip:0 "这会让随机书籍或日记增加勇气和旅行速度。"

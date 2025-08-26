@@ -1,0 +1,1 @@
+﻿bck_chronicler_character_travel_speed_mult_1 = { character_travel_speed_mult = 0.01 }

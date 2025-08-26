@@ -1,0 +1,20 @@
+﻿l_english:
+ # Chronicler Tree
+ chronicler_name:0 "Chronicler"
+ chronicler_perk_name:0 "Chronicler"
+
+ bloodlines_in_ink_perk_name:0 "Bloodlines in Ink"
+ insightful_annotations_perk_name:0 "Insightful Annotations"
+ insightful_annotations_perk_description:0 "Enables the decision to Writing annotations in books and journals, deepening their value and insight."
+ reflections_on_diplomacy_perk_name:0 "Reflections of Diplomacy"
+ reflections_on_diplomacy_perk_description:0 "Enables a option focused on diplomacy themes when Writing annotations in books and journals."
+ commanders_duty_perk_name:0 "Commander's Duty"
+ commanders_duty_perk_description:0 "Enables a option focused on martial themes when Writing annotations in books and journals."
+ master_of_coin_perk_name:0 "Master of Coin"
+ master_of_coin_perk_description:0 "Enables a option focused on stewardship themes when Writing annotations in books and journals."
+ shade_network_perk_name:0 "Shade Network"
+ shade_network_perk_description:0 "Enables a option focused on intrigue themes when Writing annotations in books and journals."
+ herbs_and_anatomy_perk_name:0 "Herbs and Anatomy"
+ herbs_and_anatomy_perk_description:0 "Enables a option focused on learning and medical themes when Writing annotations in books and journals."
+ tales_of_old_perk_name:0 "Tales of Old"
+ tales_of_old_perk_description:0 "Enables a option focused on wandering themes when Writing annotations in books and journals."

@@ -1,0 +1,5 @@
+﻿l_english:
+ #Chronicler
+ trait_chronicler:0 "Chronicler"
+ trait_chronicler_desc:0 "The chronicler is a devoted recorder of events, weaving words into accounts that preserve memory and give meaning to the flow of time."
+ trait_chronicler_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] diligently documents the deeds of others, shaping stories that will outlast lifetimes and safeguard the truth of history."

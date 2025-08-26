@@ -1,0 +1,24 @@
+l_german:
+ # Writing Annotations
+ write_annotations_decision:0 "Anmerkungen schreiben"
+ write_annotations_decision_desc:0 "Als Chronist! besitzen Sie das Wissen, um den Sinn eines Buches oder Tagebuchs durch sorgfältige Anmerkungen zu verfeinern und zu erweitern."
+ write_annotations_decision_tooltip:0 "Sie werden ein zufällig ausgestattetes Buch oder Tagebuch annotieren, um dessen Wert und Einsicht zu verbessern."
+ write_annotations_missing_equipped_artifact:0 "Sie müssen ein Buch oder Tagebuch ausgerüstet haben, um Anmerkungen schreiben zu können."
+ write_annotations_decision_confirm:0 "Ich werde meine Weisheit eintragen"
+
+ # Decision Interface
+ SCHOLIA_MASTER_CHOOSE_ANNOTATION_BUTTON: "Annotationsfokus wählen"
+ simple_annotation_decision: "Einfache Anmerkungen"
+ simple_annotation_decision_tooltip: "Ein zufälliges Buch oder Tagebuch wird Dynastie-Meinung und Vasallen-Limit geben."
+ diplomacy_annotation_decision: "Diplomatie-Anmerkungen"
+ diplomacy_annotation_decision_tooltip: "Ein zufälliges Buch oder Tagebuch wird Diplomatie und monatliches Prestige geben."
+ martial_annotation_decision:0 "Militärische Anmerkungen"
+ martial_annotation_decision_tooltip:0 "Ein zufälliges Buch oder Tagebuch wird militärische Werte und Ritter-Effektivität geben."
+ stewardship_annotation_decision:0 "Verwaltungsanmerkungen"
+ stewardship_annotation_decision_tooltip:0 "Ein zufälliges Buch oder Tagebuch wird Verwaltung und Entwicklungswachstum geben."
+ intrigue_annotation_decision:0 "Intrigen-Anmerkungen"
+ intrigue_annotation_decision_tooltip:0 "Ein zufälliges Buch oder Tagebuch wird Intrige und Erfolgschance eigener feindlicher Pläne geben."
+ learning_and_medicine_annotation_decision:0 "Lern- und Medizin-Anmerkungen"
+ learning_and_medicine_annotation_decision_tooltip:0 "Ein zufälliges Buch oder Tagebuch wird Lernen und Gesundheit geben."
+ wandering_annotation_decision:0 "Wandernde Anmerkungen"
+ wandering_annotation_decision_tooltip:0 "Ein zufälliges Buch oder Tagebuch wird Tapferkeit und Reisegeschwindigkeit erhöhen."

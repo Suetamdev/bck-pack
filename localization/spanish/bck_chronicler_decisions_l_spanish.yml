@@ -1,0 +1,24 @@
+l_spanish:
+ # Writing Annotations
+ write_annotations_decision:0 "Escribiendo anotaciones"
+ write_annotations_decision_desc:0 "Como Cronista!, tienes el conocimiento para refinar y expandir el significado de un libro o diario mediante cuidadosas anotaciones."
+ write_annotations_decision_tooltip:0 "Anotarás un libro o diario equipado al azar para mejorar su valor e insight."
+ write_annotations_missing_equipped_artifact:0 "Necesitas tener un libro o diario equipado para escribir anotaciones."
+ write_annotations_decision_confirm:0 "Inscribiré mi sabiduría"
+
+ # Decision Interface
+ SCHOLIA_MASTER_CHOOSE_ANNOTATION_BUTTON: "Elegir enfoque de anotación"
+ simple_annotation_decision: "Anotaciones simples"
+ simple_annotation_decision_tooltip: "Esto hará que un libro o diario aleatorio otorgue opinión de la dinastía y límite de vasallos."
+ diplomacy_annotation_decision: "Anotaciones de diplomacia"
+ diplomacy_annotation_decision_tooltip: "Esto hará que un libro o diario aleatorio otorgue diplomacia y prestigio mensual."
+ martial_annotation_decision:0 "Anotaciones militares"
+ martial_annotation_decision_tooltip:0 "Esto hará que un libro o diario aleatorio otorgue militar y efectividad de caballeros."
+ stewardship_annotation_decision:0 "Anotaciones de administración"
+ stewardship_annotation_decision_tooltip:0 "Esto hará que un libro o diario aleatorio otorgue administración y crecimiento del desarrollo."
+ intrigue_annotation_decision:0 "Anotaciones de intriga"
+ intrigue_annotation_decision_tooltip:0 "Esto hará que un libro o diario aleatorio otorgue intriga y probabilidad de éxito de planes hostiles propios."
+ learning_and_medicine_annotation_decision:0 "Anotaciones de aprendizaje y medicina"
+ learning_and_medicine_annotation_decision_tooltip:0 "Esto hará que un libro o diario aleatorio otorgue aprendizaje y salud."
+ wandering_annotation_decision:0 "Anotaciones errantes"
+ wandering_annotation_decision_tooltip:0 "Esto hará que un libro o diario aleatorio otorgue destreza y multiplicador de velocidad de viaje."

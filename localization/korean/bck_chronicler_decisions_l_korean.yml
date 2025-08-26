@@ -1,0 +1,24 @@
+l_korean:
+ # Writing Annotations
+ write_annotations_decision:0 "주석 작성"
+ write_annotations_decision_desc:0 "Chronicler!로서, 당신은 책이나 일기의 의미를 세심한 주석으로 다듬고 확장할 수 있는 지식을 가지고 있습니다."
+ write_annotations_decision_tooltip:0 "장착한 책이나 일기 중 무작위로 선택하여 그 가치와 통찰력을 향상시키는 주석을 추가합니다."
+ write_annotations_missing_equipped_artifact:0 "주석을 작성하려면 책이나 일기를 장착해야 합니다."
+ write_annotations_decision_confirm:0 "내 지혜를 기록하겠다"
+
+ # Decision Interface
+ SCHOLIA_MASTER_CHOOSE_ANNOTATION_BUTTON: "주석 초점 선택"
+ simple_annotation_decision: "간단한 주석"
+ simple_annotation_decision_tooltip: "무작위 책이나 일기가 가문 평판과 봉신 한도를 증가시킵니다."
+ diplomacy_annotation_decision: "외교 주석"
+ diplomacy_annotation_decision_tooltip: "무작위 책이나 일기가 외교력과 월간 명성을 증가시킵니다."
+ martial_annotation_decision:0 "군사 주석"
+ martial_annotation_decision_tooltip:0 "무작위 책이나 일기가 군사력과 기사 효율성을 증가시킵니다."
+ stewardship_annotation_decision:0 "관리 주석"
+ stewardship_annotation_decision_tooltip:0 "무작위 책이나 일기가 관리력과 개발 성장률을 증가시킵니다."
+ intrigue_annotation_decision:0 "음모 주석"
+ intrigue_annotation_decision_tooltip:0 "무작위 책이나 일기가 음모력과 소유한 적대 계획 성공 확률을 증가시킵니다."
+ learning_and_medicine_annotation_decision:0 "학문 및 의학 주석"
+ learning_and_medicine_annotation_decision_tooltip:0 "무작위 책이나 일기가 학문력과 건강을 증가시킵니다."
+ wandering_annotation_decision:0 "방랑 주석"
+ wandering_annotation_decision_tooltip:0 "무작위 책이나 일기가 용기와 이동 속도를 증가시킵니다."

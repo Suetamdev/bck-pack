@@ -1,0 +1,5 @@
+l_polish:
+ #Chronicler
+ trait_chronicler:0 "Kronikarz"
+ trait_chronicler_desc:0 "Kronikarz jest oddanym rejestratorem wydarzeń, splatając słowa w relacje, które zachowują pamięć i nadają sens upływowi czasu."
+ trait_chronicler_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] skrupulatnie dokumentuje czyny innych, kształtując historie, które przetrwają pokolenia i zachowają prawdę historii."

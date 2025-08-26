@@ -1,0 +1,20 @@
+l_french:
+ # Chronicler Tree
+ chronicler_name:0 "Chroniqueur"
+ chronicler_perk_name:0 "Chroniqueur"
+
+ bloodlines_in_ink_perk_name:0 "Lignées en encre"
+ insightful_annotations_perk_name:0 "Annotations perspicaces"
+ insightful_annotations_perk_description:0 "Active la décision d'écrire des annotations dans les livres et journaux, approfondissant leur valeur et leur sens."
+ reflections_on_diplomacy_perk_name:0 "Réflexions sur la diplomatie"
+ reflections_on_diplomacy_perk_description:0 "Active une option centrée sur les thèmes diplomatiques lors de l'écriture d'annotations dans les livres et journaux."
+ commanders_duty_perk_name:0 "Devoir du commandant"
+ commanders_duty_perk_description:0 "Active une option centrée sur les thèmes militaires lors de l'écriture d'annotations dans les livres et journaux."
+ master_of_coin_perk_name:0 "Maître de la monnaie"
+ master_of_coin_perk_description:0 "Active une option centrée sur les thèmes de gestion lors de l'écriture d'annotations dans les livres et journaux."
+ shade_network_perk_name:0 "Réseau de l'ombre"
+ shade_network_perk_description:0 "Active une option centrée sur les thèmes d'intrigue lors de l'écriture d'annotations dans les livres et journaux."
+ herbs_and_anatomy_perk_name:0 "Herbes et anatomie"
+ herbs_and_anatomy_perk_description:0 "Active une option centrée sur les thèmes d'apprentissage et de médecine lors de l'écriture d'annotations dans les livres et journaux."
+ tales_of_old_perk_name:0 "Contes anciens"
+ tales_of_old_perk_description:0 "Active une option centrée sur les thèmes vagabonds lors de l'écriture d'annotations dans les livres et journaux."

@@ -1,0 +1,5 @@
+l_korean:
+ #Chronicler
+ trait_chronicler:0 "연대기 작가"
+ trait_chronicler_desc:0 "연대기 작가는 사건을 충실히 기록하며, 단어를 엮어 기억을 보존하고 시간의 흐름에 의미를 부여하는 사람입니다."
+ trait_chronicler_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip]는 다른 사람들의 행적을 부지런히 기록하며, 세대를 넘어 지속될 이야기와 역사의 진실을 지킵니다."

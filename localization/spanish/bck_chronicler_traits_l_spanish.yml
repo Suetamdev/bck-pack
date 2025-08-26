@@ -1,0 +1,5 @@
+l_spanish:
+ #Chronicler
+ trait_chronicler:0 "Cronista"
+ trait_chronicler_desc:0 "El cronista es un devoto registrador de acontecimientos, tejiendo palabras en relatos que preservan la memoria y dan significado al flujo del tiempo."
+ trait_chronicler_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] documenta diligentemente las acciones de otros, creando historias que perdurarán generaciones y salvaguardarán la verdad histórica."

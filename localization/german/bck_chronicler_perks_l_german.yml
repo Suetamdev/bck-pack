@@ -1,0 +1,20 @@
+l_german:
+ # Chronicler Tree
+ chronicler_name:0 "Chronist"
+ chronicler_perk_name:0 "Chronist"
+
+ bloodlines_in_ink_perk_name:0 "Blutlinien in Tinte"
+ insightful_annotations_perk_name:0 "Einsichtsvolle Anmerkungen"
+ insightful_annotations_perk_description:0 "Ermöglicht die Entscheidung, Anmerkungen in Büchern und Tagebüchern zu schreiben und deren Wert und Einsicht zu vertiefen."
+ reflections_on_diplomacy_perk_name:0 "Reflexionen der Diplomatie"
+ reflections_on_diplomacy_perk_description:0 "Ermöglicht eine Option, die sich auf diplomatische Themen beim Schreiben von Anmerkungen in Büchern und Tagebüchern konzentriert."
+ commanders_duty_perk_name:0 "Pflicht des Kommandanten"
+ commanders_duty_perk_description:0 "Ermöglicht eine Option, die sich auf militärische Themen beim Schreiben von Anmerkungen in Büchern und Tagebüchern konzentriert."
+ master_of_coin_perk_name:0 "Meister der Münze"
+ master_of_coin_perk_description:0 "Ermöglicht eine Option, die sich auf Verwaltungsthemen beim Schreiben von Anmerkungen in Büchern und Tagebüchern konzentriert."
+ shade_network_perk_name:0 "Schattennetzwerk"
+ shade_network_perk_description:0 "Ermöglicht eine Option, die sich auf Intrigen-Themen beim Schreiben von Anmerkungen in Büchern und Tagebüchern konzentriert."
+ herbs_and_anatomy_perk_name:0 "Kräuter und Anatomie"
+ herbs_and_anatomy_perk_description:0 "Ermöglicht eine Option, die sich auf Lern- und Medizin-Themen beim Schreiben von Anmerkungen in Büchern und Tagebüchern konzentriert."
+ tales_of_old_perk_name:0 "Erzählungen der Alten"
+ tales_of_old_perk_description:0 "Ermöglicht eine Option, die sich auf Wander-Themen beim Schreiben von Anmerkungen in Büchern und Tagebüchern konzentriert."

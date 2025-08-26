@@ -1,0 +1,20 @@
+l_spanish:
+ # Chronicler Tree
+ chronicler_name:0 "Cronista"
+ chronicler_perk_name:0 "Cronista"
+
+ bloodlines_in_ink_perk_name:0 "Líneas de sangre en tinta"
+ insightful_annotations_perk_name:0 "Anotaciones perspicaces"
+ insightful_annotations_perk_description:0 "Habilita la decisión de escribir anotaciones en libros y diarios, profundizando su valor e información."
+ reflections_on_diplomacy_perk_name:0 "Reflexiones sobre diplomacia"
+ reflections_on_diplomacy_perk_description:0 "Habilita una opción centrada en temas de diplomacia al escribir anotaciones en libros y diarios."
+ commanders_duty_perk_name:0 "Deber del comandante"
+ commanders_duty_perk_description:0 "Habilita una opción centrada en temas militares al escribir anotaciones en libros y diarios."
+ master_of_coin_perk_name:0 "Maestro de la moneda"
+ master_of_coin_perk_description:0 "Habilita una opción centrada en temas de administración al escribir anotaciones en libros y diarios."
+ shade_network_perk_name:0 "Red de sombras"
+ shade_network_perk_description:0 "Habilita una opción centrada en temas de intriga al escribir anotaciones en libros y diarios."
+ herbs_and_anatomy_perk_name:0 "Hierbas y anatomía"
+ herbs_and_anatomy_perk_description:0 "Habilita una opción centrada en temas de aprendizaje y medicina al escribir anotaciones en libros y diarios."
+ tales_of_old_perk_name:0 "Relatos antiguos"
+ tales_of_old_perk_description:0 "Habilita una opción centrada en temas de viaje al escribir anotaciones en libros y diarios."

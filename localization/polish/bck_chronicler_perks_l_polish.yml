@@ -1,0 +1,20 @@
+l_polish:
+ # Chronicler Tree
+ chronicler_name:0 "Kronikarz"
+ chronicler_perk_name:0 "Kronikarz"
+
+ bloodlines_in_ink_perk_name:0 "Krew w tuszu"
+ insightful_annotations_perk_name:0 "Wnikliwe adnotacje"
+ insightful_annotations_perk_description:0 "Umożliwia podjęcie decyzji o pisaniu adnotacji w książkach i dziennikach, pogłębiając ich wartość i treść."
+ reflections_on_diplomacy_perk_name:0 "Refleksje nad dyplomacją"
+ reflections_on_diplomacy_perk_description:0 "Umożliwia opcję skoncentrowaną na tematach dyplomatycznych podczas pisania adnotacji w książkach i dziennikach."
+ commanders_duty_perk_name:0 "Obowiązek dowódcy"
+ commanders_duty_perk_description:0 "Umożliwia opcję skoncentrowaną na tematach wojskowych podczas pisania adnotacji w książkach i dziennikach."
+ master_of_coin_perk_name:0 "Mistrz monet"
+ master_of_coin_perk_description:0 "Umożliwia opcję skoncentrowaną na tematach zarządzania podczas pisania adnotacji w książkach i dziennikach."
+ shade_network_perk_name:0 "Sieć cieni"
+ shade_network_perk_description:0 "Umożliwia opcję skoncentrowaną na tematach intryg podczas pisania adnotacji w książkach i dziennikach."
+ herbs_and_anatomy_perk_name:0 "Zioła i anatomia"
+ herbs_and_anatomy_perk_description:0 "Umożliwia opcję skoncentrowaną na tematach nauki i medycyny podczas pisania adnotacji w książkach i dziennikach."
+ tales_of_old_perk_name:0 "Opowieści dawnych czasów"
+ tales_of_old_perk_description:0 "Umożliwia opcję skoncentrowaną na tematach wędrówek podczas pisania adnotacji w książkach i dziennikach."

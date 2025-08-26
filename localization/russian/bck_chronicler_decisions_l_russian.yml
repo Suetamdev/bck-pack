@@ -1,0 +1,24 @@
+l_russian:
+ # Writing Annotations
+ write_annotations_decision:0 "Написание аннотаций"
+ write_annotations_decision_desc:0 "Как Хроникер!, вы обладаете знаниями, чтобы уточнять и расширять смысл книги или журнала с помощью тщательных аннотаций."
+ write_annotations_decision_tooltip:0 "Вы аннотируете случайно выбранную экипированную книгу или журнал, чтобы повысить её ценность и информативность."
+ write_annotations_missing_equipped_artifact:0 "Чтобы писать аннотации, нужно иметь экипированную книгу или журнал."
+ write_annotations_decision_confirm:0 "Я внесу свою мудрость"
+
+ # Decision Interface
+ SCHOLIA_MASTER_CHOOSE_ANNOTATION_BUTTON: "Выберите фокус аннотации"
+ simple_annotation_decision: "Простые аннотации"
+ simple_annotation_decision_tooltip: "Случайная книга или журнал даст мнение династии и лимит вассалов."
+ diplomacy_annotation_decision: "Дипломатические аннотации"
+ diplomacy_annotation_decision_tooltip: "Случайная книга или журнал даст дипломатию и ежемесячную известность."
+ martial_annotation_decision:0 "Военные аннотации"
+ martial_annotation_decision_tooltip:0 "Случайная книга или журнал даст военные навыки и эффективность рыцарей."
+ stewardship_annotation_decision:0 "Аннотации управления"
+ stewardship_annotation_decision_tooltip:0 "Случайная книга или журнал даст управление и рост развития."
+ intrigue_annotation_decision:0 "Аннотации интриги"
+ intrigue_annotation_decision_tooltip:0 "Случайная книга или журнал даст интригу и шанс успеха собственных враждебных планов."
+ learning_and_medicine_annotation_decision:0 "Аннотации науки и медицины"
+ learning_and_medicine_annotation_decision_tooltip:0 "Случайная книга или журнал даст науку и здоровье."
+ wandering_annotation_decision:0 "Блуждающие аннотации"
+ wandering_annotation_decision_tooltip:0 "Случайная книга или журнал даст доблесть и увеличит скорость путешествия."

@@ -1,0 +1,24 @@
+﻿l_english:
+ # Writing Annotations
+ write_annotations_decision:0 "Writing annotations"
+ write_annotations_decision_desc:0 "As a Chronicler!, you have the knowledge to refine and expand the meaning of a book or journal through careful annotations."
+ write_annotations_decision_tooltip:0 "You will annotate a random equiped book or journal to enhance its value and insight."
+ write_annotations_missing_equipped_artifact:0 "You need to have a book or journal equipped to write annotations."
+ write_annotations_decision_confirm:0 "I will inscribe my wisdom"
+
+ # Decision Interface
+ SCHOLIA_MASTER_CHOOSE_ANNOTATION_BUTTON: "Choose Annotation Focus"
+ simple_annotation_decision: "Simple annotations"
+ simple_annotation_decision_tooltip: "This will make a random book or journal give dynasty opinion and vassal limit."
+ diplomacy_annotation_decision: "Diplomacy annotations"
+ diplomacy_annotation_decision_tooltip: "This will make a random book or journal give diplomacy and monthly prestige"
+ martial_annotation_decision:0 "Martial Annotations"
+ martial_annotation_decision_tooltip:0 "This will make a random book or journal give martial and knight effectiveness"
+ stewardship_annotation_decision:0 "Stewardship Annotations"
+ stewardship_annotation_decision_tooltip:0 "This will make a random book or journal give stewardship and development growth"
+ intrigue_annotation_decision:0 "Intrigue Annotations"
+ intrigue_annotation_decision_tooltip:0 "This will make a random book or journal give intrigue and owned hostile scheme success chance"
+ learning_and_medicine_annotation_decision:0 "Learning and Medicine Annotations"
+ learning_and_medicine_annotation_decision_tooltip:0 "This will make a random book or journal give learning and health"
+ wandering_annotation_decision:0 "Wandering Annotations"
+ wandering_annotation_decision_tooltip:0 "This will make a random book or journal give prowess and travel speed multiplier"

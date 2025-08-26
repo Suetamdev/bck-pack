@@ -1,0 +1,5 @@
+l_german:
+ #Chronicler
+ trait_chronicler:0 "Chronist"
+ trait_chronicler_desc:0 "Der Chronist ist ein hingebungsvoller Aufzeichner von Ereignissen, der Worte zu Berichten webt, die Erinnerungen bewahren und dem Fluss der Zeit Bedeutung verleihen."
+ trait_chronicler_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] dokumentiert fleißig die Taten anderer und formt Geschichten, die Generationen überdauern und die Wahrheit der Geschichte bewahren."

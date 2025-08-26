@@ -1,0 +1,24 @@
+l_polish:
+ # Writing Annotations
+ write_annotations_decision:0 "Pisanie adnotacji"
+ write_annotations_decision_desc:0 "Jako Chronicler! posiadasz wiedzę, aby poprzez staranne adnotacje dopracować i poszerzyć znaczenie książki lub dziennika."
+ write_annotations_decision_tooltip:0 "Dodasz adnotacje do losowo wybranej wyposażonej książki lub dziennika, zwiększając jej wartość i wgląd."
+ write_annotations_missing_equipped_artifact:0 "Musisz mieć wyposażoną książkę lub dziennik, aby pisać adnotacje."
+ write_annotations_decision_confirm:0 "Zapiszę swoją mądrość"
+
+ # Decision Interface
+ SCHOLIA_MASTER_CHOOSE_ANNOTATION_BUTTON: "Wybierz fokus adnotacji"
+ simple_annotation_decision: "Proste adnotacje"
+ simple_annotation_decision_tooltip: "Losowa książka lub dziennik zwiększy opinię dynastii i limit wasali."
+ diplomacy_annotation_decision: "Adnotacje dyplomatyczne"
+ diplomacy_annotation_decision_tooltip: "Losowa książka lub dziennik zwiększy dyplomację i miesięczne uznanie."
+ martial_annotation_decision:0 "Adnotacje militarne"
+ martial_annotation_decision_tooltip:0 "Losowa książka lub dziennik zwiększy wojskowość i skuteczność rycerzy."
+ stewardship_annotation_decision:0 "Adnotacje administracyjne"
+ stewardship_annotation_decision_tooltip:0 "Losowa książka lub dziennik zwiększy zarządzanie i wzrost rozwoju."
+ intrigue_annotation_decision:0 "Adnotacje intryg"
+ intrigue_annotation_decision_tooltip:0 "Losowa książka lub dziennik zwiększy intrygę i szansę sukcesu własnych wrogich planów."
+ learning_and_medicine_annotation_decision:0 "Adnotacje nauki i medycyny"
+ learning_and_medicine_annotation_decision_tooltip:0 "Losowa książka lub dziennik zwiększy naukę i zdrowie."
+ wandering_annotation_decision:0 "Adnotacje wędrówki"
+ wandering_annotation_decision_tooltip:0 "Losowa książka lub dziennik zwiększy męstwo i szybkość podróży."

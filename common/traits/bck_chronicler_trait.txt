@@ -1,0 +1,22 @@
+﻿chronicler = {
+    category = lifestyle
+    name = trait_chronicler
+
+    learning_per_prestige_level = 1
+    vassal_opinion = 15
+    owned_legend_spread_mult = 0.15
+
+    ruler_designer_cost = 50
+
+    desc = {
+        first_valid = {
+            triggered_desc = {
+                trigger = {
+                    NOT = { exists = this }
+                }
+                desc = trait_chronicler_desc
+            }
+            desc = trait_chronicler_character_desc
+        }
+    }
+}

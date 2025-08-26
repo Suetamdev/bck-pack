@@ -1,0 +1,5 @@
+l_russian:
+ #Chronicler
+ trait_chronicler:0 "Хроникер"
+ trait_chronicler_desc:0 "Хроникер — это преданный записыватель событий, сплетающий слова в повествования, которые сохраняют память и придают смысл течению времени."
+ trait_chronicler_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] усердно документирует поступки других, создавая истории, которые переживут поколения и сохранят истину истории."

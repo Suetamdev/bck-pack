@@ -1,0 +1,20 @@
+l_korean:
+ # Chronicler Tree
+ chronicler_name:0 "연대기 작가"
+ chronicler_perk_name:0 "연대기 작가"
+
+ bloodlines_in_ink_perk_name:0 "잉크 속 혈통"
+ insightful_annotations_perk_name:0 "통찰력 있는 주석"
+ insightful_annotations_perk_description:0 "책과 일기에 주석을 작성하는 결정을 활성화하여 그 가치와 통찰력을 심화시킵니다."
+ reflections_on_diplomacy_perk_name:0 "외교에 대한 성찰"
+ reflections_on_diplomacy_perk_description:0 "책과 일기에 주석을 작성할 때 외교 주제에 집중하는 옵션을 활성화합니다."
+ commanders_duty_perk_name:0 "사령관의 의무"
+ commanders_duty_perk_description:0 "책과 일기에 주석을 작성할 때 군사 주제에 집중하는 옵션을 활성화합니다."
+ master_of_coin_perk_name:0 "재무의 달인"
+ master_of_coin_perk_description:0 "책과 일기에 주석을 작성할 때 관리 주제에 집중하는 옵션을 활성화합니다."
+ shade_network_perk_name:0 "그림자 네트워크"
+ shade_network_perk_description:0 "책과 일기에 주석을 작성할 때 음모 주제에 집중하는 옵션을 활성화합니다."
+ herbs_and_anatomy_perk_name:0 "약초와 해부학"
+ herbs_and_anatomy_perk_description:0 "책과 일기에 주석을 작성할 때 학문 및 의학 주제에 집중하는 옵션을 활성화합니다."
+ tales_of_old_perk_name:0 "고대 이야기"
+ tales_of_old_perk_description:0 "책과 일기에 주석을 작성할 때 방랑 주제에 집중하는 옵션을 활성화합니다."

@@ -1,0 +1,229 @@
+﻿write_annotations_decision = {
+    ai_check_interval = 3650
+    picture = {
+        reference = "gfx/interface/illustrations/decisions/decision_misc.dds"
+    }
+
+	cost = {
+        gold = 150
+		prestige = 150
+    }
+
+    sort_order = 80
+
+    desc = write_annotations_decision_desc
+
+    selection_tooltip = write_annotations_decision_tooltip
+
+    cooldown = { days = 3650 }
+
+    is_shown = {
+        has_perk = insightful_annotations_perk
+    }
+
+    is_valid_showing_failures_only = {
+		custom_description = {
+            text = "write_annotations_missing_equipped_artifact"
+            OR = {
+				any_character_artifact = {
+					artifact_type = book
+					is_equipped = yes
+				}
+				any_character_artifact = {
+					artifact_type = journal
+					is_equipped = yes
+				}
+			}
+        }
+    }
+
+    widget = {
+		gui = "decision_view_widget_option_list_generic"
+		controller = decision_option_list_controller
+		decision_to_second_step_button = "SCHOLIA_MASTER_CHOOSE_ANNOTATION_BUTTON"
+	
+
+		item = {
+			value = simple_annotation_decision
+			is_shown = {
+				has_perk = insightful_annotations_perk
+			}
+			is_valid = {
+				has_perk = insightful_annotations_perk
+			}
+			current_description = simple_annotation_decision
+			localization = simple_annotation_decision
+			icon = "gfx/interface/icons/court_position_types/chronicler_court_position.dds"
+			ai_chance = {
+				value = 10
+			}
+		}
+
+		item = {
+			value = diplomacy_annotation_decision
+			is_shown = {
+				has_perk = insightful_annotations_perk
+			}
+			is_valid = {
+				has_perk = reflections_on_diplomacy_perk
+			}
+			current_description = diplomacy_annotation_decision
+			localization = diplomacy_annotation_decision
+			icon = "gfx/interface/icons/court_position_types/court_tutor_court_position.dds"
+			ai_chance = {
+				value = 10
+			}
+		}
+
+		item = {
+			value = martial_annotation_decision
+			is_shown = {
+				has_perk = insightful_annotations_perk
+			}
+			is_valid = {
+				has_perk = commanders_duty_perk
+			}
+			current_description = martial_annotation_decision
+			localization = martial_annotation_decision
+			icon = "gfx/interface/icons/court_position_types/champion_court_position.dds"
+			ai_chance = {
+				value = 10
+			}
+		}
+
+		item = {
+			value = stewardship_annotation_decision
+			is_shown = {
+				has_perk = insightful_annotations_perk
+			}
+			is_valid = {
+				has_perk = master_of_coin_perk
+			}
+			current_description = stewardship_annotation_decision
+			localization = stewardship_annotation_decision
+			icon = "gfx/interface/icons/court_position_types/bookmaker_court_position.dds"
+			ai_chance = {
+				value = 10
+			}
+		}
+
+		item = {
+			value = intrigue_annotation_decision
+			is_shown = {
+				has_perk = insightful_annotations_perk
+			}
+			is_valid = {
+				has_perk = shade_network_perk
+			}
+			current_description = intrigue_annotation_decision
+			localization = intrigue_annotation_decision
+			icon = "gfx/interface/icons/court_position_types/master_assassin_court_position.dds"
+			ai_chance = {
+				value = 10
+			}
+		}
+
+		item = {
+			value = learning_and_medicine_annotation_decision
+			is_shown = {
+				has_perk = insightful_annotations_perk
+			}
+			is_valid = {
+				has_perk = herbs_and_anatomy_perk
+			}
+			current_description = learning_and_medicine_annotation_decision
+			localization = learning_and_medicine_annotation_decision
+			icon = "gfx/interface/icons/court_position_types/court_physician_court_position.dds"
+			ai_chance = {
+				value = 10
+			}
+		}
+
+		item = {
+			value = wandering_annotation_decision
+			is_shown = {
+				has_perk = insightful_annotations_perk
+			}
+			is_valid = {
+				has_perk = tales_of_old_perk
+			}
+			current_description = wandering_annotation_decision
+			localization = wandering_annotation_decision
+			icon = "gfx/interface/icons/court_position_types/court_poet_court_position.dds"
+			ai_chance = {
+				value = 10
+			}
+		}
+	}
+
+    effect = {
+		custom_tooltip = write_annotations_decision_tooltip
+		
+		hidden_effect = {
+			random_character_artifact = {
+				limit = {
+					artifact_owner = root
+					is_equipped = yes
+					OR = {
+						artifact_type = book
+						artifact_type = journal
+					}
+				}
+				if = { # Simple Annotation
+					limit = { scope:simple_annotation_decision = yes }
+
+					add_artifact_modifier = artifact_dynasty_opinion_2_modifier
+					add_artifact_modifier = artifact_vassal_limit_2_modifier
+				} else_if = { # Diplomacy Annotation
+					limit = { scope:diplomacy_annotation_decision = yes }
+					
+					add_artifact_modifier = artifact_diplomacy_1_modifier
+					add_artifact_modifier = artifact_monthly_prestige_1_modifier
+				} else_if = { # Martial Annotation
+					limit = { scope:martial_annotation_decision = yes }
+
+					add_artifact_modifier = artifact_martial_1_modifier
+					add_artifact_modifier = artifact_knight_effectiveness_1_modifier
+				} else_if = { # Stewardship Annotation
+					limit = { scope:stewardship_annotation_decision = yes }
+					
+					add_artifact_modifier = artifact_stewardship_1_modifier
+					add_artifact_modifier = artifact_development_growth_1_modifier
+				} else_if = { # Intrigue Annotation
+					limit = { scope:intrigue_annotation_decision = yes }
+					
+					add_artifact_modifier = artifact_intrigue_1_modifier
+					add_artifact_modifier = artifact_owned_hostile_scheme_success_chance_add_2_modifier
+				} else_if = { # Learning and Medicine Annotation
+					limit = { scope:learning_and_medicine_annotation_decision = yes }
+					
+					add_artifact_modifier = artifact_learning_1_modifier
+					add_artifact_modifier = artifact_health_gain_1_modifier
+				} else_if = { # Wandering Annotation
+					limit = { scope:wandering_annotation_decision = yes }
+					
+					add_artifact_modifier = bck_chronicler_character_travel_speed_mult_1
+					add_artifact_modifier = artifact_prowess_2_modifier
+				}		
+			}
+		}
+	}
+
+    ai_potential = {
+        OR = {
+			any_character_artifact = {
+				artifact_type = book
+				is_equipped = yes
+			}
+			any_character_artifact = {
+				artifact_type = journal
+				is_equipped = yes
+			}
+		}
+    }
+
+    ai_will_do = {
+        base = 10
+    }
+}
+

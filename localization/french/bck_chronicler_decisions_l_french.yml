@@ -1,0 +1,24 @@
+l_french:
+ # Writing Annotations
+ write_annotations_decision:0 "Écriture d'annotations"
+ write_annotations_decision_desc:0 "En tant que Chronicler!, vous avez le savoir pour affiner et enrichir le sens d'un livre ou d'un journal grâce à des annotations minutieuses."
+ write_annotations_decision_tooltip:0 "Vous annoterez un livre ou journal équipé au hasard pour en améliorer la valeur et l'intelligence."
+ write_annotations_missing_equipped_artifact:0 "Vous devez avoir un livre ou journal équipé pour écrire des annotations."
+ write_annotations_decision_confirm:0 "J'inscrirai ma sagesse"
+
+ # Decision Interface
+ SCHOLIA_MASTER_CHOOSE_ANNOTATION_BUTTON: "Choisir le focus d'annotation"
+ simple_annotation_decision: "Annotations simples"
+ simple_annotation_decision_tooltip: "Cela fera qu'un livre ou journal aléatoire donnera de l'opinion à la dynastie et augmentera la limite des vassaux."
+ diplomacy_annotation_decision: "Annotations de diplomatie"
+ diplomacy_annotation_decision_tooltip: "Cela fera qu'un livre ou journal aléatoire donnera de la diplomatie et de la prestige mensuel."
+ martial_annotation_decision:0 "Annotations martiales"
+ martial_annotation_decision_tooltip:0 "Cela fera qu'un livre ou journal aléatoire donnera du martial et de l'efficacité des chevaliers."
+ stewardship_annotation_decision:0 "Annotations de gestion"
+ stewardship_annotation_decision_tooltip:0 "Cela fera qu'un livre ou journal aléatoire donnera de la gestion et de la croissance du développement."
+ intrigue_annotation_decision:0 "Annotations d'intrigue"
+ intrigue_annotation_decision_tooltip:0 "Cela fera qu'un livre ou journal aléatoire donnera de l'intrigue et améliorera le succès des complots hostiles possédés."
+ learning_and_medicine_annotation_decision:0 "Annotations de savoir et médecine"
+ learning_and_medicine_annotation_decision_tooltip:0 "Cela fera qu'un livre ou journal aléatoire donnera du savoir et améliorera la santé."
+ wandering_annotation_decision:0 "Annotations vagabondes"
+ wandering_annotation_decision_tooltip:0 "Cela fera qu'un livre ou journal aléatoire donnera du courage et augmentera la vitesse de voyage."

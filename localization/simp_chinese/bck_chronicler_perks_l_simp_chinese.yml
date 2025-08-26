@@ -1,0 +1,20 @@
+l_simp_chinese:
+ # Chronicler Tree
+ chronicler_name:0 "编年史学家"
+ chronicler_perk_name:0 "编年史学家"
+
+ bloodlines_in_ink_perk_name:0 "墨水血脉"
+ insightful_annotations_perk_name:0 "深刻注释"
+ insightful_annotations_perk_description:0 "启用在书籍和日记中撰写注释的选项，提升其价值和洞察力。"
+ reflections_on_diplomacy_perk_name:0 "外交思考"
+ reflections_on_diplomacy_perk_description:0 "启用在书籍和日记中撰写注释时专注于外交主题的选项。"
+ commanders_duty_perk_name:0 "指挥官的职责"
+ commanders_duty_perk_description:0 "启用在书籍和日记中撰写注释时专注于军事主题的选项。"
+ master_of_coin_perk_name:0 "财务大师"
+ master_of_coin_perk_description:0 "启用在书籍和日记中撰写注释时专注于管理主题的选项。"
+ shade_network_perk_name:0 "暗影网络"
+ shade_network_perk_description:0 "启用在书籍和日记中撰写注释时专注于阴谋主题的选项。"
+ herbs_and_anatomy_perk_name:0 "草药与解剖学"
+ herbs_and_anatomy_perk_description:0 "启用在书籍和日记中撰写注释时专注于学术与医疗主题的选项。"
+ tales_of_old_perk_name:0 "古老传说"
+ tales_of_old_perk_description:0 "启用在书籍和日记中撰写注释时专注于流浪主题的选项。"

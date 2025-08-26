@@ -1,0 +1,20 @@
+l_russian:
+ # Chronicler Tree
+ chronicler_name:0 "Хроникер"
+ chronicler_perk_name:0 "Хроникер"
+
+ bloodlines_in_ink_perk_name:0 "Родословные в чернилах"
+ insightful_annotations_perk_name:0 "Проницательные аннотации"
+ insightful_annotations_perk_description:0 "Позволяет принимать решение о написании аннотаций в книгах и журналах, углубляя их ценность и информативность."
+ reflections_on_diplomacy_perk_name:0 "Размышления о дипломатии"
+ reflections_on_diplomacy_perk_description:0 "Позволяет выбирать вариант, сосредоточенный на дипломатических темах при написании аннотаций в книгах и журналах."
+ commanders_duty_perk_name:0 "Обязанность командира"
+ commanders_duty_perk_description:0 "Позволяет выбирать вариант, сосредоточенный на военных темах при написании аннотаций в книгах и журналах."
+ master_of_coin_perk_name:0 "Мастер монеты"
+ master_of_coin_perk_description:0 "Позволяет выбирать вариант, сосредоточенный на темах управления при написании аннотаций в книгах и журналах."
+ shade_network_perk_name:0 "Сеть теней"
+ shade_network_perk_description:0 "Позволяет выбирать вариант, сосредоточенный на интригах при написании аннотаций в книгах и журналах."
+ herbs_and_anatomy_perk_name:0 "Травы и анатомия"
+ herbs_and_anatomy_perk_description:0 "Позволяет выбирать вариант, сосредоточенный на обучении и медицинских темах при написании аннотаций в книгах и журналах."
+ tales_of_old_perk_name:0 "Сказания древности"
+ tales_of_old_perk_description:0 "Позволяет выбирать вариант, сосредоточенный на темах странствий при написании аннотаций в книгах и журналах."

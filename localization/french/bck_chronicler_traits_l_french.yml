@@ -1,0 +1,5 @@
+l_french:
+ #Chronicler
+ trait_chronicler:0 "Chroniqueur"
+ trait_chronicler_desc:0 "Le chroniqueur est un enregistreur dévoué des événements, tissant des mots en récits qui préservent la mémoire et donnent un sens au cours du temps."
+ trait_chronicler_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] documente assidûment les actions des autres, façonnant des histoires qui survivront aux générations et préservant la vérité historique."
