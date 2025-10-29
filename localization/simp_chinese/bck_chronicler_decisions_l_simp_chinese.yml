@@ -1,4 +1,4 @@
-l_simp_chinese:
+﻿l_simp_chinese:
  # Writing Annotations
  write_annotations_decision:0 "书籍批注"
  write_annotations_decision_desc:0 "作为一名编年史学家!，你拥有通过仔细批注来完善和扩展书籍或日记意义的知识。"

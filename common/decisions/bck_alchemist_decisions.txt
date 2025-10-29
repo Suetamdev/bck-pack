@@ -97,11 +97,9 @@ create_a_miracle_potion_decision = {
     is_valid_showing_failures_only = {
         custom_description = {
             text = "create_a_miracle_potion_decision_missing_scheme"
-            has_trait_with_flag = illness
             OR = {
                 has_trait_with_flag = illness
                 has_trait = depressed_1
-                has_trait = depressed
                 has_trait = infirm
             }
         }
@@ -110,7 +108,11 @@ create_a_miracle_potion_decision = {
     effect = {
         if = {
             limit = {
-                has_trait_with_flag = illness
+                OR = {
+                    has_trait_with_flag = illness
+                    has_trait = depressed_1
+                    has_trait = infirm
+                }
             }
             send_interface_toast = {
                 title = create_a_miracle_potion_decision_msg
@@ -131,6 +133,7 @@ create_a_miracle_potion_decision = {
                 remove_trait = dysentery
                 remove_trait = ergotism
                 remove_trait = infirm
+                remove_trait = depressed_1
                 remove_trait = depressed_1
             }
         }

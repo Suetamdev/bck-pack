@@ -27,10 +27,26 @@ camp_main_01 = {
 	parameters = {
 		camp_unlocks_second_officer = yes
 	}
-	
+
 	# If you ever lose your main tent, for the love of god, get it back AQAP.
 	ai_value = { value = 10000 }
-	
+
+	### ASIAN
+	asset = {
+		trigger = {
+			owner.culture = {
+				OR = {
+					has_graphical_chinese_culture_group_trigger = yes
+					has_graphical_japanese_culture_group_trigger = yes
+				}
+			}
+		}
+		icon = "gfx/interface/icons/domicile_building/domicile_building_pavillion.dds"
+		texture = "gfx/interface/window_domiciles/laamp_building_pavillion_asian_level_01.dds"
+		intersectionmask_texture = "gfx/interface/window_domiciles/laamp_building_pavillion_asian_level_01_mask.png"
+		soundeffect = "event:/DLC/EP3/SFX/UI/camp_buildings/ep3_ui_domicile_buildings_main_building"
+	}
+
 	### WESTERN
 	asset = {
 		trigger = {
@@ -121,7 +137,7 @@ camp_main_02 = {
 	parameters = {
 		camp_unlocks_second_officer = yes
 	}
-	
+
 	ai_value = {
 		value = camp_main_main_path_value
 		if = {
@@ -131,7 +147,23 @@ camp_main_02 = {
 			multiply = 10
 		}
 	}
-	
+
+	### ASIAN
+	asset = {
+		trigger = {
+			owner.culture = {
+				OR = {
+					has_graphical_chinese_culture_group_trigger = yes
+					has_graphical_japanese_culture_group_trigger = yes
+				}
+			}
+		}
+		icon = "gfx/interface/icons/domicile_building/domicile_building_pavillion.dds"
+		texture = "gfx/interface/window_domiciles/laamp_building_pavillion_asian_level_02.dds"
+		intersectionmask_texture = "gfx/interface/window_domiciles/laamp_building_pavillion_asian_level_02_mask.png"
+		soundeffect = "event:/DLC/EP3/SFX/UI/camp_buildings/ep3_ui_domicile_buildings_main_building"
+	}
+
 	### WESTERN
 	asset = {
 		trigger = {
@@ -223,7 +255,7 @@ camp_main_03 = {
 	parameters = {
 		camp_unlocks_second_officer = yes
 	}
-	
+
 	ai_value = {
 		value = camp_main_main_path_value
 		if = {
@@ -233,7 +265,23 @@ camp_main_03 = {
 			multiply = 10
 		}
 	}
-	
+
+	### ASIAN
+	asset = {
+		trigger = {
+			owner.culture = {
+				OR = {
+					has_graphical_chinese_culture_group_trigger = yes
+					has_graphical_japanese_culture_group_trigger = yes
+				}
+			}
+		}
+		icon = "gfx/interface/icons/domicile_building/domicile_building_pavillion.dds"
+		texture = "gfx/interface/window_domiciles/laamp_building_pavillion_asian_level_02.dds"
+		intersectionmask_texture = "gfx/interface/window_domiciles/laamp_building_pavillion_asian_level_02_mask.png"
+		soundeffect = "event:/DLC/EP3/SFX/UI/camp_buildings/ep3_ui_domicile_buildings_main_building"
+	}
+
 	### WESTERN
 	asset = {
 		trigger = {
@@ -327,7 +375,7 @@ camp_main_04 = {
 	parameters = {
 		camp_unlocks_second_officer = yes
 	}
-	
+
 	ai_value = {
 		value = camp_main_main_path_value
 		if = {
@@ -336,6 +384,22 @@ camp_main_04 = {
 			}
 			multiply = 10
 		}
+	}
+
+	### ASIAN
+	asset = {
+		trigger = {
+			owner.culture = {
+				OR = {
+					has_graphical_chinese_culture_group_trigger = yes
+					has_graphical_japanese_culture_group_trigger = yes
+				}
+			}
+		}
+		icon = "gfx/interface/icons/domicile_building/domicile_building_pavillion.dds"
+		texture = "gfx/interface/window_domiciles/laamp_building_pavillion_asian_level_03.dds"
+		intersectionmask_texture = "gfx/interface/window_domiciles/laamp_building_pavillion_asian_level_03_mask.png"
+		soundeffect = "event:/DLC/EP3/SFX/UI/camp_buildings/ep3_ui_domicile_buildings_main_building"
 	}
 	
 	### WESTERN
@@ -426,8 +490,23 @@ supply_tent_01 = {
 		camp_unlocks_quartermaster_officer = yes
 		camp_unlocks_camp_party_food_option = yes
 	}
-	
+
 	ai_value = { value = supply_tent_main_path_value }
+
+	asset = {
+		trigger = {
+			owner.culture = {
+				OR = {
+					has_graphical_chinese_culture_group_trigger = yes
+					has_graphical_japanese_culture_group_trigger = yes
+				}
+			}
+		}
+		icon = "gfx/interface/icons/domicile_building/domicile_building_supply_tent.dds"
+		texture = "gfx/interface/window_domiciles/laamp_building_supply_tent_asian.dds"
+		intersectionmask_texture = "gfx/interface/window_domiciles/laamp_building_supply_tent_asian_mask.png"
+		soundeffect = "event:/DLC/EP3/SFX/UI/camp_buildings/ep3_ui_domicile_buildings_supply_tent"
+	}
 	
 	asset = {
 		icon = "gfx/interface/icons/domicile_building/domicile_building_supply_tent.dds"
@@ -461,9 +540,24 @@ supply_tent_02 = {
 		camp_unlocks_quartermaster_officer = yes
 		camp_unlocks_camp_party_food_option = yes
 	}
-	
+
 	ai_value = { value = supply_tent_main_path_value }
-	
+
+	asset = {
+		trigger = {
+			owner.culture = {
+				OR = {
+					has_graphical_chinese_culture_group_trigger = yes
+					has_graphical_japanese_culture_group_trigger = yes
+				}
+			}
+		}
+		icon = "gfx/interface/icons/domicile_building/domicile_building_supply_tent.dds"
+		texture = "gfx/interface/window_domiciles/laamp_building_supply_tent_asian.dds"
+		intersectionmask_texture = "gfx/interface/window_domiciles/laamp_building_supply_tent_asian_mask.png"
+		soundeffect = "event:/DLC/EP3/SFX/UI/camp_buildings/ep3_ui_domicile_buildings_supply_tent"
+	}
+
 	asset = {
 		icon = "gfx/interface/icons/domicile_building/domicile_building_supply_tent.dds"
 		texture = "gfx/interface/window_domiciles/laamp_building_supply_tent.dds"
@@ -497,9 +591,24 @@ supply_tent_03 = {
 		camp_unlocks_quartermaster_officer = yes
 		camp_unlocks_camp_party_food_option = yes
 	}
-	
+
 	ai_value = { value = supply_tent_main_path_value }
-	
+
+	asset = {
+		trigger = {
+			owner.culture = {
+				OR = {
+					has_graphical_chinese_culture_group_trigger = yes
+					has_graphical_japanese_culture_group_trigger = yes
+				}
+			}
+		}
+		icon = "gfx/interface/icons/domicile_building/domicile_building_supply_tent.dds"
+		texture = "gfx/interface/window_domiciles/laamp_building_supply_tent_asian.dds"
+		intersectionmask_texture = "gfx/interface/window_domiciles/laamp_building_supply_tent_asian_mask.png"
+		soundeffect = "event:/DLC/EP3/SFX/UI/camp_buildings/ep3_ui_domicile_buildings_supply_tent"
+	}
+
 	asset = {
 		icon = "gfx/interface/icons/domicile_building/domicile_building_supply_tent.dds"
 		texture = "gfx/interface/window_domiciles/laamp_building_supply_tent.dds"
@@ -534,9 +643,24 @@ supply_tent_04 = {
 		camp_unlocks_quartermaster_officer = yes
 		camp_unlocks_camp_party_food_option = yes
 	}
-	
+
 	ai_value = { value = supply_tent_main_path_value }
-	
+
+	asset = {
+		trigger = {
+			owner.culture = {
+				OR = {
+					has_graphical_chinese_culture_group_trigger = yes
+					has_graphical_japanese_culture_group_trigger = yes
+				}
+			}
+		}
+		icon = "gfx/interface/icons/domicile_building/domicile_building_supply_tent.dds"
+		texture = "gfx/interface/window_domiciles/laamp_building_supply_tent_asian.dds"
+		intersectionmask_texture = "gfx/interface/window_domiciles/laamp_building_supply_tent_asian_mask.png"
+		soundeffect = "event:/DLC/EP3/SFX/UI/camp_buildings/ep3_ui_domicile_buildings_supply_tent"
+	}
+
 	asset = {
 		icon = "gfx/interface/icons/domicile_building/domicile_building_supply_tent.dds"
 		texture = "gfx/interface/window_domiciles/laamp_building_supply_tent.dds"
@@ -572,9 +696,24 @@ supply_tent_05 = {
 		camp_unlocks_quartermaster_officer = yes
 		camp_unlocks_camp_party_food_option = yes
 	}
-	
+
 	ai_value = { value = supply_tent_main_path_value }
-	
+
+	asset = {
+		trigger = {
+			owner.culture = {
+				OR = {
+					has_graphical_chinese_culture_group_trigger = yes
+					has_graphical_japanese_culture_group_trigger = yes
+				}
+			}
+		}
+		icon = "gfx/interface/icons/domicile_building/domicile_building_supply_tent.dds"
+		texture = "gfx/interface/window_domiciles/laamp_building_supply_tent_asian.dds"
+		intersectionmask_texture = "gfx/interface/window_domiciles/laamp_building_supply_tent_asian_mask.png"
+		soundeffect = "event:/DLC/EP3/SFX/UI/camp_buildings/ep3_ui_domicile_buildings_supply_tent"
+	}
+
 	asset = {
 		icon = "gfx/interface/icons/domicile_building/domicile_building_supply_tent.dds"
 		texture = "gfx/interface/window_domiciles/laamp_building_supply_tent.dds"
@@ -611,9 +750,24 @@ supply_tent_06 = {
 		camp_unlocks_quartermaster_officer = yes
 		camp_unlocks_camp_party_food_option = yes
 	}
-	
+
 	ai_value = { value = supply_tent_main_path_value }
-	
+
+	asset = {
+		trigger = {
+			owner.culture = {
+				OR = {
+					has_graphical_chinese_culture_group_trigger = yes
+					has_graphical_japanese_culture_group_trigger = yes
+				}
+			}
+		}
+		icon = "gfx/interface/icons/domicile_building/domicile_building_supply_tent.dds"
+		texture = "gfx/interface/window_domiciles/laamp_building_supply_tent_asian.dds"
+		intersectionmask_texture = "gfx/interface/window_domiciles/laamp_building_supply_tent_asian_mask.png"
+		soundeffect = "event:/DLC/EP3/SFX/UI/camp_buildings/ep3_ui_domicile_buildings_supply_tent"
+	}
+
 	asset = {
 		icon = "gfx/interface/icons/domicile_building/domicile_building_supply_tent.dds"
 		texture = "gfx/interface/window_domiciles/laamp_building_supply_tent.dds"
@@ -642,7 +796,7 @@ supply_tent_sutler = { # Sutler
 		monthly_stewardship_lifestyle_xp_gain_mult = 0.25
 		supply_capacity_mult = 0.5
 	}
-	
+
 	ai_value = {
 		value = camp_building_ai_base_t1
 		if = {
@@ -653,7 +807,22 @@ supply_tent_sutler = { # Sutler
 		}
 		multiply = 10
 	}
-	
+
+	asset = {
+		trigger = {
+			owner.culture = {
+				OR = {
+					has_graphical_chinese_culture_group_trigger = yes
+					has_graphical_japanese_culture_group_trigger = yes
+				}
+			}
+		}
+		icon = "gfx/interface/icons/domicile_building/domicile_building_sutler.dds"
+		texture = "gfx/interface/window_domiciles/laamp_building_supply_tent_asian.dds"
+		intersectionmask_texture = "gfx/interface/window_domiciles/laamp_building_supply_tent_asian_mask.png"
+		soundeffect = "event:/DLC/EP3/SFX/UI/camp_buildings/ep3_ui_domicile_buildings_supply_tent"
+	}
+
 	asset = {
 		icon = "gfx/interface/icons/domicile_building/domicile_building_sutler.dds"
 		texture = "gfx/interface/window_domiciles/laamp_building_supply_tent.dds"
@@ -682,7 +851,7 @@ supply_tent_mender = { # Mender
 		archers_toughness_mult = 0.15
 		pikemen_toughness_mult = 0.15
 	}
-	
+
 	ai_value = {
 		value = camp_building_ai_base_t2
 		if = {
@@ -693,7 +862,22 @@ supply_tent_mender = { # Mender
 		}
 		multiply = 10
 	}
-	
+
+	asset = {
+		trigger = {
+			owner.culture = {
+				OR = {
+					has_graphical_chinese_culture_group_trigger = yes
+					has_graphical_japanese_culture_group_trigger = yes
+				}
+			}
+		}
+		icon = "gfx/interface/icons/domicile_building/domicile_building_mender.dds"
+		texture = "gfx/interface/window_domiciles/laamp_building_supply_tent_asian.dds"
+		intersectionmask_texture = "gfx/interface/window_domiciles/laamp_building_supply_tent_asian_mask.png"
+		soundeffect = "event:/DLC/EP3/SFX/UI/camp_buildings/ep3_ui_domicile_buildings_supply_tent"
+	}
+
 	asset = {
 		icon = "gfx/interface/icons/domicile_building/domicile_building_mender.dds"
 		texture = "gfx/interface/window_domiciles/laamp_building_supply_tent.dds"
@@ -729,7 +913,7 @@ supply_tent_smithy = { # Smithy
 	parameters = {
 		camp_unlocks_armorer_officer = yes
 	}
-	
+
 	ai_value = {
 		value = camp_building_ai_base_t4
 		if = {
@@ -746,7 +930,22 @@ supply_tent_smithy = { # Smithy
 		}
 		multiply = 10
 	}
-	
+
+	asset = {
+		trigger = {
+			owner.culture = {
+				OR = {
+					has_graphical_chinese_culture_group_trigger = yes
+					has_graphical_japanese_culture_group_trigger = yes
+				}
+			}
+		}
+		icon = "gfx/interface/icons/domicile_building/domicile_building_smithy.dds"
+		texture = "gfx/interface/window_domiciles/laamp_building_supply_tent_asian.dds"
+		intersectionmask_texture = "gfx/interface/window_domiciles/laamp_building_supply_tent_asian_mask.png"
+		soundeffect = "event:/DLC/EP3/SFX/UI/camp_buildings/ep3_ui_domicile_buildings_supply_tent"
+	}
+
 	asset = {
 		icon = "gfx/interface/icons/domicile_building/domicile_building_smithy.dds"
 		texture = "gfx/interface/window_domiciles/laamp_building_supply_tent.dds"
@@ -777,7 +976,7 @@ supply_tent_arsenal = { # Arsenal
 	parameters = {
 		camp_unlocks_armorer_officer = yes
 	}
-	
+
 	ai_value = {
 		value = camp_building_ai_base_t3
 		if = {
@@ -788,7 +987,22 @@ supply_tent_arsenal = { # Arsenal
 		}
 		multiply = 10
 	}
-	
+
+	asset = {
+		trigger = {
+			owner.culture = {
+				OR = {
+					has_graphical_chinese_culture_group_trigger = yes
+					has_graphical_japanese_culture_group_trigger = yes
+				}
+			}
+		}
+		icon = "gfx/interface/icons/domicile_building/domicile_building_arsenal.dds"
+		texture = "gfx/interface/window_domiciles/laamp_building_supply_tent_asian.dds"
+		intersectionmask_texture = "gfx/interface/window_domiciles/laamp_building_supply_tent_asian_mask.png"
+		soundeffect = "event:/DLC/EP3/SFX/UI/camp_buildings/ep3_ui_domicile_buildings_supply_tent"
+	}
+
 	asset = {
 		icon = "gfx/interface/icons/domicile_building/domicile_building_arsenal.dds"
 		texture = "gfx/interface/window_domiciles/laamp_building_supply_tent.dds"
@@ -830,7 +1044,7 @@ supply_tent_reserve_provisions = { # Reserve Provisions
 	parameters = {
 		camp_unlocks_chief_forager_officer = yes
 	}
-	
+
 	ai_value = {
 		value = camp_building_ai_base_t5
 		if = {
@@ -841,7 +1055,22 @@ supply_tent_reserve_provisions = { # Reserve Provisions
 		}
 		multiply = 10
 	}
-	
+
+	asset = {
+		trigger = {
+			owner.culture = {
+				OR = {
+					has_graphical_chinese_culture_group_trigger = yes
+					has_graphical_japanese_culture_group_trigger = yes
+				}
+			}
+		}
+		icon = "gfx/interface/icons/domicile_building/domicile_building_reserve_provisions.dds"
+		texture = "gfx/interface/window_domiciles/laamp_building_supply_tent_asian.dds"
+		intersectionmask_texture = "gfx/interface/window_domiciles/laamp_building_supply_tent_asian_mask.png"
+		soundeffect = "event:/DLC/EP3/SFX/UI/camp_buildings/ep3_ui_domicile_buildings_supply_tent"
+	}
+
 	asset = {
 		icon = "gfx/interface/icons/domicile_building/domicile_building_reserve_provisions.dds"
 		texture = "gfx/interface/window_domiciles/laamp_building_supply_tent.dds"
@@ -882,7 +1111,7 @@ supply_tent_reserve_water = { # Reserve Water
 	parameters = {
 		camp_unlocks_chief_forager_officer = yes
 	}
-	
+
 	ai_value = {
 		value = camp_building_ai_base_t5
 		if = {
@@ -893,7 +1122,22 @@ supply_tent_reserve_water = { # Reserve Water
 		}
 		multiply = 10
 	}
-	
+
+	asset = {
+		trigger = {
+			owner.culture = {
+				OR = {
+					has_graphical_chinese_culture_group_trigger = yes
+					has_graphical_japanese_culture_group_trigger = yes
+				}
+			}
+		}
+		icon = "gfx/interface/icons/domicile_building/domicile_building_reserve_water.dds"
+		texture = "gfx/interface/window_domiciles/laamp_building_supply_tent_asian.dds"
+		intersectionmask_texture = "gfx/interface/window_domiciles/laamp_building_supply_tent_asian_mask.png"
+		soundeffect = "event:/DLC/EP3/SFX/UI/camp_buildings/ep3_ui_domicile_buildings_supply_tent"
+	}
+
 	asset = {
 		icon = "gfx/interface/icons/domicile_building/domicile_building_reserve_water.dds"
 		texture = "gfx/interface/window_domiciles/laamp_building_supply_tent.dds"
@@ -931,7 +1175,7 @@ supply_tent_climbing_gear = { # Climbing Gear
 		mountains_min_combat_roll = 5
 		desert_mountains_min_combat_roll = 5
 	}
-	
+
 	ai_value = {
 		value = camp_building_ai_base_t5
 		if = {
@@ -942,7 +1186,22 @@ supply_tent_climbing_gear = { # Climbing Gear
 		}
 		multiply = 10
 	}
-	
+
+	asset = {
+		trigger = {
+			owner.culture = {
+				OR = {
+					has_graphical_chinese_culture_group_trigger = yes
+					has_graphical_japanese_culture_group_trigger = yes
+				}
+			}
+		}
+		icon = "gfx/interface/icons/domicile_building/domicile_building_climbing.dds"
+		texture = "gfx/interface/window_domiciles/laamp_building_supply_tent_asian.dds"
+		intersectionmask_texture = "gfx/interface/window_domiciles/laamp_building_supply_tent_asian_mask.png"
+		soundeffect = "event:/DLC/EP3/SFX/UI/camp_buildings/ep3_ui_domicile_buildings_supply_tent"
+	}
+
 	asset = {
 		icon = "gfx/interface/icons/domicile_building/domicile_building_climbing.dds"
 		texture = "gfx/interface/window_domiciles/laamp_building_supply_tent.dds"
@@ -980,7 +1239,7 @@ supply_tent_subdued_gear = { # Subdued Gear
 		camp_unlocks_master_thief_officer = yes
 		camp_reduced_criminal_contract_xp_gain = yes
 	}
-	
+
 	ai_value = {
 		value = camp_building_ai_base_t5
 		if = {
@@ -991,7 +1250,22 @@ supply_tent_subdued_gear = { # Subdued Gear
 		}
 		multiply = 10
 	}
-	
+
+	asset = {
+		trigger = {
+			owner.culture = {
+				OR = {
+					has_graphical_chinese_culture_group_trigger = yes
+					has_graphical_japanese_culture_group_trigger = yes
+				}
+			}
+		}
+		icon = "gfx/interface/icons/domicile_building/domicile_building_subdued_gear.dds"
+		texture = "gfx/interface/window_domiciles/laamp_building_supply_tent_asian.dds"
+		intersectionmask_texture = "gfx/interface/window_domiciles/laamp_building_supply_tent_asian_mask.png"
+		soundeffect = "event:/DLC/EP3/SFX/UI/camp_buildings/ep3_ui_domicile_buildings_supply_tent"
+	}
+
 	asset = {
 		icon = "gfx/interface/icons/domicile_building/domicile_building_subdued_gear.dds"
 		texture = "gfx/interface/window_domiciles/laamp_building_supply_tent.dds"
@@ -1024,15 +1298,30 @@ barber_tent_01 = {
 	parameters = {
 		camp_infection_chance_buff_1 = yes
 	}
-	
+
 	ai_value = { value = barber_tent_main_path_value }
+
+	asset = {
+		trigger = {
+			owner.culture = {
+				OR = {
+					has_graphical_chinese_culture_group_trigger = yes
+					has_graphical_japanese_culture_group_trigger = yes
+				}
+			}
+		}
+		icon = "gfx/interface/icons/domicile_building/domicile_building_barber.dds"
+		texture = "gfx/interface/window_domiciles/laamp_building_barber_asian.dds"
+		intersectionmask_texture = "gfx/interface/window_domiciles/laamp_building_barber_asian_mask.png"
+		soundeffect = "event:/DLC/EP3/SFX/UI/camp_buildings/ep3_ui_domicile_buildings_barber_tent"
+	}
 	
 	asset = {
 		icon = "gfx/interface/icons/domicile_building/domicile_building_barber.dds"
 		texture = "gfx/interface/window_domiciles/laamp_building_barber.dds"
 		intersectionmask_texture = "gfx/interface/window_domiciles/laamp_building_barber_mask.png"
 		soundeffect = "event:/DLC/EP3/SFX/UI/camp_buildings/ep3_ui_domicile_buildings_barber_tent"
-		
+
 	}
 }
 barber_tent_02 = {
@@ -1061,9 +1350,24 @@ barber_tent_02 = {
 	parameters = {
 		camp_infection_chance_buff_2 = yes
 	}
-	
+
 	ai_value = { value = barber_tent_main_path_value }
-	
+
+	asset = {
+		trigger = {
+			owner.culture = {
+				OR = {
+					has_graphical_chinese_culture_group_trigger = yes
+					has_graphical_japanese_culture_group_trigger = yes
+				}
+			}
+		}
+		icon = "gfx/interface/icons/domicile_building/domicile_building_barber.dds"
+		texture = "gfx/interface/window_domiciles/laamp_building_barber_asian.dds"
+		intersectionmask_texture = "gfx/interface/window_domiciles/laamp_building_barber_asian_mask.png"
+		soundeffect = "event:/DLC/EP3/SFX/UI/camp_buildings/ep3_ui_domicile_buildings_barber_tent"
+	}
+
 	asset = {
 		icon = "gfx/interface/icons/domicile_building/domicile_building_barber.dds"
 		texture = "gfx/interface/window_domiciles/laamp_building_barber.dds"
@@ -1098,9 +1402,24 @@ barber_tent_03 = {
 	parameters = {
 		camp_infection_chance_buff_3 = yes
 	}
-	
+
 	ai_value = { value = barber_tent_main_path_value }
-	
+
+	asset = {
+		trigger = {
+			owner.culture = {
+				OR = {
+					has_graphical_chinese_culture_group_trigger = yes
+					has_graphical_japanese_culture_group_trigger = yes
+				}
+			}
+		}
+		icon = "gfx/interface/icons/domicile_building/domicile_building_barber.dds"
+		texture = "gfx/interface/window_domiciles/laamp_building_barber_asian.dds"
+		intersectionmask_texture = "gfx/interface/window_domiciles/laamp_building_barber_asian_mask.png"
+		soundeffect = "event:/DLC/EP3/SFX/UI/camp_buildings/ep3_ui_domicile_buildings_barber_tent"
+	}
+
 	asset = {
 		icon = "gfx/interface/icons/domicile_building/domicile_building_barber.dds"
 		texture = "gfx/interface/window_domiciles/laamp_building_barber.dds"
@@ -1136,9 +1455,24 @@ barber_tent_04 = {
 	parameters = {
 		camp_infection_chance_buff_4 = yes
 	}
-	
+
 	ai_value = { value = barber_tent_main_path_value }
-	
+
+	asset = {
+		trigger = {
+			owner.culture = {
+				OR = {
+					has_graphical_chinese_culture_group_trigger = yes
+					has_graphical_japanese_culture_group_trigger = yes
+				}
+			}
+		}
+		icon = "gfx/interface/icons/domicile_building/domicile_building_barber.dds"
+		texture = "gfx/interface/window_domiciles/laamp_building_barber_asian.dds"
+		intersectionmask_texture = "gfx/interface/window_domiciles/laamp_building_barber_asian_mask.png"
+		soundeffect = "event:/DLC/EP3/SFX/UI/camp_buildings/ep3_ui_domicile_buildings_barber_tent"
+	}
+
 	asset = {
 		icon = "gfx/interface/icons/domicile_building/domicile_building_barber.dds"
 		texture = "gfx/interface/window_domiciles/laamp_building_barber.dds"
@@ -1175,9 +1509,24 @@ barber_tent_05 = {
 	parameters = {
 		camp_infection_chance_buff_5 = yes
 	}
-	
+
 	ai_value = { value = barber_tent_main_path_value }
-	
+
+	asset = {
+		trigger = {
+			owner.culture = {
+				OR = {
+					has_graphical_chinese_culture_group_trigger = yes
+					has_graphical_japanese_culture_group_trigger = yes
+				}
+			}
+		}
+		icon = "gfx/interface/icons/domicile_building/domicile_building_barber.dds"
+		texture = "gfx/interface/window_domiciles/laamp_building_barber_asian.dds"
+		intersectionmask_texture = "gfx/interface/window_domiciles/laamp_building_barber_asian_mask.png"
+		soundeffect = "event:/DLC/EP3/SFX/UI/camp_buildings/ep3_ui_domicile_buildings_barber_tent"
+	}
+
 	asset = {
 		icon = "gfx/interface/icons/domicile_building/domicile_building_barber.dds"
 		texture = "gfx/interface/window_domiciles/laamp_building_barber.dds"
@@ -1215,9 +1564,24 @@ barber_tent_06 = {
 	parameters = {
 		camp_infection_chance_buff_6 = yes
 	}
-	
+
 	ai_value = { value = barber_tent_main_path_value }
-	
+
+	asset = {
+		trigger = {
+			owner.culture = {
+				OR = {
+					has_graphical_chinese_culture_group_trigger = yes
+					has_graphical_japanese_culture_group_trigger = yes
+				}
+			}
+		}
+		icon = "gfx/interface/icons/domicile_building/domicile_building_barber.dds"
+		texture = "gfx/interface/window_domiciles/laamp_building_barber_asian.dds"
+		intersectionmask_texture = "gfx/interface/window_domiciles/laamp_building_barber_asian_mask.png"
+		soundeffect = "event:/DLC/EP3/SFX/UI/camp_buildings/ep3_ui_domicile_buildings_barber_tent"
+	}
+
 	asset = {
 		icon = "gfx/interface/icons/domicile_building/domicile_building_barber.dds"
 		texture = "gfx/interface/window_domiciles/laamp_building_barber.dds"
@@ -1249,7 +1613,7 @@ barber_tent_surgeons_tools = { # Surgeon's Tools
 	parameters = {
 		camp_improved_court_physician_aptitude = yes
 	}
-	
+
 	ai_value = {
 		value = camp_building_ai_base_t5
 		if = {
@@ -1260,7 +1624,22 @@ barber_tent_surgeons_tools = { # Surgeon's Tools
 		}
 		multiply = 10
 	}
-	
+
+	asset = {
+		trigger = {
+			owner.culture = {
+				OR = {
+					has_graphical_chinese_culture_group_trigger = yes
+					has_graphical_japanese_culture_group_trigger = yes
+				}
+			}
+		}
+		icon = "gfx/interface/icons/domicile_building/domicile_building_surgeons_tools.dds"
+		texture = "gfx/interface/window_domiciles/laamp_building_barber_asian.dds"
+		intersectionmask_texture = "gfx/interface/window_domiciles/laamp_building_barber_asian_mask.png"
+		soundeffect = "event:/DLC/EP3/SFX/UI/camp_buildings/ep3_ui_domicile_buildings_barber_tent"
+	}
+
 	asset = {
 		icon = "gfx/interface/icons/domicile_building/domicile_building_surgeons_tools.dds"
 		texture = "gfx/interface/window_domiciles/laamp_building_barber.dds"
@@ -1287,7 +1666,7 @@ barber_tent_dentists_tools = { # Dentist's Tools
 		negate_health_penalty_add = 0.25
 		hard_casualty_modifier = -0.1
 	}
-	
+
 	ai_value = {
 		value = camp_building_ai_base_t2
 		if = {
@@ -1298,7 +1677,22 @@ barber_tent_dentists_tools = { # Dentist's Tools
 		}
 		multiply = 10
 	}
-	
+
+	asset = {
+		trigger = {
+			owner.culture = {
+				OR = {
+					has_graphical_chinese_culture_group_trigger = yes
+					has_graphical_japanese_culture_group_trigger = yes
+				}
+			}
+		}
+		icon = "gfx/interface/icons/domicile_building/domicile_building_dentist.dds"
+		texture = "gfx/interface/window_domiciles/laamp_building_barber_asian.dds"
+		intersectionmask_texture = "gfx/interface/window_domiciles/laamp_building_barber_asian_mask.png"
+		soundeffect = "event:/DLC/EP3/SFX/UI/camp_buildings/ep3_ui_domicile_buildings_barber_tent"
+	}
+
 	asset = {
 		icon = "gfx/interface/icons/domicile_building/domicile_building_dentist.dds"
 		texture = "gfx/interface/window_domiciles/laamp_building_barber.dds"
@@ -1331,7 +1725,7 @@ barber_tent_torturers_tools = { # Torturer's Tools
 	parameters = {
 		camp_unlocks_torture_interaction = yes
 	}
-	
+
 	ai_value = {
 		value = camp_building_ai_base_t3
 		if = {
@@ -1348,7 +1742,22 @@ barber_tent_torturers_tools = { # Torturer's Tools
 			multiply = 0
 		}
 	}
-	
+
+	asset = {
+		trigger = {
+			owner.culture = {
+				OR = {
+					has_graphical_chinese_culture_group_trigger = yes
+					has_graphical_japanese_culture_group_trigger = yes
+				}
+			}
+		}
+		icon = "gfx/interface/icons/domicile_building/domicile_building_torture.dds"
+		texture = "gfx/interface/window_domiciles/laamp_building_barber_asian.dds"
+		intersectionmask_texture = "gfx/interface/window_domiciles/laamp_building_barber_asian_mask.png"
+		soundeffect = "event:/DLC/EP3/SFX/UI/camp_buildings/ep3_ui_domicile_buildings_barber_tent"
+	}
+
 	asset = {
 		icon = "gfx/interface/icons/domicile_building/domicile_building_torture.dds"
 		texture = "gfx/interface/window_domiciles/laamp_building_barber.dds"
@@ -1383,7 +1792,7 @@ barber_tent_reference_corpus = { # Reference Corpus
 		monthly_learning_lifestyle_xp_gain_mult = 0.25
 		learning_scheme_phase_duration = -10
 	}
-	
+
 	ai_value = {
 		value = camp_building_ai_base_t5
 		if = {
@@ -1394,7 +1803,22 @@ barber_tent_reference_corpus = { # Reference Corpus
 		}
 		multiply = 10
 	}
-	
+
+	asset = {
+		trigger = {
+			owner.culture = {
+				OR = {
+					has_graphical_chinese_culture_group_trigger = yes
+					has_graphical_japanese_culture_group_trigger = yes
+				}
+			}
+		}
+		icon = "gfx/interface/icons/domicile_building/domicile_building_reference_corpus.dds"
+		texture = "gfx/interface/window_domiciles/laamp_building_barber_asian.dds"
+		intersectionmask_texture = "gfx/interface/window_domiciles/laamp_building_barber_asian_mask.png"
+		soundeffect = "event:/DLC/EP3/SFX/UI/camp_buildings/ep3_ui_domicile_buildings_barber_tent"
+	}
+
 	asset = {
 		icon = "gfx/interface/icons/domicile_building/domicile_building_reference_corpus.dds"
 		texture = "gfx/interface/window_domiciles/laamp_building_barber.dds"
@@ -1431,7 +1855,7 @@ barber_tent_morticians_tools = { # Mortician's Tools
 	parameters = {
 		camp_gold_from_victories_or_nearby_battles = yes
 	}
-	
+
 	ai_value = {
 		value = camp_building_ai_base_t5
 		if = {
@@ -1442,7 +1866,22 @@ barber_tent_morticians_tools = { # Mortician's Tools
 		}
 		multiply = 10
 	}
-	
+
+	asset = {
+		trigger = {
+			owner.culture = {
+				OR = {
+					has_graphical_chinese_culture_group_trigger = yes
+					has_graphical_japanese_culture_group_trigger = yes
+				}
+			}
+		}
+		icon = "gfx/interface/icons/domicile_building/domicile_building_morticians_tools.dds"
+		texture = "gfx/interface/window_domiciles/laamp_building_barber_asian.dds"
+		intersectionmask_texture = "gfx/interface/window_domiciles/laamp_building_barber_asian_mask.png"
+		soundeffect = "event:/DLC/EP3/SFX/UI/camp_buildings/ep3_ui_domicile_buildings_barber_tent"
+	}
+
 	asset = {
 		icon = "gfx/interface/icons/domicile_building/domicile_building_morticians_tools.dds"
 		texture = "gfx/interface/window_domiciles/laamp_building_barber.dds"
@@ -1477,9 +1916,24 @@ baggage_train_01 = {
 		camp_unlocks_head_porter_officer = yes
 		receives_more_escort_contracts = yes
 	}
-	
+
 	ai_value = { value = baggage_train_main_path_value }
-	
+
+	asset = {
+		trigger = {
+			owner.culture = {
+				OR = {
+					has_graphical_chinese_culture_group_trigger = yes
+					has_graphical_japanese_culture_group_trigger = yes
+				}
+			}
+		}
+		icon = "gfx/interface/icons/domicile_building/domicile_building_bagage.dds"
+		texture = "gfx/interface/window_domiciles/laamp_building_baggage_train_asian.dds"
+		intersectionmask_texture = "gfx/interface/window_domiciles/laamp_building_baggage_train_asian_mask.png"
+		soundeffect = "event:/DLC/EP3/SFX/UI/camp_buildings/ep3_ui_domicile_buildings_baggage_train"
+	}
+
 	asset = {
 		icon = "gfx/interface/icons/domicile_building/domicile_building_bagage.dds"
 		texture = "gfx/interface/window_domiciles/laamp_building_baggage_train.dds"
@@ -1515,9 +1969,24 @@ baggage_train_02 = {
 		camp_unlocks_head_porter_officer = yes
 		receives_more_escort_contracts = yes
 	}
-	
+
 	ai_value = { value = baggage_train_main_path_value }
-	
+
+	asset = {
+		trigger = {
+			owner.culture = {
+				OR = {
+					has_graphical_chinese_culture_group_trigger = yes
+					has_graphical_japanese_culture_group_trigger = yes
+				}
+			}
+		}
+		icon = "gfx/interface/icons/domicile_building/domicile_building_bagage.dds"
+		texture = "gfx/interface/window_domiciles/laamp_building_baggage_train_asian.dds"
+		intersectionmask_texture = "gfx/interface/window_domiciles/laamp_building_baggage_train_asian_mask.png"
+		soundeffect = "event:/DLC/EP3/SFX/UI/camp_buildings/ep3_ui_domicile_buildings_baggage_train"
+	}
+
 	asset = {
 		icon = "gfx/interface/icons/domicile_building/domicile_building_bagage.dds"
 		texture = "gfx/interface/window_domiciles/laamp_building_baggage_train.dds"
@@ -1554,9 +2023,24 @@ baggage_train_03 = {
 		camp_unlocks_head_porter_officer = yes
 		receives_more_escort_contracts = yes
 	}
-	
+
 	ai_value = { value = baggage_train_main_path_value }
-	
+
+	asset = {
+		trigger = {
+			owner.culture = {
+				OR = {
+					has_graphical_chinese_culture_group_trigger = yes
+					has_graphical_japanese_culture_group_trigger = yes
+				}
+			}
+		}
+		icon = "gfx/interface/icons/domicile_building/domicile_building_bagage.dds"
+		texture = "gfx/interface/window_domiciles/laamp_building_baggage_train_asian.dds"
+		intersectionmask_texture = "gfx/interface/window_domiciles/laamp_building_baggage_train_asian_mask.png"
+		soundeffect = "event:/DLC/EP3/SFX/UI/camp_buildings/ep3_ui_domicile_buildings_baggage_train"
+	}
+
 	asset = {
 		icon = "gfx/interface/icons/domicile_building/domicile_building_bagage.dds"
 		texture = "gfx/interface/window_domiciles/laamp_building_baggage_train.dds"
@@ -1594,9 +2078,24 @@ baggage_train_04 = {
 		camp_unlocks_head_porter_officer = yes
 		receives_more_escort_contracts = yes
 	}
-	
+
 	ai_value = { value = baggage_train_main_path_value }
-	
+
+	asset = {
+		trigger = {
+			owner.culture = {
+				OR = {
+					has_graphical_chinese_culture_group_trigger = yes
+					has_graphical_japanese_culture_group_trigger = yes
+				}
+			}
+		}
+		icon = "gfx/interface/icons/domicile_building/domicile_building_bagage.dds"
+		texture = "gfx/interface/window_domiciles/laamp_building_baggage_train_asian.dds"
+		intersectionmask_texture = "gfx/interface/window_domiciles/laamp_building_baggage_train_asian_mask.png"
+		soundeffect = "event:/DLC/EP3/SFX/UI/camp_buildings/ep3_ui_domicile_buildings_baggage_train"
+	}
+
 	asset = {
 		icon = "gfx/interface/icons/domicile_building/domicile_building_bagage.dds"
 		texture = "gfx/interface/window_domiciles/laamp_building_baggage_train.dds"
@@ -1635,9 +2134,24 @@ baggage_train_05 = {
 		camp_unlocks_head_porter_officer = yes
 		receives_more_escort_contracts = yes
 	}
-	
+
 	ai_value = { value = baggage_train_main_path_value }
-	
+
+	asset = {
+		trigger = {
+			owner.culture = {
+				OR = {
+					has_graphical_chinese_culture_group_trigger = yes
+					has_graphical_japanese_culture_group_trigger = yes
+				}
+			}
+		}
+		icon = "gfx/interface/icons/domicile_building/domicile_building_bagage.dds"
+		texture = "gfx/interface/window_domiciles/laamp_building_baggage_train_asian.dds"
+		intersectionmask_texture = "gfx/interface/window_domiciles/laamp_building_baggage_train_asian_mask.png"
+		soundeffect = "event:/DLC/EP3/SFX/UI/camp_buildings/ep3_ui_domicile_buildings_baggage_train"
+	}
+
 	asset = {
 		icon = "gfx/interface/icons/domicile_building/domicile_building_bagage.dds"
 		texture = "gfx/interface/window_domiciles/laamp_building_baggage_train.dds"
@@ -1677,9 +2191,24 @@ baggage_train_06 = {
 		camp_unlocks_head_porter_officer = yes
 		receives_more_escort_contracts = yes
 	}
-	
+
 	ai_value = { value = baggage_train_main_path_value }
-	
+
+	asset = {
+		trigger = {
+			owner.culture = {
+				OR = {
+					has_graphical_chinese_culture_group_trigger = yes
+					has_graphical_japanese_culture_group_trigger = yes
+				}
+			}
+		}
+		icon = "gfx/interface/icons/domicile_building/domicile_building_bagage.dds"
+		texture = "gfx/interface/window_domiciles/laamp_building_baggage_train_asian.dds"
+		intersectionmask_texture = "gfx/interface/window_domiciles/laamp_building_baggage_train_asian_mask.png"
+		soundeffect = "event:/DLC/EP3/SFX/UI/camp_buildings/ep3_ui_domicile_buildings_baggage_train"
+	}
+
 	asset = {
 		icon = "gfx/interface/icons/domicile_building/domicile_building_bagage.dds"
 		texture = "gfx/interface/window_domiciles/laamp_building_baggage_train.dds"
@@ -1721,7 +2250,7 @@ baggage_train_ample_steeds = { # Ample Steeds
 		camp_unlocks_head_groom_officer = yes
 		camp_cheaper_cavalry_reinforcement = yes
 	}
-	
+
 	ai_value = {
 		value = camp_building_ai_base_t2
 		if = {
@@ -1732,7 +2261,22 @@ baggage_train_ample_steeds = { # Ample Steeds
 		}
 		multiply = 10
 	}
-	
+
+	asset = {
+		trigger = {
+			owner.culture = {
+				OR = {
+					has_graphical_chinese_culture_group_trigger = yes
+					has_graphical_japanese_culture_group_trigger = yes
+				}
+			}
+		}
+		icon = "gfx/interface/icons/domicile_building/domicile_building_ample_steeds.dds"
+		texture = "gfx/interface/window_domiciles/laamp_building_baggage_train_asian.dds"
+		intersectionmask_texture = "gfx/interface/window_domiciles/laamp_building_baggage_train_asian_mask.png"
+		soundeffect = "event:/DLC/EP3/SFX/UI/camp_buildings/ep3_ui_domicile_buildings_baggage_train"
+	}
+
 	asset = {
 		icon = "gfx/interface/icons/domicile_building/domicile_building_ample_steeds.dds"
 		texture = "gfx/interface/window_domiciles/laamp_building_baggage_train.dds"
@@ -1765,7 +2309,7 @@ baggage_train_porters = { # Porters
 		camp_recruit_porters_events = yes
 		camp_improved_reinforcement_from_gold = yes
 	}
-	
+
 	ai_value = {
 		value = camp_building_ai_base_t1
 		if = {
@@ -1781,7 +2325,22 @@ baggage_train_porters = { # Porters
 		}
 		multiply = 10
 	}
-	
+
+	asset = {
+		trigger = {
+			owner.culture = {
+				OR = {
+					has_graphical_chinese_culture_group_trigger = yes
+					has_graphical_japanese_culture_group_trigger = yes
+				}
+			}
+		}
+		icon = "gfx/interface/icons/domicile_building/domicile_building_porters.dds"
+		texture = "gfx/interface/window_domiciles/laamp_building_baggage_train_asian.dds"
+		intersectionmask_texture = "gfx/interface/window_domiciles/laamp_building_baggage_train_asian_mask.png"
+		soundeffect = "event:/DLC/EP3/SFX/UI/camp_buildings/ep3_ui_domicile_buildings_baggage_train"
+	}
+
 	asset = {
 		icon = "gfx/interface/icons/domicile_building/domicile_building_porters.dds"
 		texture = "gfx/interface/window_domiciles/laamp_building_baggage_train.dds"
@@ -1818,7 +2377,7 @@ baggage_train_trackers = { # Trackers
 		camp_improved_tracker_contract_success = yes
 		camp_improves_gather_provisions_hunting = yes
 	}
-	
+
 	ai_value = {
 		value = camp_building_ai_base_t3
 		if = {
@@ -1829,7 +2388,22 @@ baggage_train_trackers = { # Trackers
 		}
 		multiply = 10
 	}
-	
+
+	asset = {
+		trigger = {
+			owner.culture = {
+				OR = {
+					has_graphical_chinese_culture_group_trigger = yes
+					has_graphical_japanese_culture_group_trigger = yes
+				}
+			}
+		}
+		icon = "gfx/interface/icons/domicile_building/domicile_building_trackers.dds"
+		texture = "gfx/interface/window_domiciles/laamp_building_baggage_train_asian.dds"
+		intersectionmask_texture = "gfx/interface/window_domiciles/laamp_building_baggage_train_asian_mask.png"
+		soundeffect = "event:/DLC/EP3/SFX/UI/camp_buildings/ep3_ui_domicile_buildings_baggage_train"
+	}
+
 	asset = {
 		icon = "gfx/interface/icons/domicile_building/domicile_building_trackers.dds"
 		texture = "gfx/interface/window_domiciles/laamp_building_baggage_train.dds"
@@ -1869,9 +2443,24 @@ baggage_train_kennel = { # Kennel
 		camp_unlocks_kennelperson_officer = yes
 		camp_unlocks_adopt_a_kennel_dog_decision = yes
 	}
-	
+
 	ai_value = { value = camp_building_ai_base_t1 }
-	
+
+	asset = {
+		trigger = {
+			owner.culture = {
+				OR = {
+					has_graphical_chinese_culture_group_trigger = yes
+					has_graphical_japanese_culture_group_trigger = yes
+				}
+			}
+		}
+		icon = "gfx/interface/icons/domicile_building/domicile_building_kennel.dds"
+		texture = "gfx/interface/window_domiciles/laamp_building_baggage_train_asian.dds"
+		intersectionmask_texture = "gfx/interface/window_domiciles/laamp_building_baggage_train_asian_mask.png"
+		soundeffect = "event:/DLC/EP3/SFX/UI/camp_buildings/ep3_ui_domicile_buildings_baggage_train"
+	}
+
 	asset = {
 		icon = "gfx/interface/icons/domicile_building/domicile_building_kennel.dds"
 		texture = "gfx/interface/window_domiciles/laamp_building_baggage_train.dds"
@@ -1908,7 +2497,7 @@ baggage_train_siege_engineers = { # Siege Engineers
 	parameters = {
 		camp_unlocks_chief_engineer_officer = yes
 	}
-	
+
 	ai_value = {
 		value = camp_building_ai_base_t5
 		if = {
@@ -1919,7 +2508,22 @@ baggage_train_siege_engineers = { # Siege Engineers
 		}
 		multiply = 10
 	}
-	
+
+	asset = {
+		trigger = {
+			owner.culture = {
+				OR = {
+					has_graphical_chinese_culture_group_trigger = yes
+					has_graphical_japanese_culture_group_trigger = yes
+				}
+			}
+		}
+		icon = "gfx/interface/icons/domicile_building/domicile_building_siege_engineers.dds"
+		texture = "gfx/interface/window_domiciles/laamp_building_baggage_train_asian.dds"
+		intersectionmask_texture = "gfx/interface/window_domiciles/laamp_building_baggage_train_asian_mask.png"
+		soundeffect = "event:/DLC/EP3/SFX/UI/camp_buildings/ep3_ui_domicile_buildings_baggage_train"
+	}
+
 	asset = {
 		icon = "gfx/interface/icons/domicile_building/domicile_building_siege_engineers.dds"
 		texture = "gfx/interface/window_domiciles/laamp_building_baggage_train.dds"
@@ -1951,11 +2555,11 @@ baggage_train_shrine = { # Shrine
 	parameters = {
 		camp_enable_conversion = yes
 	}
-	
+
 	parameters = {
 		camp_unlocks_camp_priest_officer = yes
 	}
-	
+
 	ai_value = {
 		value = camp_building_ai_base_t3
 		if = {
@@ -1972,7 +2576,22 @@ baggage_train_shrine = { # Shrine
 			multiply = 0
 		}
 	}
-	
+
+	asset = {
+		trigger = {
+			owner.culture = {
+				OR = {
+					has_graphical_chinese_culture_group_trigger = yes
+					has_graphical_japanese_culture_group_trigger = yes
+				}
+			}
+		}
+		icon = "gfx/interface/icons/domicile_building/domicile_building_shrine.dds"
+		texture = "gfx/interface/window_domiciles/laamp_building_baggage_train_asian.dds"
+		intersectionmask_texture = "gfx/interface/window_domiciles/laamp_building_baggage_train_asian_mask.png"
+		soundeffect = "event:/DLC/EP3/SFX/UI/camp_buildings/ep3_ui_domicile_buildings_baggage_train"
+	}
+
 	asset = {
 		icon = "gfx/interface/icons/domicile_building/domicile_building_camp_shrine.dds"
 		texture = "gfx/interface/window_domiciles/laamp_building_baggage_train.dds"
@@ -2009,7 +2628,7 @@ baggage_train_scribes = { # Scribes
 	parameters = {
 		camp_improved_learning_contract_rewards = yes
 	}
-	
+
 	ai_value = {
 		value = camp_building_ai_base_t5
 		if = {
@@ -2020,7 +2639,22 @@ baggage_train_scribes = { # Scribes
 		}
 		multiply = 10
 	}
-	
+
+	asset = {
+		trigger = {
+			owner.culture = {
+				OR = {
+					has_graphical_chinese_culture_group_trigger = yes
+					has_graphical_japanese_culture_group_trigger = yes
+				}
+			}
+		}
+		icon = "gfx/interface/icons/domicile_building/domicile_building_scribes.dds"
+		texture = "gfx/interface/window_domiciles/laamp_building_baggage_train_asian.dds"
+		intersectionmask_texture = "gfx/interface/window_domiciles/laamp_building_baggage_train_asian_mask.png"
+		soundeffect = "event:/DLC/EP3/SFX/UI/camp_buildings/ep3_ui_domicile_buildings_baggage_train"
+	}
+
 	asset = {
 		icon = "gfx/interface/icons/domicile_building/domicile_building_scribes.dds"
 		texture = "gfx/interface/window_domiciles/laamp_building_baggage_train.dds"
@@ -2051,7 +2685,7 @@ baggage_train_bartering_grounds = { # Bartering Grounds
 		camp_improved_stewardship_contract_rewards = yes
 		camp_unlocks_pawn_gear_interaction = yes
 	}
-	
+
 	ai_value = {
 		value = camp_building_ai_base_t4
 		if = {
@@ -2062,7 +2696,22 @@ baggage_train_bartering_grounds = { # Bartering Grounds
 		}
 		multiply = 10
 	}
-	
+
+	asset = {
+		trigger = {
+			owner.culture = {
+				OR = {
+					has_graphical_chinese_culture_group_trigger = yes
+					has_graphical_japanese_culture_group_trigger = yes
+				}
+			}
+		}
+		icon = "gfx/interface/icons/domicile_building/domicile_building_bartering_grounds.dds"
+		texture = "gfx/interface/window_domiciles/laamp_building_baggage_train_asian.dds"
+		intersectionmask_texture = "gfx/interface/window_domiciles/laamp_building_baggage_train_asian_mask.png"
+		soundeffect = "event:/DLC/EP3/SFX/UI/camp_buildings/ep3_ui_domicile_buildings_baggage_train"
+	}
+
 	asset = {
 		icon = "gfx/interface/icons/domicile_building/domicile_building_bartering_grounds.dds"
 		texture = "gfx/interface/window_domiciles/laamp_building_baggage_train.dds"
@@ -2099,7 +2748,7 @@ baggage_train_proof_of_claims = { # Proof of Claims
 	parameters = {
 		camp_unlocks_witness_officer = yes
 	}
-	
+
 	ai_value = {
 		value = camp_building_ai_base_t5
 		if = {
@@ -2110,7 +2759,22 @@ baggage_train_proof_of_claims = { # Proof of Claims
 		}
 		multiply = 10
 	}
-	
+
+	asset = {
+		trigger = {
+			owner.culture = {
+				OR = {
+					has_graphical_chinese_culture_group_trigger = yes
+					has_graphical_japanese_culture_group_trigger = yes
+				}
+			}
+		}
+		icon = "gfx/interface/icons/domicile_building/domicile_building_proof_of_claims.dds"
+		texture = "gfx/interface/window_domiciles/laamp_building_baggage_train_asian.dds"
+		intersectionmask_texture = "gfx/interface/window_domiciles/laamp_building_baggage_train_asian_mask.png"
+		soundeffect = "event:/DLC/EP3/SFX/UI/camp_buildings/ep3_ui_domicile_buildings_baggage_train"
+	}
+
 	asset = {
 		icon = "gfx/interface/icons/domicile_building/domicile_building_proof_of_claims.dds"
 		texture = "gfx/interface/window_domiciles/laamp_building_baggage_train.dds"
@@ -2147,7 +2811,7 @@ baggage_train_ransom_cages = { # Ransom Cages
 		camp_reduced_prisoner_escape_chance = yes
 		camp_unlocks_abduct_scheme = yes
 	}
-	
+
 	ai_value = {
 		value = camp_building_ai_base_t5
 		if = {
@@ -2158,7 +2822,22 @@ baggage_train_ransom_cages = { # Ransom Cages
 		}
 		multiply = 10
 	}
-	
+
+	asset = {
+		trigger = {
+			owner.culture = {
+				OR = {
+					has_graphical_chinese_culture_group_trigger = yes
+					has_graphical_japanese_culture_group_trigger = yes
+				}
+			}
+		}
+		icon = "gfx/interface/icons/domicile_building/domicile_building_ransom_cages.dds"
+		texture = "gfx/interface/window_domiciles/laamp_building_baggage_train_asian.dds"
+		intersectionmask_texture = "gfx/interface/window_domiciles/laamp_building_baggage_train_asian_mask.png"
+		soundeffect = "event:/DLC/EP3/SFX/UI/camp_buildings/ep3_ui_domicile_buildings_baggage_train"
+	}
+
 	asset = {
 		icon = "gfx/interface/icons/domicile_building/domicile_building_ransom_cages.dds"
 		texture = "gfx/interface/window_domiciles/laamp_building_baggage_train.dds"
@@ -2195,7 +2874,7 @@ baggage_train_negotiators = { # Negotiators
 	parameters = {
 		camp_improves_wipe_slate_decision = yes
 	}
-	
+
 	ai_value = {
 		value = camp_building_ai_base_t5
 		if = {
@@ -2206,7 +2885,22 @@ baggage_train_negotiators = { # Negotiators
 		}
 		multiply = 10
 	}
-	
+
+	asset = {
+		trigger = {
+			owner.culture = {
+				OR = {
+					has_graphical_chinese_culture_group_trigger = yes
+					has_graphical_japanese_culture_group_trigger = yes
+				}
+			}
+		}
+		icon = "gfx/interface/icons/domicile_building/domicile_building_negotiators.dds"
+		texture = "gfx/interface/window_domiciles/laamp_building_baggage_train_asian.dds"
+		intersectionmask_texture = "gfx/interface/window_domiciles/laamp_building_baggage_train_asian_mask.png"
+		soundeffect = "event:/DLC/EP3/SFX/UI/camp_buildings/ep3_ui_domicile_buildings_baggage_train"
+	}
+
 	asset = {
 		icon = "gfx/interface/icons/domicile_building/domicile_building_negotiators.dds"
 		texture = "gfx/interface/window_domiciles/laamp_building_baggage_train.dds"
@@ -2241,7 +2935,7 @@ baggage_train_ascetics = { # Ascetics
 		domicile_monthly_piety_add = 3
 		holy_order_hire_cost_mult = -0.5
 	}
-	
+
 	ai_value = {
 		value = camp_building_ai_base_t5
 		if = {
@@ -2252,7 +2946,22 @@ baggage_train_ascetics = { # Ascetics
 		}
 		multiply = 10
 	}
-	
+
+	asset = {
+		trigger = {
+			owner.culture = {
+				OR = {
+					has_graphical_chinese_culture_group_trigger = yes
+					has_graphical_japanese_culture_group_trigger = yes
+				}
+			}
+		}
+		icon = "gfx/interface/icons/domicile_building/domicile_building_ascetics.dds"
+		texture = "gfx/interface/window_domiciles/laamp_building_baggage_train_asian.dds"
+		intersectionmask_texture = "gfx/interface/window_domiciles/laamp_building_baggage_train_asian_mask.png"
+		soundeffect = "event:/DLC/EP3/SFX/UI/camp_buildings/ep3_ui_domicile_buildings_baggage_train"
+	}
+
 	asset = {
 		icon = "gfx/interface/icons/domicile_building/domicile_building_ascetics.dds"
 		texture = "gfx/interface/window_domiciles/laamp_building_baggage_train.dds"
@@ -2282,7 +2991,7 @@ baggage_train_pleasure_tents = { # Pleasure Tents
 		monthly_intrigue_lifestyle_xp_gain_mult = 0.25
 		fertility = 0.2
 	}
-	
+
 	ai_value = {
 		value = camp_building_ai_base_t1
 		if = {
@@ -2293,7 +3002,22 @@ baggage_train_pleasure_tents = { # Pleasure Tents
 		}
 		multiply = 10
 	}
-	
+
+	asset = {
+		trigger = {
+			owner.culture = {
+				OR = {
+					has_graphical_chinese_culture_group_trigger = yes
+					has_graphical_japanese_culture_group_trigger = yes
+				}
+			}
+		}
+		icon = "gfx/interface/icons/domicile_building/domicile_building_pleasure_tents.dds"
+		texture = "gfx/interface/window_domiciles/laamp_building_baggage_train_asian.dds"
+		intersectionmask_texture = "gfx/interface/window_domiciles/laamp_building_baggage_train_asian_mask.png"
+		soundeffect = "event:/DLC/EP3/SFX/UI/camp_buildings/ep3_ui_domicile_buildings_baggage_train"
+	}
+
 	asset = {
 		icon = "gfx/interface/icons/domicile_building/domicile_building_pleasure_tents.dds"
 		texture = "gfx/interface/window_domiciles/laamp_building_baggage_train.dds"
@@ -2327,9 +3051,24 @@ mess_tent_01 = {
 		camp_improves_gather_provisions_decision = yes
 		camp_unlocks_camp_party_food_option = yes
 	}
-	
+
 	ai_value = { value = mess_tent_main_path_value }
-	
+
+	asset = {
+		trigger = {
+			owner.culture = {
+				OR = {
+					has_graphical_chinese_culture_group_trigger = yes
+					has_graphical_japanese_culture_group_trigger = yes
+				}
+			}
+		}
+		icon = "gfx/interface/icons/domicile_building/domicile_building_mess.dds"
+		texture = "gfx/interface/window_domiciles/laamp_building_mess_asian.dds"
+		intersectionmask_texture = "gfx/interface/window_domiciles/laamp_building_mess_asian_mask.png"
+		soundeffect = "event:/DLC/EP3/SFX/UI/camp_buildings/ep3_ui_domicile_buildings_mess_tent"
+	}
+
 	asset = {
 		icon = "gfx/interface/icons/domicile_building/domicile_building_mess.dds"
 		texture = "gfx/interface/window_domiciles/laamp_building_mess.dds"
@@ -2364,9 +3103,24 @@ mess_tent_02 = {
 		camp_improves_gather_provisions_decision = yes
 		camp_unlocks_camp_party_food_option = yes
 	}
-	
+
 	ai_value = { value = mess_tent_main_path_value }
-	
+
+	asset = {
+		trigger = {
+			owner.culture = {
+				OR = {
+					has_graphical_chinese_culture_group_trigger = yes
+					has_graphical_japanese_culture_group_trigger = yes
+				}
+			}
+		}
+		icon = "gfx/interface/icons/domicile_building/domicile_building_mess.dds"
+		texture = "gfx/interface/window_domiciles/laamp_building_mess_asian.dds"
+		intersectionmask_texture = "gfx/interface/window_domiciles/laamp_building_mess_asian_mask.png"
+		soundeffect = "event:/DLC/EP3/SFX/UI/camp_buildings/ep3_ui_domicile_buildings_mess_tent"
+	}
+
 	asset = {
 		icon = "gfx/interface/icons/domicile_building/domicile_building_mess.dds"
 		texture = "gfx/interface/window_domiciles/laamp_building_mess.dds"
@@ -2402,9 +3156,24 @@ mess_tent_03 = {
 		camp_improves_gather_provisions_decision = yes
 		camp_unlocks_camp_party_food_option = yes
 	}
-	
+
 	ai_value = { value = mess_tent_main_path_value }
-	
+
+	asset = {
+		trigger = {
+			owner.culture = {
+				OR = {
+					has_graphical_chinese_culture_group_trigger = yes
+					has_graphical_japanese_culture_group_trigger = yes
+				}
+			}
+		}
+		icon = "gfx/interface/icons/domicile_building/domicile_building_mess.dds"
+		texture = "gfx/interface/window_domiciles/laamp_building_mess_asian.dds"
+		intersectionmask_texture = "gfx/interface/window_domiciles/laamp_building_mess_asian_mask.png"
+		soundeffect = "event:/DLC/EP3/SFX/UI/camp_buildings/ep3_ui_domicile_buildings_mess_tent"
+	}
+
 	asset = {
 		icon = "gfx/interface/icons/domicile_building/domicile_building_mess.dds"
 		texture = "gfx/interface/window_domiciles/laamp_building_mess.dds"
@@ -2441,9 +3210,24 @@ mess_tent_04 = {
 		camp_improves_gather_provisions_decision = yes
 		camp_unlocks_camp_party_food_option = yes
 	}
-	
+
 	ai_value = { value = mess_tent_main_path_value }
-	
+
+	asset = {
+		trigger = {
+			owner.culture = {
+				OR = {
+					has_graphical_chinese_culture_group_trigger = yes
+					has_graphical_japanese_culture_group_trigger = yes
+				}
+			}
+		}
+		icon = "gfx/interface/icons/domicile_building/domicile_building_mess.dds"
+		texture = "gfx/interface/window_domiciles/laamp_building_mess_asian.dds"
+		intersectionmask_texture = "gfx/interface/window_domiciles/laamp_building_mess_asian_mask.png"
+		soundeffect = "event:/DLC/EP3/SFX/UI/camp_buildings/ep3_ui_domicile_buildings_mess_tent"
+	}
+
 	asset = {
 		icon = "gfx/interface/icons/domicile_building/domicile_building_mess.dds"
 		texture = "gfx/interface/window_domiciles/laamp_building_mess.dds"
@@ -2481,9 +3265,24 @@ mess_tent_05 = {
 		camp_improves_gather_provisions_decision = yes
 		camp_unlocks_camp_party_food_option = yes
 	}
-	
+
 	ai_value = { value = mess_tent_main_path_value }
-	
+
+	asset = {
+		trigger = {
+			owner.culture = {
+				OR = {
+					has_graphical_chinese_culture_group_trigger = yes
+					has_graphical_japanese_culture_group_trigger = yes
+				}
+			}
+		}
+		icon = "gfx/interface/icons/domicile_building/domicile_building_bagage.dds"
+		texture = "gfx/interface/window_domiciles/laamp_building_mess_asian.dds"
+		intersectionmask_texture = "gfx/interface/window_domiciles/laamp_building_mess_asian_mask.png"
+		soundeffect = "event:/DLC/EP3/SFX/UI/camp_buildings/ep3_ui_domicile_buildings_mess_tent"
+	}
+
 	asset = {
 		icon = "gfx/interface/icons/domicile_building/domicile_building_mess.dds"
 		texture = "gfx/interface/window_domiciles/laamp_building_mess.dds"
@@ -2522,9 +3321,24 @@ mess_tent_06 = {
 		camp_improves_gather_provisions_decision = yes
 		camp_unlocks_camp_party_food_option = yes
 	}
-	
+
 	ai_value = { value = mess_tent_main_path_value }
-	
+
+	asset = {
+		trigger = {
+			owner.culture = {
+				OR = {
+					has_graphical_chinese_culture_group_trigger = yes
+					has_graphical_japanese_culture_group_trigger = yes
+				}
+			}
+		}
+		icon = "gfx/interface/icons/domicile_building/domicile_building_mess.dds"
+		texture = "gfx/interface/window_domiciles/laamp_building_mess_asian.dds"
+		intersectionmask_texture = "gfx/interface/window_domiciles/laamp_building_mess_asian_mask.png"
+		soundeffect = "event:/DLC/EP3/SFX/UI/camp_buildings/ep3_ui_domicile_buildings_mess_tent"
+	}
+
 	asset = {
 		icon = "gfx/interface/icons/domicile_building/domicile_building_mess.dds"
 		texture = "gfx/interface/window_domiciles/laamp_building_mess.dds"
@@ -2557,7 +3371,7 @@ mess_tent_herbalists = { # Herbalists
 		camp_unlocks_poisoner_scheme_agents = yes
 		camp_improves_gather_provisions_foraging = yes
 	}
-	
+
 	ai_value = {
 		value = camp_building_ai_base_t3
 		if = {
@@ -2568,7 +3382,22 @@ mess_tent_herbalists = { # Herbalists
 		}
 		multiply = 10
 	}
-	
+
+	asset = {
+		trigger = {
+			owner.culture = {
+				OR = {
+					has_graphical_chinese_culture_group_trigger = yes
+					has_graphical_japanese_culture_group_trigger = yes
+				}
+			}
+		}
+		icon = "gfx/interface/icons/domicile_building/domicile_building_herbalists.dds"
+		texture = "gfx/interface/window_domiciles/laamp_building_mess_asian.dds"
+		intersectionmask_texture = "gfx/interface/window_domiciles/laamp_building_mess_asian_mask.png"
+		soundeffect = "event:/DLC/EP3/SFX/UI/camp_buildings/ep3_ui_domicile_buildings_mess_tent"
+	}
+
 	asset = {
 		icon = "gfx/interface/icons/domicile_building/domicile_building_herbalists.dds"
 		texture = "gfx/interface/window_domiciles/laamp_building_mess.dds"
@@ -2601,7 +3430,7 @@ mess_tent_brewers = { # Brewers
 		camp_unlocks_chief_forager_officer = yes
 		camp_unlocks_camp_party_food_option = yes
 	}
-	
+
 	ai_value = {
 		value = camp_building_ai_base_t2
 		if = {
@@ -2612,7 +3441,22 @@ mess_tent_brewers = { # Brewers
 		}
 		multiply = 10
 	}
-	
+
+	asset = {
+		trigger = {
+			owner.culture = {
+				OR = {
+					has_graphical_chinese_culture_group_trigger = yes
+					has_graphical_japanese_culture_group_trigger = yes
+				}
+			}
+		}
+		icon = "gfx/interface/icons/domicile_building/domicile_building_brewers.dds"
+		texture = "gfx/interface/window_domiciles/laamp_building_mess_asian.dds"
+		intersectionmask_texture = "gfx/interface/window_domiciles/laamp_building_mess_asian_mask.png"
+		soundeffect = "event:/DLC/EP3/SFX/UI/camp_buildings/ep3_ui_domicile_buildings_mess_tent"
+	}
+
 	asset = {
 		icon = "gfx/interface/icons/domicile_building/domicile_building_brewers.dds"
 		texture = "gfx/interface/window_domiciles/laamp_building_mess.dds"
@@ -2640,7 +3484,7 @@ mess_tent_curers = { # Curers
 		provisions_capacity_mult = 0.5
 		supply_capacity_mult = 0.25
 	}
-	
+
 	ai_value = {
 		value = camp_building_ai_base_t1
 		if = {
@@ -2651,7 +3495,22 @@ mess_tent_curers = { # Curers
 		}
 		multiply = 10
 	}
-	
+
+	asset = {
+		trigger = {
+			owner.culture = {
+				OR = {
+					has_graphical_chinese_culture_group_trigger = yes
+					has_graphical_japanese_culture_group_trigger = yes
+				}
+			}
+		}
+		icon = "gfx/interface/icons/domicile_building/domicile_building_curers.dds"
+		texture = "gfx/interface/window_domiciles/laamp_building_mess_asian.dds"
+		intersectionmask_texture = "gfx/interface/window_domiciles/laamp_building_mess_asian_mask.png"
+		soundeffect = "event:/DLC/EP3/SFX/UI/camp_buildings/ep3_ui_domicile_buildings_mess_tent"
+	}
+
 	asset = {
 		icon = "gfx/interface/icons/domicile_building/domicile_building_curers.dds"
 		texture = "gfx/interface/window_domiciles/laamp_building_mess.dds"
@@ -2681,7 +3540,7 @@ mess_tent_bakers = { # Bakers
 		light_cavalry_pursuit_mult = 0.4
 		archer_cavalry_pursuit_mult = 0.4
 	}
-	
+
 	ai_value = {
 		value = camp_building_ai_base_t1
 		if = {
@@ -2692,7 +3551,22 @@ mess_tent_bakers = { # Bakers
 		}
 		multiply = 10
 	}
-	
+
+	asset = {
+		trigger = {
+			owner.culture = {
+				OR = {
+					has_graphical_chinese_culture_group_trigger = yes
+					has_graphical_japanese_culture_group_trigger = yes
+				}
+			}
+		}
+		icon = "gfx/interface/icons/domicile_building/domicile_building_bakers.dds"
+		texture = "gfx/interface/window_domiciles/laamp_building_mess_asian.dds"
+		intersectionmask_texture = "gfx/interface/window_domiciles/laamp_building_mess_asian_mask.png"
+		soundeffect = "event:/DLC/EP3/SFX/UI/camp_buildings/ep3_ui_domicile_buildings_mess_tent"
+	}
+
 	asset = {
 		icon = "gfx/interface/icons/domicile_building/domicile_building_bakers.dds"
 		texture = "gfx/interface/window_domiciles/laamp_building_mess.dds"
@@ -2725,7 +3599,7 @@ mess_tent_cooks = { # Cooks
 	parameters = {
 		camp_improved_camp_party_activity_gains = yes
 	}
-	
+
 	ai_value = {
 		value = camp_building_ai_base_t4
 		if = {
@@ -2736,7 +3610,22 @@ mess_tent_cooks = { # Cooks
 		}
 		multiply = 10
 	}
-	
+
+	asset = {
+		trigger = {
+			owner.culture = {
+				OR = {
+					has_graphical_chinese_culture_group_trigger = yes
+					has_graphical_japanese_culture_group_trigger = yes
+				}
+			}
+		}
+		icon = "gfx/interface/icons/domicile_building/domicile_building_cooks.dds"
+		texture = "gfx/interface/window_domiciles/laamp_building_mess_asian.dds"
+		intersectionmask_texture = "gfx/interface/window_domiciles/laamp_building_mess_asian_mask.png"
+		soundeffect = "event:/DLC/EP3/SFX/UI/camp_buildings/ep3_ui_domicile_buildings_mess_tent"
+	}
+
 	asset = {
 		icon = "gfx/interface/icons/domicile_building/domicile_building_cooks.dds"
 		texture = "gfx/interface/window_domiciles/laamp_building_mess.dds"
@@ -2769,9 +3658,24 @@ camp_fire_01 = {
 		camp_better_scout_for_talent = yes
 		fireside_chat_intent_unlock = yes
 	}
-	
+
 	ai_value = { value = camp_fire_main_path_value }
-	
+
+	asset = {
+		trigger = {
+			owner.culture = {
+				OR = {
+					has_graphical_chinese_culture_group_trigger = yes
+					has_graphical_japanese_culture_group_trigger = yes
+				}
+			}
+		}
+		icon = "gfx/interface/icons/domicile_building/domicile_building_campfire.dds"
+		texture = "gfx/interface/window_domiciles/laamp_building_roaring_campfire_asian.dds"
+		intersectionmask_texture = "gfx/interface/window_domiciles/laamp_building_roaring_campfire_asian_mask.png"
+		soundeffect = "event:/DLC/EP3/SFX/UI/camp_buildings/ep3_ui_domicile_buildings_campfire"
+	}
+
 	asset = {
 		icon = "gfx/interface/icons/domicile_building/domicile_building_campfire.dds"
 		texture = "gfx/interface/window_domiciles/laamp_building_roaring_campfire.dds"
@@ -2804,9 +3708,24 @@ camp_fire_02 = {
 		camp_better_scout_for_talent = yes
 		fireside_chat_intent_unlock = yes
 	}
-	
+
 	ai_value = { value = camp_fire_main_path_value }
-	
+
+	asset = {
+		trigger = {
+			owner.culture = {
+				OR = {
+					has_graphical_chinese_culture_group_trigger = yes
+					has_graphical_japanese_culture_group_trigger = yes
+				}
+			}
+		}
+		icon = "gfx/interface/icons/domicile_building/domicile_building_campfire.dds"
+		texture = "gfx/interface/window_domiciles/laamp_building_roaring_campfire_asian.dds"
+		intersectionmask_texture = "gfx/interface/window_domiciles/laamp_building_roaring_campfire_asian_mask.png"
+		soundeffect = "event:/DLC/EP3/SFX/UI/camp_buildings/ep3_ui_domicile_buildings_campfire"
+	}
+
 	asset = {
 		icon = "gfx/interface/icons/domicile_building/domicile_building_campfire.dds"
 		texture = "gfx/interface/window_domiciles/laamp_building_roaring_campfire.dds"
@@ -2840,9 +3759,24 @@ camp_fire_03 = {
 		camp_better_scout_for_talent = yes
 		fireside_chat_intent_unlock = yes
 	}
-	
+
 	ai_value = { value = camp_fire_main_path_value }
-	
+
+	asset = {
+		trigger = {
+			owner.culture = {
+				OR = {
+					has_graphical_chinese_culture_group_trigger = yes
+					has_graphical_japanese_culture_group_trigger = yes
+				}
+			}
+		}
+		icon = "gfx/interface/icons/domicile_building/domicile_building_campfire.dds"
+		texture = "gfx/interface/window_domiciles/laamp_building_roaring_campfire_asian.dds"
+		intersectionmask_texture = "gfx/interface/window_domiciles/laamp_building_roaring_campfire_asian_mask.png"
+		soundeffect = "event:/DLC/EP3/SFX/UI/camp_buildings/ep3_ui_domicile_buildings_campfire"
+	}
+
 	asset = {
 		icon = "gfx/interface/icons/domicile_building/domicile_building_campfire.dds"
 		texture = "gfx/interface/window_domiciles/laamp_building_roaring_campfire.dds"
@@ -2878,9 +3812,24 @@ camp_fire_04 = {
 		camp_better_scout_for_talent = yes
 		fireside_chat_intent_unlock = yes
 	}
-	
+
 	ai_value = { value = camp_fire_main_path_value }
-	
+
+	asset = {
+		trigger = {
+			owner.culture = {
+				OR = {
+					has_graphical_chinese_culture_group_trigger = yes
+					has_graphical_japanese_culture_group_trigger = yes
+				}
+			}
+		}
+		icon = "gfx/interface/icons/domicile_building/domicile_building_campfire.dds"
+		texture = "gfx/interface/window_domiciles/laamp_building_roaring_campfire_asian.dds"
+		intersectionmask_texture = "gfx/interface/window_domiciles/laamp_building_roaring_campfire_asian_mask.png"
+		soundeffect = "event:/DLC/EP3/SFX/UI/camp_buildings/ep3_ui_domicile_buildings_campfire"
+	}
+
 	asset = {
 		icon = "gfx/interface/icons/domicile_building/domicile_building_campfire.dds"
 		texture = "gfx/interface/window_domiciles/laamp_building_roaring_campfire.dds"
@@ -2916,9 +3865,24 @@ camp_fire_05 = {
 		camp_better_scout_for_talent = yes
 		fireside_chat_intent_unlock = yes
 	}
-	
+
 	ai_value = { value = camp_fire_main_path_value }
-	
+
+	asset = {
+		trigger = {
+			owner.culture = {
+				OR = {
+					has_graphical_chinese_culture_group_trigger = yes
+					has_graphical_japanese_culture_group_trigger = yes
+				}
+			}
+		}
+		icon = "gfx/interface/icons/domicile_building/domicile_building_campfire.dds"
+		texture = "gfx/interface/window_domiciles/laamp_building_roaring_campfire_asian.dds"
+		intersectionmask_texture = "gfx/interface/window_domiciles/laamp_building_roaring_campfire_asian_mask.png"
+		soundeffect = "event:/DLC/EP3/SFX/UI/camp_buildings/ep3_ui_domicile_buildings_campfire"
+	}
+
 	asset = {
 		icon = "gfx/interface/icons/domicile_building/domicile_building_campfire.dds"
 		texture = "gfx/interface/window_domiciles/laamp_building_roaring_campfire.dds"
@@ -2955,9 +3919,24 @@ camp_fire_06 = {
 		camp_better_scout_for_talent = yes
 		fireside_chat_intent_unlock = yes
 	}
-	
+
 	ai_value = { value = camp_fire_main_path_value }
-	
+
+	asset = {
+		trigger = {
+			owner.culture = {
+				OR = {
+					has_graphical_chinese_culture_group_trigger = yes
+					has_graphical_japanese_culture_group_trigger = yes
+				}
+			}
+		}
+		icon = "gfx/interface/icons/domicile_building/domicile_building_campfire.dds"
+		texture = "gfx/interface/window_domiciles/laamp_building_roaring_campfire_asian.dds"
+		intersectionmask_texture = "gfx/interface/window_domiciles/laamp_building_roaring_campfire_asian_mask.png"
+		soundeffect = "event:/DLC/EP3/SFX/UI/camp_buildings/ep3_ui_domicile_buildings_campfire"
+	}
+
 	asset = {
 		icon = "gfx/interface/icons/domicile_building/domicile_building_campfire.dds"
 		texture = "gfx/interface/window_domiciles/laamp_building_roaring_campfire.dds"
@@ -2989,7 +3968,7 @@ camp_fire_trailing_musicians = { # Trailing Musicians
 		camp_unlocks_master_bard_officer = yes
 		camp_improved_musician_scheme_agent = yes
 	}
-	
+
 	ai_value = {
 		value = camp_building_ai_base_t4
 		if = {
@@ -3000,7 +3979,22 @@ camp_fire_trailing_musicians = { # Trailing Musicians
 		}
 		multiply = 10
 	}
-	
+
+	asset = {
+		trigger = {
+			owner.culture = {
+				OR = {
+					has_graphical_chinese_culture_group_trigger = yes
+					has_graphical_japanese_culture_group_trigger = yes
+				}
+			}
+		}
+		icon = "gfx/interface/icons/domicile_building/domicile_building_trailing_musicians.dds"
+		texture = "gfx/interface/window_domiciles/laamp_building_roaring_campfire_asian.dds"
+		intersectionmask_texture = "gfx/interface/window_domiciles/laamp_building_roaring_campfire_asian_mask.png"
+		soundeffect = "event:/DLC/EP3/SFX/UI/camp_buildings/ep3_ui_domicile_buildings_campfire"
+	}
+
 	asset = {
 		icon = "gfx/interface/icons/domicile_building/domicile_building_trailing_musicians.dds"
 		texture = "gfx/interface/window_domiciles/laamp_building_roaring_campfire.dds"
@@ -3032,7 +4026,7 @@ camp_fire_wandering_poets = { # Wandering Poets
 		camp_more_likely_to_become_poet = yes
 		camp_improved_poet_scheme_agent = yes
 	}
-	
+
 	ai_value = {
 		value = camp_building_ai_base_t1
 		if = {
@@ -3043,7 +4037,22 @@ camp_fire_wandering_poets = { # Wandering Poets
 		}
 		multiply = 10
 	}
-	
+
+	asset = {
+		trigger = {
+			owner.culture = {
+				OR = {
+					has_graphical_chinese_culture_group_trigger = yes
+					has_graphical_japanese_culture_group_trigger = yes
+				}
+			}
+		}
+		icon = "gfx/interface/icons/domicile_building/domicile_building_wandering_poets.dds"
+		texture = "gfx/interface/window_domiciles/laamp_building_roaring_campfire_asian.dds"
+		intersectionmask_texture = "gfx/interface/window_domiciles/laamp_building_roaring_campfire_asian_mask.png"
+		soundeffect = "event:/DLC/EP3/SFX/UI/camp_buildings/ep3_ui_domicile_buildings_campfire"
+	}
+
 	asset = {
 		icon = "gfx/interface/icons/domicile_building/domicile_building_wandering_poets.dds"
 		texture = "gfx/interface/window_domiciles/laamp_building_roaring_campfire.dds"
@@ -3074,7 +4083,7 @@ camp_fire_capering_fools = { # Capering Fools
 		camp_improves_stooge_officer = yes
 		camp_recruit_fool_events = yes
 	}
-	
+
 	ai_value = {
 		value = camp_building_ai_base_t1
 		if = {
@@ -3085,7 +4094,22 @@ camp_fire_capering_fools = { # Capering Fools
 		}
 		multiply = 10
 	}
-	
+
+	asset = {
+		trigger = {
+			owner.culture = {
+				OR = {
+					has_graphical_chinese_culture_group_trigger = yes
+					has_graphical_japanese_culture_group_trigger = yes
+				}
+			}
+		}
+		icon = "gfx/interface/icons/domicile_building/domicile_building_capering_fools.dds"
+		texture = "gfx/interface/window_domiciles/laamp_building_roaring_campfire_asian.dds"
+		intersectionmask_texture = "gfx/interface/window_domiciles/laamp_building_roaring_campfire_asian_mask.png"
+		soundeffect = "event:/DLC/EP3/SFX/UI/camp_buildings/ep3_ui_domicile_buildings_campfire"
+	}
+
 	asset = {
 		icon = "gfx/interface/icons/domicile_building/domicile_building_capering_fools.dds"
 		texture = "gfx/interface/window_domiciles/laamp_building_roaring_campfire.dds"
@@ -3114,7 +4138,7 @@ camp_fire_libations_for_the_lost = { # Libations for the Lost
 		domicile_monthly_piety_add = 0.1
 		knight_effectiveness_per_learning = 0.01
 	}
-	
+
 	ai_value = {
 		value = camp_building_ai_base_t3
 		if = {
@@ -3125,7 +4149,22 @@ camp_fire_libations_for_the_lost = { # Libations for the Lost
 		}
 		multiply = 10
 	}
-	
+
+	asset = {
+		trigger = {
+			owner.culture = {
+				OR = {
+					has_graphical_chinese_culture_group_trigger = yes
+					has_graphical_japanese_culture_group_trigger = yes
+				}
+			}
+		}
+		icon = "gfx/interface/icons/domicile_building/domicile_building_libations_for_the_lost.dds"
+		texture = "gfx/interface/window_domiciles/laamp_building_roaring_campfire_asian.dds"
+		intersectionmask_texture = "gfx/interface/window_domiciles/laamp_building_roaring_campfire_asian_mask.png"
+		soundeffect = "event:/DLC/EP3/SFX/UI/camp_buildings/ep3_ui_domicile_buildings_campfire"
+	}
+
 	asset = {
 		icon = "gfx/interface/icons/domicile_building/domicile_building_libations_for_the_lost.dds"
 		texture = "gfx/interface/window_domiciles/laamp_building_roaring_campfire.dds"
@@ -3163,7 +4202,7 @@ camp_fire_local_hangers_on = { # Local Hangers-On
 	parameters = {
 		camp_recruit_locals_events = yes
 	}
-	
+
 	ai_value = {
 		value = camp_building_ai_base_t5
 		if = {
@@ -3174,7 +4213,22 @@ camp_fire_local_hangers_on = { # Local Hangers-On
 		}
 		multiply = 10
 	}
-	
+
+	asset = {
+		trigger = {
+			owner.culture = {
+				OR = {
+					has_graphical_chinese_culture_group_trigger = yes
+					has_graphical_japanese_culture_group_trigger = yes
+				}
+			}
+		}
+		icon = "gfx/interface/icons/domicile_building/domicile_building_local_hangers_on.dds"
+		texture = "gfx/interface/window_domiciles/laamp_building_roaring_campfire_asian.dds"
+		intersectionmask_texture = "gfx/interface/window_domiciles/laamp_building_roaring_campfire_asian_mask.png"
+		soundeffect = "event:/DLC/EP3/SFX/UI/camp_buildings/ep3_ui_domicile_buildings_campfire"
+	}
+
 	asset = {
 		icon = "gfx/interface/icons/domicile_building/domicile_building_local_hangers_on.dds"
 		texture = "gfx/interface/window_domiciles/laamp_building_roaring_campfire.dds"
@@ -3212,7 +4266,7 @@ camp_fire_future_dreams = { # Future Dreams
 	parameters = {
 		camp_unlock_trade_oath_interaction = yes
 	}
-	
+
 	ai_value = {
 		value = camp_building_ai_base_t5
 		if = {
@@ -3223,7 +4277,22 @@ camp_fire_future_dreams = { # Future Dreams
 		}
 		multiply = 10
 	}
-	
+
+	asset = {
+		trigger = {
+			owner.culture = {
+				OR = {
+					has_graphical_chinese_culture_group_trigger = yes
+					has_graphical_japanese_culture_group_trigger = yes
+				}
+			}
+		}
+		icon = "gfx/interface/icons/domicile_building/domicile_building_future_dreams.dds"
+		texture = "gfx/interface/window_domiciles/laamp_building_roaring_campfire_asian.dds"
+		intersectionmask_texture = "gfx/interface/window_domiciles/laamp_building_roaring_campfire_asian_mask.png"
+		soundeffect = "event:/DLC/EP3/SFX/UI/camp_buildings/ep3_ui_domicile_buildings_campfire"
+	}
+
 	asset = {
 		icon = "gfx/interface/icons/domicile_building/domicile_building_future_dreams.dds"
 		texture = "gfx/interface/window_domiciles/laamp_building_roaring_campfire.dds"
@@ -3257,7 +4326,7 @@ camp_fire_nightly_debates = { # Nightly Debates
 		monthly_prestige_gain_per_court_position_add = 0.15
 		learning_scheme_phase_duration = major_scheme_phase_duration_bonus_value
 	}
-	
+
 	ai_value = {
 		value = camp_building_ai_base_t5
 		if = {
@@ -3268,7 +4337,22 @@ camp_fire_nightly_debates = { # Nightly Debates
 		}
 		multiply = 10
 	}
-	
+
+	asset = {
+		trigger = {
+			owner.culture = {
+				OR = {
+					has_graphical_chinese_culture_group_trigger = yes
+					has_graphical_japanese_culture_group_trigger = yes
+				}
+			}
+		}
+		icon = "gfx/interface/icons/domicile_building/domicile_building_nightly_debates.dds"
+		texture = "gfx/interface/window_domiciles/laamp_building_roaring_campfire_asian.dds"
+		intersectionmask_texture = "gfx/interface/window_domiciles/laamp_building_roaring_campfire_asian_mask.png"
+		soundeffect = "event:/DLC/EP3/SFX/UI/camp_buildings/ep3_ui_domicile_buildings_campfire"
+	}
+
 	asset = {
 		icon = "gfx/interface/icons/domicile_building/domicile_building_nightly_debates.dds"
 		texture = "gfx/interface/window_domiciles/laamp_building_roaring_campfire.dds"
@@ -3305,7 +4389,7 @@ camp_fire_juicy_rumors = { # Juicy Rumors
 	parameters = {
 		camp_improved_criminal_contract_rewards = yes
 	}
-	
+
 	ai_value = {
 		value = camp_building_ai_base_t5
 		if = {
@@ -3316,7 +4400,22 @@ camp_fire_juicy_rumors = { # Juicy Rumors
 		}
 		multiply = 10
 	}
-	
+
+	asset = {
+		trigger = {
+			owner.culture = {
+				OR = {
+					has_graphical_chinese_culture_group_trigger = yes
+					has_graphical_japanese_culture_group_trigger = yes
+				}
+			}
+		}
+		icon = "gfx/interface/icons/domicile_building/domicile_building_juicy_rumors.dds"
+		texture = "gfx/interface/window_domiciles/laamp_building_roaring_campfire_asian.dds"
+		intersectionmask_texture = "gfx/interface/window_domiciles/laamp_building_roaring_campfire_asian_mask.png"
+		soundeffect = "event:/DLC/EP3/SFX/UI/camp_buildings/ep3_ui_domicile_buildings_campfire"
+	}
+
 	asset = {
 		icon = "gfx/interface/icons/domicile_building/domicile_building_juicy_rumors.dds"
 		texture = "gfx/interface/window_domiciles/laamp_building_roaring_campfire.dds"
@@ -3347,9 +4446,24 @@ proving_grounds_01 = {
 	parameters = {
 		camp_unlocks_master_of_arms_officer = yes
 	}
-	
+
 	ai_value = { value = proving_grounds_main_path_value }
-	
+
+	asset = {
+		trigger = {
+			owner.culture = {
+				OR = {
+					has_graphical_chinese_culture_group_trigger = yes
+					has_graphical_japanese_culture_group_trigger = yes
+				}
+			}
+		}
+		icon = "gfx/interface/icons/domicile_building/domicile_building_proving.dds"
+		texture = "gfx/interface/window_domiciles/laamp_building_proving_grounds_asian.dds"
+		intersectionmask_texture = "gfx/interface/window_domiciles/laamp_building_proving_grounds_asian_mask.png"
+		soundeffect = "event:/DLC/EP3/SFX/UI/camp_buildings/ep3_ui_domicile_buildings_proving_ground"
+	}
+
 	asset = {
 		icon = "gfx/interface/icons/domicile_building/domicile_building_proving.dds"
 		texture = "gfx/interface/window_domiciles/laamp_building_proving_grounds.dds"
@@ -3381,9 +4495,24 @@ proving_grounds_02 = {
 	parameters = {
 		camp_unlocks_master_of_arms_officer = yes
 	}
-	
+
 	ai_value = { value = proving_grounds_main_path_value }
-	
+
+	asset = {
+		trigger = {
+			owner.culture = {
+				OR = {
+					has_graphical_chinese_culture_group_trigger = yes
+					has_graphical_japanese_culture_group_trigger = yes
+				}
+			}
+		}
+		icon = "gfx/interface/icons/domicile_building/domicile_building_proving.dds"
+		texture = "gfx/interface/window_domiciles/laamp_building_proving_grounds_asian.dds"
+		intersectionmask_texture = "gfx/interface/window_domiciles/laamp_building_proving_grounds_asian_mask.png"
+		soundeffect = "event:/DLC/EP3/SFX/UI/camp_buildings/ep3_ui_domicile_buildings_main_building"
+	}
+
 	asset = {
 		icon = "gfx/interface/icons/domicile_building/domicile_building_proving.dds"
 		texture = "gfx/interface/window_domiciles/laamp_building_proving_grounds.dds"
@@ -3415,9 +4544,24 @@ proving_grounds_03 = {
 	parameters = {
 		camp_unlocks_master_of_arms_officer = yes
 	}
-	
+
 	ai_value = { value = proving_grounds_main_path_value }
-	
+
+	asset = {
+		trigger = {
+			owner.culture = {
+				OR = {
+					has_graphical_chinese_culture_group_trigger = yes
+					has_graphical_japanese_culture_group_trigger = yes
+				}
+			}
+		}
+		icon = "gfx/interface/icons/domicile_building/domicile_building_proving.dds"
+		texture = "gfx/interface/window_domiciles/laamp_building_proving_grounds_asian.dds"
+		intersectionmask_texture = "gfx/interface/window_domiciles/laamp_building_proving_grounds_asian_mask.png"
+		soundeffect = "event:/DLC/EP3/SFX/UI/camp_buildings/ep3_ui_domicile_buildings_proving_ground"
+	}
+
 	asset = {
 		icon = "gfx/interface/icons/domicile_building/domicile_building_proving.dds"
 		texture = "gfx/interface/window_domiciles/laamp_building_proving_grounds.dds"
@@ -3452,9 +4596,24 @@ proving_grounds_04 = {
 	parameters = {
 		camp_unlocks_master_of_arms_officer = yes
 	}
-	
+
 	ai_value = { value = proving_grounds_main_path_value }
-	
+
+	asset = {
+		trigger = {
+			owner.culture = {
+				OR = {
+					has_graphical_chinese_culture_group_trigger = yes
+					has_graphical_japanese_culture_group_trigger = yes
+				}
+			}
+		}
+		icon = "gfx/interface/icons/domicile_building/domicile_building_proving.dds"
+		texture = "gfx/interface/window_domiciles/laamp_building_proving_grounds_asian.dds"
+		intersectionmask_texture = "gfx/interface/window_domiciles/laamp_building_proving_grounds_asian_mask.png"
+		soundeffect = "event:/DLC/EP3/SFX/UI/camp_buildings/ep3_ui_domicile_buildings_proving_ground"
+	}
+
 	asset = {
 		icon = "gfx/interface/icons/domicile_building/domicile_building_proving.dds"
 		texture = "gfx/interface/window_domiciles/laamp_building_proving_grounds.dds"
@@ -3488,9 +4647,24 @@ proving_grounds_05 = {
 	parameters = {
 		camp_unlocks_master_of_arms_officer = yes
 	}
-	
+
 	ai_value = { value = proving_grounds_main_path_value }
-	
+
+	asset = {
+		trigger = {
+			owner.culture = {
+				OR = {
+					has_graphical_chinese_culture_group_trigger = yes
+					has_graphical_japanese_culture_group_trigger = yes
+				}
+			}
+		}
+		icon = "gfx/interface/icons/domicile_building/domicile_building_proving.dds"
+		texture = "gfx/interface/window_domiciles/laamp_building_proving_grounds_asian.dds"
+		intersectionmask_texture = "gfx/interface/window_domiciles/laamp_building_proving_grounds_asian_mask.png"
+		soundeffect = "event:/DLC/EP3/SFX/UI/camp_buildings/ep3_ui_domicile_buildings_proving_ground"
+	}
+
 	asset = {
 		icon = "gfx/interface/icons/domicile_building/domicile_building_proving.dds"
 		texture = "gfx/interface/window_domiciles/laamp_building_proving_grounds.dds"
@@ -3526,9 +4700,24 @@ proving_grounds_06 = {
 	parameters = {
 		camp_unlocks_master_of_arms_officer = yes
 	}
-	
+
 	ai_value = { value = proving_grounds_main_path_value }
-	
+
+	asset = {
+		trigger = {
+			owner.culture = {
+				OR = {
+					has_graphical_chinese_culture_group_trigger = yes
+					has_graphical_japanese_culture_group_trigger = yes
+				}
+			}
+		}
+		icon = "gfx/interface/icons/domicile_building/domicile_building_proving.dds"
+		texture = "gfx/interface/window_domiciles/laamp_building_proving_grounds_asian.dds"
+		intersectionmask_texture = "gfx/interface/window_domiciles/laamp_building_proving_grounds_asian_mask.png"
+		soundeffect = "event:/DLC/EP3/SFX/UI/camp_buildings/ep3_ui_domicile_buildings_proving_ground"
+	}
+
 	asset = {
 		icon = "gfx/interface/icons/domicile_building/domicile_building_proving.dds"
 		texture = "gfx/interface/window_domiciles/laamp_building_proving_grounds.dds"
@@ -3560,7 +4749,7 @@ proving_grounds_horse_run = { # Horse Run
 	parameters = {
 		camp_unlocks_light_cavalry_captain_officer = yes
 	}
-	
+
 	ai_value = {
 		value = camp_building_ai_base_t1
 		if = {
@@ -3579,7 +4768,22 @@ proving_grounds_horse_run = { # Horse Run
 			multiply = 0
 		}
 	}
-	
+
+	asset = {
+		trigger = {
+			owner.culture = {
+				OR = {
+					has_graphical_chinese_culture_group_trigger = yes
+					has_graphical_japanese_culture_group_trigger = yes
+				}
+			}
+		}
+		icon = "gfx/interface/icons/domicile_building/domicile_building_horse_run.dds"
+		texture = "gfx/interface/window_domiciles/laamp_building_proving_grounds_asian.dds"
+		intersectionmask_texture = "gfx/interface/window_domiciles/laamp_building_proving_grounds_asian_mask.png"
+		soundeffect = "event:/DLC/EP3/SFX/UI/camp_buildings/ep3_ui_domicile_buildings_proving_ground"
+	}
+
 	asset = {
 		icon = "gfx/interface/icons/domicile_building/domicile_building_horse_run.dds"
 		texture = "gfx/interface/window_domiciles/laamp_building_proving_grounds.dds"
@@ -3614,7 +4818,7 @@ proving_grounds_camel_run = { # Camel Run
 	parameters = {
 		camp_unlocks_camelry_captain_officer = yes
 	}
-	
+
 	ai_value = {
 		value = camp_building_ai_base_t5
 		if = {
@@ -3633,7 +4837,22 @@ proving_grounds_camel_run = { # Camel Run
 			multiply = 0
 		}
 	}
-	
+
+	asset = {
+		trigger = {
+			owner.culture = {
+				OR = {
+					has_graphical_chinese_culture_group_trigger = yes
+					has_graphical_japanese_culture_group_trigger = yes
+				}
+			}
+		}
+		icon = "gfx/interface/icons/domicile_building/domicile_building_camel_run.dds"
+		texture = "gfx/interface/window_domiciles/laamp_building_proving_grounds_asian.dds"
+		intersectionmask_texture = "gfx/interface/window_domiciles/laamp_building_proving_grounds_asian_mask.png"
+		soundeffect = "event:/DLC/EP3/SFX/UI/camp_buildings/ep3_ui_domicile_buildings_proving_ground"
+	}
+
 	asset = {
 		icon = "gfx/interface/icons/domicile_building/domicile_building_camel_run.dds"
 		texture = "gfx/interface/window_domiciles/laamp_building_proving_grounds.dds"
@@ -3670,7 +4889,7 @@ proving_grounds_elephantry_reserve = { # Elephantry Reserve
 		camp_unlocks_elephantry_captain_officer = yes
 		camp_reinforce_elephant_regiments_anywhere = yes
 	}
-	
+
 	ai_value = {
 		value = camp_building_ai_base_t5
 		if = {
@@ -3681,7 +4900,22 @@ proving_grounds_elephantry_reserve = { # Elephantry Reserve
 		}
 		multiply = 10
 	}
-	
+
+	asset = {
+		trigger = {
+			owner.culture = {
+				OR = {
+					has_graphical_chinese_culture_group_trigger = yes
+					has_graphical_japanese_culture_group_trigger = yes
+				}
+			}
+		}
+		icon = "gfx/interface/icons/domicile_building/domicile_building_elephantry_reserves.dds"
+		texture = "gfx/interface/window_domiciles/laamp_building_proving_grounds_asian.dds"
+		intersectionmask_texture = "gfx/interface/window_domiciles/laamp_building_proving_grounds_asian_mask.png"
+		soundeffect = "event:/DLC/EP3/SFX/UI/camp_buildings/ep3_ui_domicile_buildings_proving_ground"
+	}
+
 	asset = {
 		icon = "gfx/interface/icons/domicile_building/domicile_building_elephantry_reserves.dds"
 		texture = "gfx/interface/window_domiciles/laamp_building_proving_grounds.dds"
@@ -3712,7 +4946,7 @@ proving_grounds_nightly_barding_drills = { # Nightly Barding Drills
 	parameters = {
 		camp_unlocks_heavy_cavalry_captain_officer = yes
 	}
-	
+
 	ai_value = {
 		value = camp_building_ai_base_t1
 		if = {
@@ -3731,7 +4965,22 @@ proving_grounds_nightly_barding_drills = { # Nightly Barding Drills
 			multiply = 0
 		}
 	}
-	
+
+	asset = {
+		trigger = {
+			owner.culture = {
+				OR = {
+					has_graphical_chinese_culture_group_trigger = yes
+					has_graphical_japanese_culture_group_trigger = yes
+				}
+			}
+		}
+		icon = "gfx/interface/icons/domicile_building/domicile_building_nightly_barding_drills.dds"
+		texture = "gfx/interface/window_domiciles/laamp_building_proving_grounds_asian.dds"
+		intersectionmask_texture = "gfx/interface/window_domiciles/laamp_building_proving_grounds_asian_mask.png"
+		soundeffect = "event:/DLC/EP3/SFX/UI/camp_buildings/ep3_ui_domicile_buildings_proving_ground"
+	}
+
 	asset = {
 		icon = "gfx/interface/icons/domicile_building/domicile_building_nightly_barding_drills.dds"
 		texture = "gfx/interface/window_domiciles/laamp_building_proving_grounds.dds"
@@ -3755,7 +5004,15 @@ proving_grounds_life_in_the_saddle = { # Life in the Saddle
 	}
 
 	can_construct = {
-		mpo_can_recruit_nomad_maa_trigger = yes
+		custom_tooltip = {
+			text = proving_grounds_life_in_the_saddle_horse_archers_tt
+			any_maa_regiment = {
+				OR = {
+					is_maa_type = horse_archers
+					is_maa_type = heavy_horse_archers
+				}
+			}
+		}
 	}
 
 	character_modifier = {
@@ -3767,7 +5024,7 @@ proving_grounds_life_in_the_saddle = { # Life in the Saddle
 	parameters = {
 		camp_unlocks_horse_archer_captain_officer = yes
 	}
-	
+
 	ai_value = {
 		value = camp_building_ai_base_t5
 		if = {
@@ -3786,7 +5043,22 @@ proving_grounds_life_in_the_saddle = { # Life in the Saddle
 			multiply = 0
 		}
 	}
-	
+
+	asset = {
+		trigger = {
+			owner.culture = {
+				OR = {
+					has_graphical_chinese_culture_group_trigger = yes
+					has_graphical_japanese_culture_group_trigger = yes
+				}
+			}
+		}
+		icon = "gfx/interface/icons/domicile_building/domicile_building_life_in_the_saddle.dds"
+		texture = "gfx/interface/window_domiciles/laamp_building_proving_grounds_asian.dds"
+		intersectionmask_texture = "gfx/interface/window_domiciles/laamp_building_proving_grounds_asian_mask.png"
+		soundeffect = "event:/DLC/EP3/SFX/UI/camp_buildings/ep3_ui_domicile_buildings_proving_ground"
+	}
+
 	asset = {
 		icon = "gfx/interface/icons/domicile_building/domicile_building_life_in_the_saddle.dds"
 		texture = "gfx/interface/window_domiciles/laamp_building_proving_grounds.dds"
@@ -3817,7 +5089,7 @@ proving_grounds_the_stump = { # The Stump
 	parameters = {
 		camp_unlocks_archer_captain_officer = yes
 	}
-	
+
 	ai_value = {
 		value = camp_building_ai_base_t3
 		if = {
@@ -3836,7 +5108,22 @@ proving_grounds_the_stump = { # The Stump
 			multiply = 0
 		}
 	}
-	
+
+	asset = {
+		trigger = {
+			owner.culture = {
+				OR = {
+					has_graphical_chinese_culture_group_trigger = yes
+					has_graphical_japanese_culture_group_trigger = yes
+				}
+			}
+		}
+		icon = "gfx/interface/icons/domicile_building/domicile_building_the_stump.dds"
+		texture = "gfx/interface/window_domiciles/laamp_building_proving_grounds_asian.dds"
+		intersectionmask_texture = "gfx/interface/window_domiciles/laamp_building_proving_grounds_asian_mask.png"
+		soundeffect = "event:/DLC/EP3/SFX/UI/camp_buildings/ep3_ui_domicile_buildings_proving_ground"
+	}
+
 	asset = {
 		icon = "gfx/interface/icons/domicile_building/domicile_building_the_stump.dds"
 		texture = "gfx/interface/window_domiciles/laamp_building_proving_grounds.dds"
@@ -3868,7 +5155,7 @@ proving_grounds_personal_bouts = { # Personal Bouts
 	parameters = {
 		camp_unlocks_heavy_infantry_captain_officer = yes
 	}
-	
+
 	ai_value = {
 		value = camp_building_ai_base_t3
 		if = {
@@ -3887,7 +5174,22 @@ proving_grounds_personal_bouts = { # Personal Bouts
 			multiply = 0
 		}
 	}
-	
+
+	asset = {
+		trigger = {
+			owner.culture = {
+				OR = {
+					has_graphical_chinese_culture_group_trigger = yes
+					has_graphical_japanese_culture_group_trigger = yes
+				}
+			}
+		}
+		icon = "gfx/interface/icons/domicile_building/domicile_building_personal_bouts.dds"
+		texture = "gfx/interface/window_domiciles/laamp_building_proving_grounds_asian.dds"
+		intersectionmask_texture = "gfx/interface/window_domiciles/laamp_building_proving_grounds_asian_mask.png"
+		soundeffect = "event:/DLC/EP3/SFX/UI/camp_buildings/ep3_ui_domicile_buildings_proving_ground"
+	}
+
 	asset = {
 		icon = "gfx/interface/icons/domicile_building/domicile_building_personal_bouts.dds"
 		texture = "gfx/interface/window_domiciles/laamp_building_proving_grounds.dds"
@@ -3919,7 +5221,7 @@ proving_grounds_training_circle = { # Training Circle
 	parameters = {
 		camp_unlocks_light_infantry_captain_officer = yes
 	}
-	
+
 	ai_value = {
 		value = camp_building_ai_base_t1
 		if = {
@@ -3938,7 +5240,22 @@ proving_grounds_training_circle = { # Training Circle
 			multiply = 0
 		}
 	}
-	
+
+	asset = {
+		trigger = {
+			owner.culture = {
+				OR = {
+					has_graphical_chinese_culture_group_trigger = yes
+					has_graphical_japanese_culture_group_trigger = yes
+				}
+			}
+		}
+		icon = "gfx/interface/icons/domicile_building/domicile_building_training_circle.dds"
+		texture = "gfx/interface/window_domiciles/laamp_building_proving_grounds_asian.dds"
+		intersectionmask_texture = "gfx/interface/window_domiciles/laamp_building_proving_grounds_asian_mask.png"
+		soundeffect = "event:/DLC/EP3/SFX/UI/camp_buildings/ep3_ui_domicile_buildings_proving_ground"
+	}
+
 	asset = {
 		icon = "gfx/interface/icons/domicile_building/domicile_building_training_circle.dds"
 		texture = "gfx/interface/window_domiciles/laamp_building_proving_grounds.dds"
@@ -3969,7 +5286,7 @@ proving_grounds_mock_battle_drills = { # Mock Battle Drills
 	parameters = {
 		camp_unlocks_pike_captain_officer = yes
 	}
-	
+
 	ai_value = {
 		value = camp_building_ai_base_t1
 		if = {
@@ -3988,7 +5305,22 @@ proving_grounds_mock_battle_drills = { # Mock Battle Drills
 			multiply = 0
 		}
 	}
-	
+
+	asset = {
+		trigger = {
+			owner.culture = {
+				OR = {
+					has_graphical_chinese_culture_group_trigger = yes
+					has_graphical_japanese_culture_group_trigger = yes
+				}
+			}
+		}
+		icon = "gfx/interface/icons/domicile_building/domicile_building_mock_battle_drill.dds"
+		texture = "gfx/interface/window_domiciles/laamp_building_proving_grounds_asian.dds"
+		intersectionmask_texture = "gfx/interface/window_domiciles/laamp_building_proving_grounds_asian_mask.png"
+		soundeffect = "event:/DLC/EP3/SFX/UI/camp_buildings/ep3_ui_domicile_buildings_proving_ground"
+	}
+
 	asset = {
 		icon = "gfx/interface/icons/domicile_building/domicile_building_mock_battle_drill.dds"
 		texture = "gfx/interface/window_domiciles/laamp_building_proving_grounds.dds"
@@ -4027,7 +5359,7 @@ proving_grounds_lockwagon = { # Lockwagon
 		camp_improved_mercenary_contract_rewards = yes
 		camp_improved_entice_local_mercenaries = yes
 	}
-	
+
 	ai_value = {
 		value = camp_building_ai_base_t5
 		if = {
@@ -4038,7 +5370,22 @@ proving_grounds_lockwagon = { # Lockwagon
 		}
 		multiply = 10
 	}
-	
+
+	asset = {
+		trigger = {
+			owner.culture = {
+				OR = {
+					has_graphical_chinese_culture_group_trigger = yes
+					has_graphical_japanese_culture_group_trigger = yes
+				}
+			}
+		}
+		icon = "gfx/interface/icons/domicile_building/domicile_lock_wagons.dds"
+		texture = "gfx/interface/window_domiciles/laamp_building_proving_grounds_asian.dds"
+		intersectionmask_texture = "gfx/interface/window_domiciles/laamp_building_proving_grounds_asian_mask.png"
+		soundeffect = "event:/DLC/EP3/SFX/UI/camp_buildings/ep3_ui_domicile_buildings_proving_ground"
+	}
+
 	asset = {
 		icon = "gfx/interface/icons/domicile_building/domicile_lock_wagons.dds"
 		texture = "gfx/interface/window_domiciles/laamp_building_proving_grounds.dds"
@@ -4074,7 +5421,7 @@ proving_grounds_martial_study = { # Martial Study
 		monthly_learning_lifestyle_xp_gain_add = 1
 		knight_effectiveness_per_learning = 0.01
 	}
-	
+
 	ai_value = {
 		value = camp_building_ai_base_t5
 		if = {
@@ -4085,7 +5432,22 @@ proving_grounds_martial_study = { # Martial Study
 		}
 		multiply = 10
 	}
-	
+
+	asset = {
+		trigger = {
+			owner.culture = {
+				OR = {
+					has_graphical_chinese_culture_group_trigger = yes
+					has_graphical_japanese_culture_group_trigger = yes
+				}
+			}
+		}
+		icon = "gfx/interface/icons/domicile_building/domicile_building_martial_study.dds"
+		texture = "gfx/interface/window_domiciles/laamp_building_proving_grounds_asian.dds"
+		intersectionmask_texture = "gfx/interface/window_domiciles/laamp_building_proving_grounds_asian_mask.png"
+		soundeffect = "event:/DLC/EP3/SFX/UI/camp_buildings/ep3_ui_domicile_buildings_proving_ground"
+	}
+
 	asset = {
 		icon = "gfx/interface/icons/domicile_building/domicile_building_martial_study.dds"
 		texture = "gfx/interface/window_domiciles/laamp_building_proving_grounds.dds"
@@ -4119,7 +5481,7 @@ proving_grounds_the_stick_game = { # The Stick Game
 		knight_effectiveness_per_intrigue = 0.01
 		owned_scheme_secrecy_add = 20
 	}
-	
+
 	ai_value = {
 		value = camp_building_ai_base_t5
 		if = {
@@ -4130,7 +5492,22 @@ proving_grounds_the_stick_game = { # The Stick Game
 		}
 		multiply = 10
 	}
-	
+
+	asset = {
+		trigger = {
+			owner.culture = {
+				OR = {
+					has_graphical_chinese_culture_group_trigger = yes
+					has_graphical_japanese_culture_group_trigger = yes
+				}
+			}
+		}
+		icon = "gfx/interface/icons/domicile_building/domicile_building_the_stick_game.dds"
+		texture = "gfx/interface/window_domiciles/laamp_building_proving_grounds_asian.dds"
+		intersectionmask_texture = "gfx/interface/window_domiciles/laamp_building_proving_grounds_asian_mask.png"
+		soundeffect = "event:/DLC/EP3/SFX/UI/camp_buildings/ep3_ui_domicile_buildings_proving_ground"
+	}
+
 	asset = {
 		icon = "gfx/interface/icons/domicile_building/domicile_building_the_stick_game.dds"
 		texture = "gfx/interface/window_domiciles/laamp_building_proving_grounds.dds"
@@ -4168,7 +5545,7 @@ proving_grounds_bodyguard_drills = { # Bodyguard Drills
 	parameters = {
 		camp_unlocks_handpicked_faithful_maa_type = yes
 	}
-	
+
 	ai_value = {
 		value = camp_building_ai_base_t5
 		if = {
@@ -4179,7 +5556,22 @@ proving_grounds_bodyguard_drills = { # Bodyguard Drills
 		}
 		multiply = 10
 	}
-	
+
+	asset = {
+		trigger = {
+			owner.culture = {
+				OR = {
+					has_graphical_chinese_culture_group_trigger = yes
+					has_graphical_japanese_culture_group_trigger = yes
+				}
+			}
+		}
+		icon = "gfx/interface/icons/domicile_building/domicile_building_bodyguard_drills.dds"
+		texture = "gfx/interface/window_domiciles/laamp_building_proving_grounds_asian.dds"
+		intersectionmask_texture = "gfx/interface/window_domiciles/laamp_building_proving_grounds_asian_mask.png"
+		soundeffect = "event:/DLC/EP3/SFX/UI/camp_buildings/ep3_ui_domicile_buildings_proving_ground"
+	}
+
 	asset = {
 		icon = "gfx/interface/icons/domicile_building/domicile_building_bodyguard_drills.dds"
 		texture = "gfx/interface/window_domiciles/laamp_building_proving_grounds.dds"
@@ -4212,9 +5604,24 @@ camp_perimeter_01 = {
 	parameters = {
 		camp_unlocks_forward_scouts = yes
 	}
-	
+
 	ai_value = { value = camp_perimeter_main_path_value }
-	
+
+	asset = {
+		trigger = {
+			owner.culture = {
+				OR = {
+					has_graphical_chinese_culture_group_trigger = yes
+					has_graphical_japanese_culture_group_trigger = yes
+				}
+			}
+		}
+		icon = "gfx/interface/icons/domicile_building/domicile_building_camp_perimiter.dds"
+		texture = "gfx/interface/window_domiciles/laamp_building_perimeter_asian.dds"
+		intersectionmask_texture = "gfx/interface/window_domiciles/laamp_building_perimeter_asian_mask.png"
+		soundeffect = "event:/DLC/EP3/SFX/UI/camp_buildings/ep3_ui_domicile_buildings_perimeter"
+	}
+
 	asset = {
 		icon = "gfx/interface/icons/domicile_building/domicile_building_camp_perimiter.dds"
 		texture = "gfx/interface/window_domiciles/laamp_building_perimeter.dds"
@@ -4248,9 +5655,24 @@ camp_perimeter_02 = {
 	parameters = {
 		camp_unlocks_forward_scouts = yes
 	}
-	
+
 	ai_value = { value = camp_perimeter_main_path_value }
-	
+
+	asset = {
+		trigger = {
+			owner.culture = {
+				OR = {
+					has_graphical_chinese_culture_group_trigger = yes
+					has_graphical_japanese_culture_group_trigger = yes
+				}
+			}
+		}
+		icon = "gfx/interface/icons/domicile_building/domicile_building_camp_perimiter.dds"
+		texture = "gfx/interface/window_domiciles/laamp_building_perimeter_asian.dds"
+		intersectionmask_texture = "gfx/interface/window_domiciles/laamp_building_perimeter_asian_mask.png"
+		soundeffect = "event:/DLC/EP3/SFX/UI/camp_buildings/ep3_ui_domicile_buildings_perimeter"
+	}
+
 	asset = {
 		icon = "gfx/interface/icons/domicile_building/domicile_building_camp_perimiter.dds"
 		texture = "gfx/interface/window_domiciles/laamp_building_perimeter.dds"
@@ -4285,9 +5707,24 @@ camp_perimeter_03 = {
 	parameters = {
 		camp_unlocks_forward_scouts = yes
 	}
-	
+
 	ai_value = { value = camp_perimeter_main_path_value }
-	
+
+	asset = {
+		trigger = {
+			owner.culture = {
+				OR = {
+					has_graphical_chinese_culture_group_trigger = yes
+					has_graphical_japanese_culture_group_trigger = yes
+				}
+			}
+		}
+		icon = "gfx/interface/icons/domicile_building/domicile_building_camp_perimiter.dds"
+		texture = "gfx/interface/window_domiciles/laamp_building_perimeter_asian.dds"
+		intersectionmask_texture = "gfx/interface/window_domiciles/laamp_building_perimeter_asian_mask.png"
+		soundeffect = "event:/DLC/EP3/SFX/UI/camp_buildings/ep3_ui_domicile_buildings_perimeter"
+	}
+
 	asset = {
 		icon = "gfx/interface/icons/domicile_building/domicile_building_camp_perimiter.dds"
 		texture = "gfx/interface/window_domiciles/laamp_building_perimeter.dds"
@@ -4323,9 +5760,24 @@ camp_perimeter_04 = {
 	parameters = {
 		camp_unlocks_forward_scouts = yes
 	}
-	
+
 	ai_value = { value = camp_perimeter_main_path_value }
-	
+
+	asset = {
+		trigger = {
+			owner.culture = {
+				OR = {
+					has_graphical_chinese_culture_group_trigger = yes
+					has_graphical_japanese_culture_group_trigger = yes
+				}
+			}
+		}
+		icon = "gfx/interface/icons/domicile_building/domicile_building_camp_perimiter.dds"
+		texture = "gfx/interface/window_domiciles/laamp_building_perimeter_asian.dds"
+		intersectionmask_texture = "gfx/interface/window_domiciles/laamp_building_perimeter_asian_mask.png"
+		soundeffect = "event:/DLC/EP3/SFX/UI/camp_buildings/ep3_ui_domicile_buildings_perimeter"
+	}
+
 	asset = {
 		icon = "gfx/interface/icons/domicile_building/domicile_building_camp_perimiter.dds"
 		texture = "gfx/interface/window_domiciles/laamp_building_perimeter.dds"
@@ -4362,9 +5814,24 @@ camp_perimeter_05 = {
 	parameters = {
 		camp_unlocks_forward_scouts = yes
 	}
-	
+
 	ai_value = { value = camp_perimeter_main_path_value }
-	
+
+	asset = {
+		trigger = {
+			owner.culture = {
+				OR = {
+					has_graphical_chinese_culture_group_trigger = yes
+					has_graphical_japanese_culture_group_trigger = yes
+				}
+			}
+		}
+		icon = "gfx/interface/icons/domicile_building/domicile_building_camp_perimiter.dds"
+		texture = "gfx/interface/window_domiciles/laamp_building_perimeter_asian.dds"
+		intersectionmask_texture = "gfx/interface/window_domiciles/laamp_building_perimeter_asian_mask.png"
+		soundeffect = "event:/DLC/EP3/SFX/UI/camp_buildings/ep3_ui_domicile_buildings_perimeter"
+	}
+
 	asset = {
 		icon = "gfx/interface/icons/domicile_building/domicile_building_camp_perimiter.dds"
 		texture = "gfx/interface/window_domiciles/laamp_building_perimeter.dds"
@@ -4402,9 +5869,24 @@ camp_perimeter_06 = {
 	parameters = {
 		camp_unlocks_forward_scouts = yes
 	}
-	
+
 	ai_value = { value = camp_perimeter_main_path_value }
-	
+
+	asset = {
+		trigger = {
+			owner.culture = {
+				OR = {
+					has_graphical_chinese_culture_group_trigger = yes
+					has_graphical_japanese_culture_group_trigger = yes
+				}
+			}
+		}
+		icon = "gfx/interface/icons/domicile_building/domicile_building_camp_perimiter.dds"
+		texture = "gfx/interface/window_domiciles/laamp_building_perimeter_asian.dds"
+		intersectionmask_texture = "gfx/interface/window_domiciles/laamp_building_perimeter_asian_mask.png"
+		soundeffect = "event:/DLC/EP3/SFX/UI/camp_buildings/ep3_ui_domicile_buildings_perimeter"
+	}
+
 	asset = {
 		icon = "gfx/interface/icons/domicile_building/domicile_building_camp_perimiter.dds"
 		texture = "gfx/interface/window_domiciles/laamp_building_perimeter.dds"
@@ -4432,7 +5914,7 @@ camp_perimeter_good_siting = { # Good Siting
 		scheme_discovery_chance_mult = 0.1
 		enemy_hostile_scheme_phase_duration_add = minor_scheme_phase_duration_malus_value
 	}
-	
+
 	ai_value = {
 		value = camp_building_ai_base_t1
 		if = {
@@ -4443,7 +5925,22 @@ camp_perimeter_good_siting = { # Good Siting
 		}
 		multiply = 10
 	}
-	
+
+	asset = {
+		trigger = {
+			owner.culture = {
+				OR = {
+					has_graphical_chinese_culture_group_trigger = yes
+					has_graphical_japanese_culture_group_trigger = yes
+				}
+			}
+		}
+		icon = "gfx/interface/icons/domicile_building/domicile_building_good_siting.dds"
+		texture = "gfx/interface/window_domiciles/laamp_building_perimeter_asian.dds"
+		intersectionmask_texture = "gfx/interface/window_domiciles/laamp_building_perimeter_asian_mask.png"
+		soundeffect = "event:/DLC/EP3/SFX/UI/camp_buildings/ep3_ui_domicile_buildings_perimeter"
+	}
+
 	asset = {
 		icon = "gfx/interface/icons/domicile_building/domicile_building_good_siting.dds"
 		texture = "gfx/interface/window_domiciles/laamp_building_perimeter.dds"
@@ -4470,7 +5967,7 @@ camp_perimeter_fixed_layout = { # Fixed Layout
 		domicile_travel_speed = 0.25
 		men_at_arms_limit = 1
 	}
-	
+
 	ai_value = {
 		value = camp_building_ai_base_t2
 		if = {
@@ -4481,7 +5978,22 @@ camp_perimeter_fixed_layout = { # Fixed Layout
 		}
 		multiply = 10
 	}
-	
+
+	asset = {
+		trigger = {
+			owner.culture = {
+				OR = {
+					has_graphical_chinese_culture_group_trigger = yes
+					has_graphical_japanese_culture_group_trigger = yes
+				}
+			}
+		}
+		icon = "gfx/interface/icons/domicile_building/domicile_building_fixed_layout.dds"
+		texture = "gfx/interface/window_domiciles/laamp_building_perimeter_asian.dds"
+		intersectionmask_texture = "gfx/interface/window_domiciles/laamp_building_perimeter_asian_mask.png"
+		soundeffect = "event:/DLC/EP3/SFX/UI/camp_buildings/ep3_ui_domicile_buildings_perimeter"
+	}
+
 	asset = {
 		icon = "gfx/interface/icons/domicile_building/domicile_building_fixed_layout.dds"
 		texture = "gfx/interface/window_domiciles/laamp_building_perimeter.dds"
@@ -4517,7 +6029,7 @@ camp_perimeter_extra_watch = { # Extra Watch
 		archers_damage_mult = 0.1
 		archer_cavalry_damage_mult = 0.05
 	}
-	
+
 	ai_value = {
 		value = camp_building_ai_base_t5
 		if = {
@@ -4528,7 +6040,22 @@ camp_perimeter_extra_watch = { # Extra Watch
 		}
 		multiply = 10
 	}
-	
+
+	asset = {
+		trigger = {
+			owner.culture = {
+				OR = {
+					has_graphical_chinese_culture_group_trigger = yes
+					has_graphical_japanese_culture_group_trigger = yes
+				}
+			}
+		}
+		icon = "gfx/interface/icons/domicile_building/domicile_building_extra_watch.dds"
+		texture = "gfx/interface/window_domiciles/laamp_building_perimeter_asian.dds"
+		intersectionmask_texture = "gfx/interface/window_domiciles/laamp_building_perimeter_asian_mask.png"
+		soundeffect = "event:/DLC/EP3/SFX/UI/camp_buildings/ep3_ui_domicile_buildings_perimeter"
+	}
+
 	asset = {
 		icon = "gfx/interface/icons/domicile_building/domicile_building_extra_watch.dds"
 		texture = "gfx/interface/window_domiciles/laamp_building_perimeter.dds"
@@ -4563,7 +6090,7 @@ camp_perimeter_palisade = { # Palisade
 		character_travel_safety_mult = 0.1
 		hard_casualty_modifier = -0.1
 	}
-	
+
 	ai_value = {
 		value = camp_building_ai_base_t3
 		if = {
@@ -4574,7 +6101,22 @@ camp_perimeter_palisade = { # Palisade
 		}
 		multiply = 10
 	}
-	
+
+	asset = {
+		trigger = {
+			owner.culture = {
+				OR = {
+					has_graphical_chinese_culture_group_trigger = yes
+					has_graphical_japanese_culture_group_trigger = yes
+				}
+			}
+		}
+		icon = "gfx/interface/icons/domicile_building/domicile_building_palisade.dds"
+		texture = "gfx/interface/window_domiciles/laamp_building_perimeter_palisade_asian.dds"
+		intersectionmask_texture = "gfx/interface/window_domiciles/laamp_building_palisade_asian_mask.png"
+		soundeffect = "event:/DLC/EP3/SFX/UI/camp_buildings/ep3_ui_domicile_buildings_perimeter"
+	}
+
 	asset = {
 		icon = "gfx/interface/icons/domicile_building/domicile_building_palisade.dds"
 		texture = "gfx/interface/window_domiciles/laamp_building_perimeter_palisade.dds"
@@ -4608,7 +6150,7 @@ camp_perimeter_ditch = { # Ditch
 		retreat_losses = -0.3
 		defender_advantage = 5
 	}
-	
+
 	ai_value = {
 		value = camp_building_ai_base_t5
 		if = {
@@ -4619,7 +6161,22 @@ camp_perimeter_ditch = { # Ditch
 		}
 		multiply = 10
 	}
-	
+
+	asset = {
+		trigger = {
+			owner.culture = {
+				OR = {
+					has_graphical_chinese_culture_group_trigger = yes
+					has_graphical_japanese_culture_group_trigger = yes
+				}
+			}
+		}
+		icon = "gfx/interface/icons/domicile_building/domicile_building_ditches.dds"
+		texture = "gfx/interface/window_domiciles/laamp_building_perimeter_ditch_asian.dds"
+		intersectionmask_texture = "gfx/interface/window_domiciles/laamp_building_ditch_asian_mask.png"
+		soundeffect = "event:/DLC/EP3/SFX/UI/camp_buildings/ep3_ui_domicile_buildings_perimeter"
+	}
+
 	asset = {
 		icon = "gfx/interface/icons/domicile_building/domicile_building_ditches.dds"
 		texture = "gfx/interface/window_domiciles/laamp_building_perimeter_ditch.dds"
@@ -4645,7 +6202,7 @@ camp_perimeter_camp_hygiene = { # Camp Hygiene
 	character_modifier = {
 		epidemic_travel_danger = -15
 	}
-	
+
 	ai_value = {
 		value = camp_building_ai_base_t1
 		if = {
@@ -4656,7 +6213,22 @@ camp_perimeter_camp_hygiene = { # Camp Hygiene
 		}
 		multiply = 10
 	}
-	
+
+	asset = {
+		trigger = {
+			owner.culture = {
+				OR = {
+					has_graphical_chinese_culture_group_trigger = yes
+					has_graphical_japanese_culture_group_trigger = yes
+				}
+			}
+		}
+		icon = "gfx/interface/icons/domicile_building/domicile_building_camp_hygiene.dds"
+		texture = "gfx/interface/window_domiciles/laamp_building_perimeter_asian.dds"
+		intersectionmask_texture = "gfx/interface/window_domiciles/laamp_building_perimeter_asian_mask.png"
+		soundeffect = "event:/DLC/EP3/SFX/UI/camp_buildings/ep3_ui_domicile_buildings_perimeter"
+	}
+
 	asset = {
 		icon = "gfx/interface/icons/domicile_building/domicile_building_camp_hygiene.dds"
 		texture = "gfx/interface/window_domiciles/laamp_building_perimeter.dds"

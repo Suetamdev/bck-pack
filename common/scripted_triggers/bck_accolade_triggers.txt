@@ -1,7 +1,11 @@
 ﻿# Triggers related to knights and accolades
 
 can_be_knight_trigger = {
-	is_hostage = no
+	is_available_quick = {
+		ai = yes
+		hostage = no
+	}
+	can_be_warrior_trigger = { ARMY_OWNER = $ARMY_OWNER$ }
 	trigger_if = {
 		limit = {
 			$ARMY_OWNER$.culture = {
@@ -10,13 +14,9 @@ can_be_knight_trigger = {
 		}
 		prowess >= 12
 	}
-	can_be_warrior_trigger = { ARMY_OWNER = $ARMY_OWNER$ }
 	trigger_if = {
 		limit = {
-			OR = {
-				has_trait = devoted
-				is_clergy = yes
-			}
+			is_clergy = yes
 		}
 		OR = {
 			faith = { has_doctrine_parameter = clergy_can_fight }
@@ -46,15 +46,16 @@ can_be_knight_trigger = {
 		limit = {
 			exists = liege.diarch
 		}
-		NOT = { this = liege.diarch }
+		this != liege.diarch
 	}
-	is_ai = yes
 }
 
 ep2_can_be_accolade_successor_base_trigger = {
 	is_acclaimed = no
 	is_accolade_successor = no
+	is_available_quick = {
+		alive = yes
+		adult = yes
+	}
 	highest_held_title_tier <= tier_kingdom
-	is_alive = yes
-	is_adult = yes
 }

@@ -1,6 +1,6 @@
 ﻿learn_language_success = {
     on_actions = {
-        bck_polyglot_action = yes
+        bck_polyglot_action
     }
 }
 
