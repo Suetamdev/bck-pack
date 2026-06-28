@@ -48,11 +48,20 @@ can_be_knight_trigger = {
 		}
 		this != liege.diarch
 	}
+	# knight permissions for players
+	trigger_if = {
+		limit = {
+			$ARMY_OWNER$ = {
+				is_ai = no
+			}
+		}
+		is_knight_permitted = $ARMY_OWNER$
+	}
 }
 
 ep2_can_be_accolade_successor_base_trigger = {
 	is_acclaimed = no
-	is_accolade_successor = no
+	prowess >= 8
 	is_available_quick = {
 		alive = yes
 		adult = yes

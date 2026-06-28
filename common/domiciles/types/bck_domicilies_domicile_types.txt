@@ -2355,7 +2355,7 @@ yurt = {
 			}
 		}
 
-		external_slot_2 = {
+		external_slot_7 = {
 			position = { 70% 40% }
 			size = { 14% 28% }
 

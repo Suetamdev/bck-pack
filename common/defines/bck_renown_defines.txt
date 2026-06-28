@@ -3,6 +3,8 @@
     MONTHLY_PRESTIGE_GAIN_MULT_FOR_VASSALS_OF_SAME_DYNASTY = 0.25	# Dynasty members who are vassal of below of someone of the same dynasty have their prestige contribution multiplied with this. 0 disables their prestige contribution entirely
     MONTHLY_PRESTIGE_GAIN_MULT_FOR_VASSALS_OF_SAME_DYNASTY_SPOUSE = 0.25	# Dynasty members whose spouse are vassal of below of someone of the same dynasty have their prestige contribution multiplied with this. 0 disables their prestige contribution entirely
 
+    CURRENT_DYNAST_EXTRA_POWER = 0.25   # For determining who should by dynast, the current dynast is considered to be this much more powerful than reality so that it doesn't bounce back and forth. 0.1 means 10%
+
     PERK_COST_BASE = 100
     PERK_COST_MULTIPLIER = 300
 }
